@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>fighter-jet-military-aircraft-white-background-top-view-67558262.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/fighter-jet-military-aircraft-white-background-top-view-67558262.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>821</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>187</xmin>
+            <ymin>65</ymin>
+            <xmax>1035</xmax>
+            <ymax>645</ymax>
+        </bndbox>
+    </object>
+</annotation>

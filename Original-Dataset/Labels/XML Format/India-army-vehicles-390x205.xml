@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>India-army-vehicles-390x205.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/India-army-vehicles-390x205.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>390</width>
+        <height>205</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>16</xmin>
+            <ymin>22</ymin>
+            <xmax>168</xmax>
+            <ymax>122</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>136</ymin>
+            <xmax>180</xmax>
+            <ymax>198</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>212</xmin>
+            <ymin>1</ymin>
+            <xmax>346</xmax>
+            <ymax>78</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>198</xmin>
+            <ymin>90</ymin>
+            <xmax>344</xmax>
+            <ymax>199</ymax>
+        </bndbox>
+    </object>
+</annotation>

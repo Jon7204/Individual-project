@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airplane-top-view-passenger-or-commercial-jet-boarding-pass-and-passport-paper-world-map-cartography-and-geography-aircrfat-lat-style-journey-or-T4T5WM.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airplane-top-view-passenger-or-commercial-jet-boarding-pass-and-passport-paper-world-map-cartography-and-geography-aircrfat-lat-style-journey-or-T4T5WM.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>1238</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>256</xmin>
+            <ymin>257</ymin>
+            <xmax>997</xmax>
+            <ymax>1018</ymax>
+        </bndbox>
+    </object>
+</annotation>

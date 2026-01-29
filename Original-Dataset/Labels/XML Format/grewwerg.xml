@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>grewwerg.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/grewwerg.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1000</width>
+        <height>663</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>49</xmin>
+            <ymin>31</ymin>
+            <xmax>852</xmax>
+            <ymax>581</ymax>
+        </bndbox>
+    </object>
+</annotation>

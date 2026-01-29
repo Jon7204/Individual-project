@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Chilean-Military-Plane-Disa.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Chilean-Military-Plane-Disa.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>750</width>
+        <height>430</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>158</ymin>
+            <xmax>675</xmax>
+            <ymax>349</ymax>
+        </bndbox>
+    </object>
+</annotation>

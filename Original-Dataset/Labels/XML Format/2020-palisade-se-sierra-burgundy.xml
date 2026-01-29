@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2020-palisade-se-sierra-burgundy.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2020-palisade-se-sierra-burgundy.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>1325</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>108</xmin>
+            <ymin>727</ymin>
+            <xmax>1005</xmax>
+            <ymax>1101</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>SIkorsky-UH-60-Black-Hawk-US-Army-730x487.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/SIkorsky-UH-60-Black-Hawk-US-Army-730x487.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>730</width>
+        <height>487</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>109</ymin>
+            <xmax>607</xmax>
+            <ymax>366</ymax>
+        </bndbox>
+    </object>
+</annotation>

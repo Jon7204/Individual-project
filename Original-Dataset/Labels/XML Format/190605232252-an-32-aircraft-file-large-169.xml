@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>190605232252-an-32-aircraft-file-large-169.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/190605232252-an-32-aircraft-file-large-169.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>460</width>
+        <height>259</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>38</xmin>
+            <ymin>52</ymin>
+            <xmax>316</xmax>
+            <ymax>175</ymax>
+        </bndbox>
+    </object>
+</annotation>

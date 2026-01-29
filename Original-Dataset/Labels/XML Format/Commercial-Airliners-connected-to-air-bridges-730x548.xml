@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Commercial-Airliners-connected-to-air-bridges-730x548.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Commercial-Airliners-connected-to-air-bridges-730x548.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>730</width>
+        <height>548</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>27</xmin>
+            <ymin>310</ymin>
+            <xmax>538</xmax>
+            <ymax>432</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>63</xmin>
+            <ymin>226</ymin>
+            <xmax>544</xmax>
+            <ymax>300</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>118</xmin>
+            <ymin>129</ymin>
+            <xmax>539</xmax>
+            <ymax>216</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>202</xmin>
+            <ymin>66</ymin>
+            <xmax>547</xmax>
+            <ymax>114</ymax>
+        </bndbox>
+    </object>
+</annotation>

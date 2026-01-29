@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>ed849926-6d74-45fe-8c68-3a0394c2e238_965-Contentment.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/ed849926-6d74-45fe-8c68-3a0394c2e238_965-Contentment.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>965</width>
+        <height>294</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

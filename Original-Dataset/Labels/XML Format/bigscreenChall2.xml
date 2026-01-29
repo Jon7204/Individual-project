@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>bigscreenChall2.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/bigscreenChall2.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>61</xmin>
+            <ymin>65</ymin>
+            <xmax>549</xmax>
+            <ymax>276</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>98</xmin>
+            <ymin>373</ymin>
+            <xmax>304</xmax>
+            <ymax>456</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>387</xmin>
+            <ymin>358</ymin>
+            <xmax>551</xmax>
+            <ymax>446</ymax>
+        </bndbox>
+    </object>
+</annotation>

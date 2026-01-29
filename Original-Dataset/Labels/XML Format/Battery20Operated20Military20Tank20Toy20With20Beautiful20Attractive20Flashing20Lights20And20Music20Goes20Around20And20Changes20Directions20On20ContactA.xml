@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Battery20Operated20Military20Tank20Toy20With20Beautiful20Attractive20Flashing20Lights20And20Music20Goes20Around20And20Changes20Directions20On20ContactA.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Battery20Operated20Military20Tank20Toy20With20Beautiful20Attractive20Flashing20Lights20And20Music20Goes20Around20And20Changes20Directions20On20ContactA.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1500</width>
+        <height>1500</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>55</xmin>
+            <ymin>313</ymin>
+            <xmax>1450</xmax>
+            <ymax>1376</ymax>
+        </bndbox>
+    </object>
+</annotation>

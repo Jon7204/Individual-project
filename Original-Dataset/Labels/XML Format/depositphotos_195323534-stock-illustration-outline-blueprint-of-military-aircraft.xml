@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>depositphotos_195323534-stock-illustration-outline-blueprint-of-military-aircraft.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/depositphotos_195323534-stock-illustration-outline-blueprint-of-military-aircraft.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1167</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>51</xmin>
+            <ymin>124</ymin>
+            <xmax>855</xmax>
+            <ymax>963</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>887</xmin>
+            <ymin>783</ymin>
+            <xmax>1500</xmax>
+            <ymax>964</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>879</xmin>
+            <ymin>82</ymin>
+            <xmax>1541</xmax>
+            <ymax>334</ymax>
+        </bndbox>
+    </object>
+</annotation>

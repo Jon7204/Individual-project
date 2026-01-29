@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Lee-M3-tank-training-exercise-World-War-1942.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Lee-M3-tank-training-exercise-World-War-1942.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1128</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>369</xmin>
+            <ymin>22</ymin>
+            <xmax>1417</xmax>
+            <ymax>1018</ymax>
+        </bndbox>
+    </object>
+</annotation>

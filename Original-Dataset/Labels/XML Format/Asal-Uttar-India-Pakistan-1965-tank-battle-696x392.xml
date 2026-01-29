@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Asal-Uttar-India-Pakistan-1965-tank-battle-696x392.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Asal-Uttar-India-Pakistan-1965-tank-battle-696x392.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>696</width>
+        <height>392</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>187</ymin>
+            <xmax>150</xmax>
+            <ymax>304</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>78</ymin>
+            <xmax>103</xmax>
+            <ymax>157</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>162</xmin>
+            <ymin>157</ymin>
+            <xmax>302</xmax>
+            <ymax>247</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>418</xmin>
+            <ymin>139</ymin>
+            <xmax>653</xmax>
+            <ymax>201</ymax>
+        </bndbox>
+    </object>
+</annotation>

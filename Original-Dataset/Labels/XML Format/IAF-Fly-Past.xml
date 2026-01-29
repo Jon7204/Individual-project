@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>IAF-Fly-Past.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/IAF-Fly-Past.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>875</width>
+        <height>583</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>69</ymin>
+            <xmax>347</xmax>
+            <ymax>227</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>245</xmin>
+            <ymin>245</ymin>
+            <xmax>475</xmax>
+            <ymax>388</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>507</xmin>
+            <ymin>266</ymin>
+            <xmax>807</xmax>
+            <ymax>357</ymax>
+        </bndbox>
+    </object>
+</annotation>

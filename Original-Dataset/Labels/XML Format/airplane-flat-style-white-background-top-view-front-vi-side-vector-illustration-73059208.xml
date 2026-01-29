@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airplane-flat-style-white-background-top-view-front-vi-side-vector-illustration-73059208.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airplane-flat-style-white-background-top-view-front-vi-side-vector-illustration-73059208.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>957</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>516</xmin>
+            <ymin>84</ymin>
+            <xmax>1248</xmax>
+            <ymax>263</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>554</xmin>
+            <ymin>605</ymin>
+            <xmax>1258</xmax>
+            <ymax>753</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>34</xmin>
+            <ymin>68</ymin>
+            <xmax>744</xmax>
+            <ymax>856</ymax>
+        </bndbox>
+    </object>
+</annotation>

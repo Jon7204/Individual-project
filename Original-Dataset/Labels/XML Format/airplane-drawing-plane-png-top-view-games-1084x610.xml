@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airplane-drawing-plane-png-top-view-games-1084x610.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airplane-drawing-plane-png-top-view-games-1084x610.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1084</width>
+        <height>610</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>5</xmin>
+            <ymin>128</ymin>
+            <xmax>1077</xmax>
+            <ymax>490</ymax>
+        </bndbox>
+    </object>
+</annotation>

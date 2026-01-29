@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Mine20Plough.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Mine20Plough.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>746</width>
+        <height>509</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>226</xmin>
+            <ymin>159</ymin>
+            <xmax>731</xmax>
+            <ymax>292</ymax>
+        </bndbox>
+    </object>
+</annotation>

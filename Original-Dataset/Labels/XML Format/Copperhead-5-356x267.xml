@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Copperhead-5-356x267.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Copperhead-5-356x267.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>356</width>
+        <height>267</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>62</ymin>
+            <xmax>347</xmax>
+            <ymax>238</ymax>
+        </bndbox>
+    </object>
+</annotation>

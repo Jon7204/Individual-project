@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Aviation72-AV72-24004-AV7224004-Westland-Gazelle-AH-1-Diecast-Model-ZB692-British-Army-Air-Corps-Middle-Wallop-Top-View.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Aviation72-AV72-24004-AV7224004-Westland-Gazelle-AH-1-Diecast-Model-ZB692-British-Army-Air-Corps-Middle-Wallop-Top-View.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1517</width>
+        <height>800</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>583</xmin>
+            <ymin>61</ymin>
+            <xmax>954</xmax>
+            <ymax>760</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1200px-F-35A_flight.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1200px-F-35A_flight.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>798</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>753</xmin>
+            <ymin>314</ymin>
+            <xmax>1146</xmax>
+            <ymax>607</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>448</xmin>
+            <ymin>241</ymin>
+            <xmax>736</xmax>
+            <ymax>414</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>245</xmin>
+            <ymin>198</ymin>
+            <xmax>476</xmax>
+            <ymax>286</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>139</xmin>
+            <ymin>141</ymin>
+            <xmax>365</xmax>
+            <ymax>242</ymax>
+        </bndbox>
+    </object>
+</annotation>

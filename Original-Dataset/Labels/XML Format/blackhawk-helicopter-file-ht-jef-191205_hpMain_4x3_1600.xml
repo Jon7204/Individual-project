@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>blackhawk-helicopter-file-ht-jef-191205_hpMain_4x3_1600.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/blackhawk-helicopter-file-ht-jef-191205_hpMain_4x3_1600.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1200</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>74</xmin>
+            <ymin>175</ymin>
+            <xmax>1372</xmax>
+            <ymax>809</ymax>
+        </bndbox>
+    </object>
+</annotation>

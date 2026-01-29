@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Pinaka_214MM_Multi_Barrel_1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Pinaka_214MM_Multi_Barrel_1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>600</width>
+        <height>330</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>6</xmin>
+            <ymin>55</ymin>
+            <xmax>290</xmax>
+            <ymax>311</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>307</xmin>
+            <ymin>121</ymin>
+            <xmax>579</xmax>
+            <ymax>297</ymax>
+        </bndbox>
+    </object>
+</annotation>

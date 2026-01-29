@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Howo-Military-Cargo-truck-and-4x4-military.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Howo-Military-Cargo-truck-and-4x4-military.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>750</width>
+        <height>750</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>19</xmin>
+            <ymin>146</ymin>
+            <xmax>672</xmax>
+            <ymax>652</ymax>
+        </bndbox>
+    </object>
+</annotation>

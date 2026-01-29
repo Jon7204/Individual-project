@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>eight_col_C-2_Japan_-_Air_Force_284274879920429.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/eight_col_C-2_Japan_-_Air_Force_284274879920429.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>720</width>
+        <height>450</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>63</xmin>
+            <ymin>117</ymin>
+            <xmax>701</xmax>
+            <ymax>357</ymax>
+        </bndbox>
+    </object>
+</annotation>

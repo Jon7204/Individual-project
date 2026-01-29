@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Tupolev201542028Wikimedia20Commons20-20Adrian20Pingstone29.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Tupolev201542028Wikimedia20Commons20-20Adrian20Pingstone29.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>750</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>46</xmin>
+            <ymin>126</ymin>
+            <xmax>668</xmax>
+            <ymax>425</ymax>
+        </bndbox>
+    </object>
+</annotation>

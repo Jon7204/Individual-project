@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>agustawestland-apache-boeing-ah-64-apache-military-helicopter-boeing-ch-47-chinook-png-favpng-PTTuHzGQtDGGga7SEkzRd6Kgz.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/agustawestland-apache-boeing-ah-64-apache-military-helicopter-boeing-ch-47-chinook-png-favpng-PTTuHzGQtDGGga7SEkzRd6Kgz.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>820</width>
+        <height>474</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>287</xmin>
+            <ymin>141</ymin>
+            <xmax>612</xmax>
+            <ymax>442</ymax>
+        </bndbox>
+    </object>
+</annotation>

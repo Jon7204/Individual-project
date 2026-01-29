@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>cargo-truck-m35-desert-military-trailer-9Gd2Na9-600.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/cargo-truck-m35-desert-military-trailer-9Gd2Na9-600.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>600</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>101</xmin>
+            <ymin>170</ymin>
+            <xmax>494</xmax>
+            <ymax>453</ymax>
+        </bndbox>
+    </object>
+</annotation>

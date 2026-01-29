@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>blank-commercial-airplane-with-four-engines-on-wooden-floor-background-top-view-copy-space-3d-illustration-MHYKM5.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/blank-commercial-airplane-with-four-engines-on-wooden-floor-background-top-view-copy-space-3d-illustration-MHYKM5.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>591</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>79</xmin>
+            <ymin>6</ymin>
+            <xmax>640</xmax>
+            <ymax>446</ymax>
+        </bndbox>
+    </object>
+</annotation>

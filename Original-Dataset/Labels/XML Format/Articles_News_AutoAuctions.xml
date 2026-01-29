@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Articles_News_AutoAuctions.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Articles_News_AutoAuctions.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1220</width>
+        <height>814</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>318</xmin>
+            <ymin>90</ymin>
+            <xmax>558</xmax>
+            <ymax>332</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>304</xmin>
+            <ymin>423</ymin>
+            <xmax>1066</xmax>
+            <ymax>769</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>341</ymin>
+            <xmax>293</xmax>
+            <ymax>792</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1083</xmin>
+            <ymin>152</ymin>
+            <xmax>1212</xmax>
+            <ymax>702</ymax>
+        </bndbox>
+    </object>
+</annotation>

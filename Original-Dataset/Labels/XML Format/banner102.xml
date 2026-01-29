@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>banner102.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/banner102.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>920</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>158</xmin>
+            <ymin>21</ymin>
+            <xmax>620</xmax>
+            <ymax>317</ymax>
+        </bndbox>
+    </object>
+</annotation>

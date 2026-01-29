@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>A-chip-carrier-is-shown-The-central-part-of-the-holder-is-raised-using_Q320.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/A-chip-carrier-is-shown-The-central-part-of-the-holder-is-raised-using_Q320.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>320</width>
+        <height>320</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

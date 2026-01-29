@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>convoy-military-trucks-moving-changthang-plateau-ladakh-region-kashmir-india-road-changthang-plateau-100209253.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/convoy-military-trucks-moving-changthang-plateau-ladakh-region-kashmir-india-road-changthang-plateau-100209253.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>455</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>459</xmin>
+            <ymin>315</ymin>
+            <xmax>562</xmax>
+            <ymax>399</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>354</xmin>
+            <ymin>329</ymin>
+            <xmax>415</xmax>
+            <ymax>378</ymax>
+        </bndbox>
+    </object>
+</annotation>

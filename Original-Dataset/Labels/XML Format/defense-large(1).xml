@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>defense-large(1).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/defense-large(1).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>710</width>
+        <height>325</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>69</xmin>
+            <ymin>59</ymin>
+            <xmax>658</xmax>
+            <ymax>319</ymax>
+        </bndbox>
+    </object>
+</annotation>

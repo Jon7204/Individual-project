@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>PNGPIX-COM-Black-Ford-Shelby-GT-H-Top-View-Car-PNG-Image.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/PNGPIX-COM-Black-Ford-Shelby-GT-H-Top-View-Car-PNG-Image.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1718</width>
+        <height>1178</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>85</xmin>
+            <ymin>76</ymin>
+            <xmax>1688</xmax>
+            <ymax>1078</ymax>
+        </bndbox>
+    </object>
+</annotation>

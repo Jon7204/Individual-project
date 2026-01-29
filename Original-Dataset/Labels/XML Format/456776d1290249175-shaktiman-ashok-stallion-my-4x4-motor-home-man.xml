@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>456776d1290249175-shaktiman-ashok-stallion-my-4x4-motor-home-man.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/456776d1290249175-shaktiman-ashok-stallion-my-4x4-motor-home-man.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>768</width>
+        <height>512</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>44</xmin>
+            <ymin>42</ymin>
+            <xmax>677</xmax>
+            <ymax>468</ymax>
+        </bndbox>
+    </object>
+</annotation>

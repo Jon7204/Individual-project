@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>crj-fleet-Vignette.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/crj-fleet-Vignette.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>465</width>
+        <height>197</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>114</xmin>
+            <ymin>11</ymin>
+            <xmax>212</xmax>
+            <ymax>48</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>18</xmin>
+            <ymin>57</ymin>
+            <xmax>188</xmax>
+            <ymax>119</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>204</xmin>
+            <ymin>50</ymin>
+            <xmax>450</xmax>
+            <ymax>156</ymax>
+        </bndbox>
+    </object>
+</annotation>

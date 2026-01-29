@@ -1,0 +1,81 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>canva-military-truck-convoy-on-the-high-mountain-leh---manali-highway-on-jammu-and-kashmir2C-nothern-india-MADesXAeYfQ.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/canva-military-truck-convoy-on-the-high-mountain-leh---manali-highway-on-jammu-and-kashmir2C-nothern-india-MADesXAeYfQ.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1045</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>174</xmin>
+            <ymin>630</ymin>
+            <xmax>353</xmax>
+            <ymax>724</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>600</xmin>
+            <ymin>659</ymin>
+            <xmax>713</xmax>
+            <ymax>727</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>744</xmin>
+            <ymin>652</ymin>
+            <xmax>867</xmax>
+            <ymax>750</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>950</xmin>
+            <ymin>665</ymin>
+            <xmax>1081</xmax>
+            <ymax>785</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1104</xmin>
+            <ymin>678</ymin>
+            <xmax>1300</xmax>
+            <ymax>811</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1342</xmin>
+            <ymin>23</ymin>
+            <xmax>1590</xmax>
+            <ymax>1021</ymax>
+        </bndbox>
+    </object>
+</annotation>

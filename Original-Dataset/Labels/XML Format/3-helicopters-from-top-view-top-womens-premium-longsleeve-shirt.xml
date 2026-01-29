@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>3-helicopters-from-top-view-top-womens-premium-longsleeve-shirt.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/3-helicopters-from-top-view-top-womens-premium-longsleeve-shirt.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>190</width>
+        <height>190</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>72</xmin>
+            <ymin>41</ymin>
+            <xmax>99</xmax>
+            <ymax>58</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>91</xmin>
+            <ymin>55</ymin>
+            <xmax>113</xmax>
+            <ymax>70</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>92</xmin>
+            <ymin>72</ymin>
+            <xmax>118</xmax>
+            <ymax>91</ymax>
+        </bndbox>
+    </object>
+</annotation>

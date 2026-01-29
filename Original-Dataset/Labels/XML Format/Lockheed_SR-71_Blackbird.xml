@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Lockheed_SR-71_Blackbird.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Lockheed_SR-71_Blackbird.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>5100</width>
+        <height>3996</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>565</xmin>
+            <ymin>106</ymin>
+            <xmax>4549</xmax>
+            <ymax>3707</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Addicted-Military-Tank-Top-AD611-01-White-F__95452.1553242198.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Addicted-Military-Tank-Top-AD611-01-White-F__95452.1553242198.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

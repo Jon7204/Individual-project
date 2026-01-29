@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>03d_on12_bell47gfranksteinkohl01_live.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/03d_on12_bell47gfranksteinkohl01_live.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3269</width>
+        <height>2179</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>700</xmin>
+            <ymin>752</ymin>
+            <xmax>2731</xmax>
+            <ymax>1556</ymax>
+        </bndbox>
+    </object>
+</annotation>

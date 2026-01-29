@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airplane-travel-sky-travel-vacation-b0112e-1024.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airplane-travel-sky-travel-vacation-b0112e-1024.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1024</width>
+        <height>768</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>345</xmin>
+            <ymin>199</ymin>
+            <xmax>1010</xmax>
+            <ymax>456</ymax>
+        </bndbox>
+    </object>
+</annotation>

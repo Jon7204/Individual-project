@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>aa-Cover-dp8temr9iqbm88t4vd1dg71go4-20170607170753.Medi.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/aa-Cover-dp8temr9iqbm88t4vd1dg71go4-20170607170753.Medi.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>448</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>24</xmin>
+            <ymin>121</ymin>
+            <xmax>760</xmax>
+            <ymax>368</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>aid289231-v4-728px-Identify-a-Commercial-Aircraft-Step-2Bullet2.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/aid289231-v4-728px-Identify-a-Commercial-Aircraft-Step-2Bullet2.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>728</width>
+        <height>546</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>96</xmin>
+            <ymin>52</ymin>
+            <xmax>496</xmax>
+            <ymax>197</ymax>
+        </bndbox>
+    </object>
+</annotation>

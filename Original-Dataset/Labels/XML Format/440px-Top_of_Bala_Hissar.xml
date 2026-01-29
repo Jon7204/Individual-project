@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>440px-Top_of_Bala_Hissar.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/440px-Top_of_Bala_Hissar.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>440</width>
+        <height>248</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>91</xmin>
+            <ymin>73</ymin>
+            <xmax>331</xmax>
+            <ymax>197</ymax>
+        </bndbox>
+    </object>
+</annotation>

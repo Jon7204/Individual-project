@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>abandoned-il-76-airplane.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/abandoned-il-76-airplane.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>550</width>
+        <height>348</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>141</xmin>
+            <ymin>157</ymin>
+            <xmax>446</xmax>
+            <ymax>248</ymax>
+        </bndbox>
+    </object>
+</annotation>

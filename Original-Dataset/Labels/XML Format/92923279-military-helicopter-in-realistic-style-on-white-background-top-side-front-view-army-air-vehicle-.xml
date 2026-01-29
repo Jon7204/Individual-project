@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>92923279-military-helicopter-in-realistic-style-on-white-background-top-side-front-view-army-air-vehicle-.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/92923279-military-helicopter-in-realistic-style-on-white-background-top-side-front-view-army-air-vehicle-.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>787</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>227</xmin>
+            <ymin>101</ymin>
+            <xmax>902</xmax>
+            <ymax>364</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>983</xmin>
+            <ymin>67</ymin>
+            <xmax>1164</xmax>
+            <ymax>386</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>105</xmin>
+            <ymin>472</ymin>
+            <xmax>924</xmax>
+            <ymax>693</ymax>
+        </bndbox>
+    </object>
+</annotation>

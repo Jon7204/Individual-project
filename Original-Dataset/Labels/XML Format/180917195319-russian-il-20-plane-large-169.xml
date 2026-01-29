@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>180917195319-russian-il-20-plane-large-169.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/180917195319-russian-il-20-plane-large-169.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>460</width>
+        <height>259</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>51</xmin>
+            <ymin>56</ymin>
+            <xmax>440</xmax>
+            <ymax>169</ymax>
+        </bndbox>
+    </object>
+</annotation>

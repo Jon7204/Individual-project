@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>firefighter-trying-to-get-into-crashed-car_1904721(1).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/firefighter-trying-to-get-into-crashed-car_1904721(1).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>52</xmin>
+            <ymin>101</ymin>
+            <xmax>403</xmax>
+            <ymax>291</ymax>
+        </bndbox>
+    </object>
+</annotation>

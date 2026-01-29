@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>commercial-white-airplane-and-a-computer-laptop-on-wooden-floor-background-top-view-3d-illustration-MHYKK9.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/commercial-white-airplane-and-a-computer-laptop-on-wooden-floor-background-top-view-3d-illustration-MHYKK9.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>591</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>717</xmin>
+            <ymin>89</ymin>
+            <xmax>1122</xmax>
+            <ymax>433</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2020-maxima-white-rear-in-tunnel-20tdipace101-d.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2020-maxima-white-rear-in-tunnel-20tdipace101-d.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3000</width>
+        <height>1300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1230</xmin>
+            <ymin>208</ymin>
+            <xmax>2626</xmax>
+            <ymax>875</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>India-military-vehicle-sent-to-scene-fo-attack-in-Lethpora-area-outskirts-of-Srinagar-Kashmir-14-2-19-killing-soldiers-pho-Faisal-Khan-AA-513x239.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/India-military-vehicle-sent-to-scene-fo-attack-in-Lethpora-area-outskirts-of-Srinagar-Kashmir-14-2-19-killing-soldiers-pho-Faisal-Khan-AA-513x239.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>513</width>
+        <height>239</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>171</xmin>
+            <ymin>34</ymin>
+            <xmax>427</xmax>
+            <ymax>221</ymax>
+        </bndbox>
+    </object>
+</annotation>

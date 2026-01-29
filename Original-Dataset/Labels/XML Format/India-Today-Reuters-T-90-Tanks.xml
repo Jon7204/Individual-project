@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>India-Today-Reuters-T-90-Tanks.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/India-Today-Reuters-T-90-Tanks.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>770</width>
+        <height>433</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>31</xmin>
+            <ymin>274</ymin>
+            <xmax>368</xmax>
+            <ymax>421</ymax>
+        </bndbox>
+    </object>
+</annotation>

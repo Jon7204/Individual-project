@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Screenshot_2019-05-02-12-54-29-032_com.android.chrome-1024x693.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Screenshot_2019-05-02-12-54-29-032_com.android.chrome-1024x693.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1024</width>
+        <height>693</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>74</xmin>
+            <ymin>57</ymin>
+            <xmax>902</xmax>
+            <ymax>620</ymax>
+        </bndbox>
+    </object>
+</annotation>

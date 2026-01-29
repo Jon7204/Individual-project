@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>big-commercial-jet-airplane-airplane-in-profile-from-the-front-view-aeroplane-isolated-aircraft-eps-vector_csp56056641.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/big-commercial-jet-airplane-airplane-in-profile-from-the-front-view-aeroplane-isolated-aircraft-eps-vector_csp56056641.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>225</width>
+        <height>194</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>12</xmin>
+            <ymin>16</ymin>
+            <xmax>209</xmax>
+            <ymax>95</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>96</ymin>
+            <xmax>204</xmax>
+            <ymax>154</ymax>
+        </bndbox>
+    </object>
+</annotation>

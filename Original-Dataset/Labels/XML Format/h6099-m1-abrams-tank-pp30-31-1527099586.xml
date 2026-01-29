@@ -1,0 +1,125 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>h6099-m1-abrams-tank-pp30-31-1527099586.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/h6099-m1-abrams-tank-pp30-31-1527099586.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1653</width>
+        <height>1062</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>211</xmin>
+            <ymin>126</ymin>
+            <xmax>747</xmax>
+            <ymax>313</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1384</xmin>
+            <ymin>114</ymin>
+            <xmax>1578</xmax>
+            <ymax>324</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>943</xmin>
+            <ymin>104</ymin>
+            <xmax>1261</xmax>
+            <ymax>325</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>257</xmin>
+            <ymin>379</ymin>
+            <xmax>732</xmax>
+            <ymax>621</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>936</xmin>
+            <ymin>713</ymin>
+            <xmax>1587</xmax>
+            <ymax>935</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>81</xmin>
+            <ymin>701</ymin>
+            <xmax>345</xmax>
+            <ymax>932</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>403</xmin>
+            <ymin>693</ymin>
+            <xmax>636</xmax>
+            <ymax>932</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>910</xmin>
+            <ymin>410</ymin>
+            <xmax>1107</xmax>
+            <ymax>609</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1115</xmin>
+            <ymin>410</ymin>
+            <xmax>1220</xmax>
+            <ymax>555</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1230</xmin>
+            <ymin>413</ymin>
+            <xmax>1309</xmax>
+            <ymax>545</ymax>
+        </bndbox>
+    </object>
+</annotation>

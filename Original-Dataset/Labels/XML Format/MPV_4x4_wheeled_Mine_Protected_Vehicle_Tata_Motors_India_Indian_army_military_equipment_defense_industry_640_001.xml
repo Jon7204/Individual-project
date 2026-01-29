@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>MPV_4x4_wheeled_Mine_Protected_Vehicle_Tata_Motors_India_Indian_army_military_equipment_defense_industry_640_001.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/MPV_4x4_wheeled_Mine_Protected_Vehicle_Tata_Motors_India_Indian_army_military_equipment_defense_industry_640_001.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>442</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>107</xmin>
+            <ymin>126</ymin>
+            <xmax>537</xmax>
+            <ymax>397</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>8</xmin>
+            <ymin>18</ymin>
+            <xmax>303</xmax>
+            <ymax>117</ymax>
+        </bndbox>
+    </object>
+</annotation>

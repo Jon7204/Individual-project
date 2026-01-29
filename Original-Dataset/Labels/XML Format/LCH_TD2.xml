@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>LCH_TD2.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/LCH_TD2.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>582</width>
+        <height>392</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>15</ymin>
+            <xmax>522</xmax>
+            <ymax>372</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>drawing-a-plane-easy-easyjet-set-agisoft-top-view-1084x610.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/drawing-a-plane-easy-easyjet-set-agisoft-top-view-1084x610.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1084</width>
+        <height>610</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>104</xmin>
+            <ymin>23</ymin>
+            <xmax>1047</xmax>
+            <ymax>525</ymax>
+        </bndbox>
+    </object>
+</annotation>

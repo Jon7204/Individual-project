@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>118757798-military-helicopter-top-view-isolated-on-white-3d-rendering.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/118757798-military-helicopter-top-view-isolated-on-white-3d-rendering.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1133</width>
+        <height>1300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>141</xmin>
+            <ymin>125</ymin>
+            <xmax>1049</xmax>
+            <ymax>1245</ymax>
+        </bndbox>
+    </object>
+</annotation>

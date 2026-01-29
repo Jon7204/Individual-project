@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>gfs-featureimage595x335-militaryplane.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/gfs-featureimage595x335-militaryplane.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>390</width>
+        <height>220</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>139</xmin>
+            <ymin>94</ymin>
+            <xmax>326</xmax>
+            <ymax>183</ymax>
+        </bndbox>
+    </object>
+</annotation>

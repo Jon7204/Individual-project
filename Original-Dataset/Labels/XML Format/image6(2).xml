@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>image6(2).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/image6(2).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>253</width>
+        <height>199</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>63</xmin>
+            <ymin>10</ymin>
+            <xmax>200</xmax>
+            <ymax>193</ymax>
+        </bndbox>
+    </object>
+</annotation>

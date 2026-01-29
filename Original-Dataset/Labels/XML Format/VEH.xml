@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>VEH.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/VEH.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>660</width>
+        <height>497</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>29</xmin>
+            <ymin>100</ymin>
+            <xmax>333</xmax>
+            <ymax>434</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>359</xmin>
+            <ymin>108</ymin>
+            <xmax>594</xmax>
+            <ymax>458</ymax>
+        </bndbox>
+    </object>
+</annotation>

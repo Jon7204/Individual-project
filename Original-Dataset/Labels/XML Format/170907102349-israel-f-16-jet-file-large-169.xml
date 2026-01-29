@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>170907102349-israel-f-16-jet-file-large-169.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/170907102349-israel-f-16-jet-file-large-169.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>460</width>
+        <height>259</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>16</xmin>
+            <ymin>7</ymin>
+            <xmax>424</xmax>
+            <ymax>215</ymax>
+        </bndbox>
+    </object>
+</annotation>

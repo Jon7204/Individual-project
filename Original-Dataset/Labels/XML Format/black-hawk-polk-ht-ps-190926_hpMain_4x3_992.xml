@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>black-hawk-polk-ht-ps-190926_hpMain_4x3_992.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/black-hawk-polk-ht-ps-190926_hpMain_4x3_992.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>992</width>
+        <height>744</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>112</ymin>
+            <xmax>968</xmax>
+            <ymax>503</ymax>
+        </bndbox>
+    </object>
+</annotation>

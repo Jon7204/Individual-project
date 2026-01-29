@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Sikorsky_combat_rescue_chopper.5d8cdf024d276.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Sikorsky_combat_rescue_chopper.5d8cdf024d276.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1800</width>
+        <height>1200</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>348</xmin>
+            <ymin>552</ymin>
+            <xmax>1044</xmax>
+            <ymax>1109</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>988</xmin>
+            <ymin>312</ymin>
+            <xmax>1376</xmax>
+            <ymax>655</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>580</xmin>
+            <ymin>310</ymin>
+            <xmax>869</xmax>
+            <ymax>575</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>727</xmin>
+            <ymin>151</ymin>
+            <xmax>923</xmax>
+            <ymax>395</ymax>
+        </bndbox>
+    </object>
+</annotation>

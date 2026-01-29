@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1534319_1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1534319_1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>630</width>
+        <height>630</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>37</xmin>
+            <ymin>182</ymin>
+            <xmax>578</xmax>
+            <ymax>469</ymax>
+        </bndbox>
+    </object>
+</annotation>

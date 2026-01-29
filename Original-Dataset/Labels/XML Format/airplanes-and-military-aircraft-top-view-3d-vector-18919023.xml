@@ -1,0 +1,81 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airplanes-and-military-aircraft-top-view-3d-vector-18919023.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airplanes-and-military-aircraft-top-view-3d-vector-18919023.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1000</width>
+        <height>860</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>345</xmin>
+            <ymin>116</ymin>
+            <xmax>597</xmax>
+            <ymax>406</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>63</xmin>
+            <ymin>100</ymin>
+            <xmax>278</xmax>
+            <ymax>399</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>369</xmin>
+            <ymin>442</ymin>
+            <xmax>641</xmax>
+            <ymax>705</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>669</xmin>
+            <ymin>435</ymin>
+            <xmax>942</xmax>
+            <ymax>692</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>25</xmin>
+            <ymin>423</ymin>
+            <xmax>340</xmax>
+            <ymax>677</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>661</xmin>
+            <ymin>128</ymin>
+            <xmax>987</xmax>
+            <ymax>392</ymax>
+        </bndbox>
+    </object>
+</annotation>

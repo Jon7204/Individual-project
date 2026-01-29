@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>bomber-aircraft-top-view-vector-icon-fight-sky-technology-design-attack-airforce-plane-military-fighter-warfare-t7hj6p(1).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/bomber-aircraft-top-view-vector-icon-fight-sky-technology-design-attack-airforce-plane-military-fighter-warfare-t7hj6p(1).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>300</width>
+        <height>320</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>82</xmin>
+            <ymin>35</ymin>
+            <xmax>216</xmax>
+            <ymax>271</ymax>
+        </bndbox>
+    </object>
+</annotation>

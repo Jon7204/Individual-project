@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>8bc3fe3b-97dd-41d8-99cf-76997da75bc2-AP_Japan_US_Military_Plane_CrashJPG.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/8bc3fe3b-97dd-41d8-99cf-76997da75bc2-AP_Japan_US_Military_Plane_CrashJPG.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2000</width>
+        <height>1334</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>206</xmin>
+            <ymin>290</ymin>
+            <xmax>1046</xmax>
+            <ymax>632</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1134</xmin>
+            <ymin>507</ymin>
+            <xmax>1638</xmax>
+            <ymax>708</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1348</xmin>
+            <ymin>854</ymin>
+            <xmax>1776</xmax>
+            <ymax>996</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>DSCF8469-1200x1000.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/DSCF8469-1200x1000.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>1000</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>13</xmin>
+            <ymin>132</ymin>
+            <xmax>1188</xmax>
+            <ymax>817</ymax>
+        </bndbox>
+    </object>
+</annotation>

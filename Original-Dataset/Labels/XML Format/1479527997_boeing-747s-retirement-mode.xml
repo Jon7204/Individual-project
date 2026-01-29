@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1479527997_boeing-747s-retirement-mode.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1479527997_boeing-747s-retirement-mode.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>685</width>
+        <height>450</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>28</xmin>
+            <ymin>132</ymin>
+            <xmax>669</xmax>
+            <ymax>328</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>depositphotos_192247018-stock-illustration-airplane-vector-illustration-top-view.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/depositphotos_192247018-stock-illustration-airplane-vector-illustration-top-view.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1700</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>910</xmin>
+            <ymin>91</ymin>
+            <xmax>1504</xmax>
+            <ymax>1504</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>56</xmin>
+            <ymin>38</ymin>
+            <xmax>847</xmax>
+            <ymax>1484</ymax>
+        </bndbox>
+    </object>
+</annotation>

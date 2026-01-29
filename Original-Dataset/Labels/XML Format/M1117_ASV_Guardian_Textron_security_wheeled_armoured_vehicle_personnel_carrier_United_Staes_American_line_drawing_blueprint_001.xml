@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>M1117_ASV_Guardian_Textron_security_wheeled_armoured_vehicle_personnel_carrier_United_Staes_American_line_drawing_blueprint_001.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/M1117_ASV_Guardian_Textron_security_wheeled_armoured_vehicle_personnel_carrier_United_Staes_American_line_drawing_blueprint_001.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>600</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>0</xmin>
+            <ymin>12</ymin>
+            <xmax>403</xmax>
+            <ymax>195</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>415</xmin>
+            <ymin>11</ymin>
+            <xmax>585</xmax>
+            <ymax>189</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>214</ymin>
+            <xmax>410</xmax>
+            <ymax>396</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>418</xmin>
+            <ymin>216</ymin>
+            <xmax>589</xmax>
+            <ymax>390</ymax>
+        </bndbox>
+    </object>
+</annotation>

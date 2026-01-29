@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Leopard_2a6_main_battle_tank_Germany_German_line_drawing.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Leopard_2a6_main_battle_tank_Germany_German_line_drawing.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>600</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>128</ymin>
+            <xmax>537</xmax>
+            <ymax>275</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>237</ymin>
+            <xmax>211</xmax>
+            <ymax>392</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>383</xmin>
+            <ymin>234</ymin>
+            <xmax>540</xmax>
+            <ymax>391</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>13</xmin>
+            <ymin>8</ymin>
+            <xmax>530</xmax>
+            <ymax>163</ymax>
+        </bndbox>
+    </object>
+</annotation>

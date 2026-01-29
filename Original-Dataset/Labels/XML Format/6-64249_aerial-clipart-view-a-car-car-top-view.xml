@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>6-64249_aerial-clipart-view-a-car-car-top-view.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/6-64249_aerial-clipart-view-a-car-car-top-view.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>920</width>
+        <height>496</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>50</xmin>
+            <ymin>38</ymin>
+            <xmax>824</xmax>
+            <ymax>434</ymax>
+        </bndbox>
+    </object>
+</annotation>

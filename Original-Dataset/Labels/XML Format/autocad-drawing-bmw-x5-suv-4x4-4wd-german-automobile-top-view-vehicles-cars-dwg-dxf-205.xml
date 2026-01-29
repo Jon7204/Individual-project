@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>autocad-drawing-bmw-x5-suv-4x4-4wd-german-automobile-top-view-vehicles-cars-dwg-dxf-205.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/autocad-drawing-bmw-x5-suv-4x4-4wd-german-automobile-top-view-vehicles-cars-dwg-dxf-205.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>4</xmin>
+            <ymin>63</ymin>
+            <xmax>625</xmax>
+            <ymax>329</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>300px-Bundesarchiv_Bild_101I-299-1805-162C_Nordfrankreich2C_Panzer_VI_28Tiger_I29.2.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/300px-Bundesarchiv_Bild_101I-299-1805-162C_Nordfrankreich2C_Panzer_VI_28Tiger_I29.2.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>300</width>
+        <height>271</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>17</xmin>
+            <ymin>53</ymin>
+            <xmax>262</xmax>
+            <ymax>242</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airplane-top-view-vector-illustration-high-detaled-airplane-airline-concept-travel-passenger-illustration_csp52788928.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airplane-top-view-vector-illustration-high-detaled-airplane-airline-concept-travel-passenger-illustration_csp52788928.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>180</width>
+        <height>195</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>22</xmin>
+            <ymin>23</ymin>
+            <xmax>164</xmax>
+            <ymax>156</ymax>
+        </bndbox>
+    </object>
+</annotation>

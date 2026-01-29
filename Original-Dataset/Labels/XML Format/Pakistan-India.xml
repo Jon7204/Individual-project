@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Pakistan-India.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Pakistan-India.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1276</width>
+        <height>713</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>749</xmin>
+            <ymin>160</ymin>
+            <xmax>1249</xmax>
+            <ymax>639</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>77</xmin>
+            <ymin>197</ymin>
+            <xmax>552</xmax>
+            <ymax>640</ymax>
+        </bndbox>
+    </object>
+</annotation>

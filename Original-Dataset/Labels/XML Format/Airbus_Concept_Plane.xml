@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Airbus_Concept_Plane.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Airbus_Concept_Plane.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>659</width>
+        <height>436</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>85</xmin>
+            <ymin>166</ymin>
+            <xmax>448</xmax>
+            <ymax>349</ymax>
+        </bndbox>
+    </object>
+</annotation>

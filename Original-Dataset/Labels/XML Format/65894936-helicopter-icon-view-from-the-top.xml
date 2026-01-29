@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>65894936-helicopter-icon-view-from-the-top.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/65894936-helicopter-icon-view-from-the-top.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>1300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>193</xmin>
+            <ymin>231</ymin>
+            <xmax>1077</xmax>
+            <ymax>1084</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>400px-MH-53J_Pave_Low_Line_Drawing.svg.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/400px-MH-53J_Pave_Low_Line_Drawing.svg.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>200</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>5</xmin>
+            <ymin>5</ymin>
+            <xmax>187</xmax>
+            <ymax>197</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>173</xmin>
+            <ymin>144</ymin>
+            <xmax>357</xmax>
+            <ymax>193</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>226</xmin>
+            <ymin>8</ymin>
+            <xmax>339</xmax>
+            <ymax>83</ymax>
+        </bndbox>
+    </object>
+</annotation>

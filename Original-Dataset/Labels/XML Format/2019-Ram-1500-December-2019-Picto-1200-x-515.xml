@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2019-Ram-1500-December-2019-Picto-1200-x-515.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2019-Ram-1500-December-2019-Picto-1200-x-515.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2501</width>
+        <height>1074</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>748</xmin>
+            <ymin>286</ymin>
+            <xmax>1807</xmax>
+            <ymax>944</ymax>
+        </bndbox>
+    </object>
+</annotation>

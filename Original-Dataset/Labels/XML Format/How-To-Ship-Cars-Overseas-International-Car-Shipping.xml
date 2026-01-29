@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>How-To-Ship-Cars-Overseas-International-Car-Shipping.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/How-To-Ship-Cars-Overseas-International-Car-Shipping.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>455</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>53</xmin>
+            <ymin>211</ymin>
+            <xmax>209</xmax>
+            <ymax>406</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>19</xmin>
+            <ymin>73</ymin>
+            <xmax>254</xmax>
+            <ymax>374</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>293</xmin>
+            <ymin>129</ymin>
+            <xmax>432</xmax>
+            <ymax>366</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>443</xmin>
+            <ymin>155</ymin>
+            <xmax>527</xmax>
+            <ymax>325</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>573</xmin>
+            <ymin>167</ymin>
+            <xmax>652</xmax>
+            <ymax>320</ymax>
+        </bndbox>
+    </object>
+</annotation>

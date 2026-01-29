@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>formula-1-red-racing-car-on-the-track-top-view-Download-Royalty-free-Vector-File-EPS-40657.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/formula-1-red-racing-car-on-the-track-top-view-Download-Royalty-free-Vector-File-EPS-40657.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1000</width>
+        <height>1200</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>236</xmin>
+            <ymin>240</ymin>
+            <xmax>775</xmax>
+            <ymax>1146</ymax>
+        </bndbox>
+    </object>
+</annotation>

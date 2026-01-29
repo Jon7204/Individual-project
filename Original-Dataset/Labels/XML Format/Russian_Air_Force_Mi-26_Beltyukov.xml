@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Russian_Air_Force_Mi-26_Beltyukov.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Russian_Air_Force_Mi-26_Beltyukov.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1500</width>
+        <height>999</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>30</xmin>
+            <ymin>349</ymin>
+            <xmax>1458</xmax>
+            <ymax>809</ymax>
+        </bndbox>
+    </object>
+</annotation>

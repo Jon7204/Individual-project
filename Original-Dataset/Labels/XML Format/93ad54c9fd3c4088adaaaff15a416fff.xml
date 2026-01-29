@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>93ad54c9fd3c4088adaaaff15a416fff.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/93ad54c9fd3c4088adaaaff15a416fff.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>626</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>57</ymin>
+            <xmax>193</xmax>
+            <ymax>392</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>200</xmin>
+            <ymin>100</ymin>
+            <xmax>278</xmax>
+            <ymax>349</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>284</xmin>
+            <ymin>125</ymin>
+            <xmax>328</xmax>
+            <ymax>329</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>343</xmin>
+            <ymin>137</ymin>
+            <xmax>419</xmax>
+            <ymax>315</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>428</xmin>
+            <ymin>145</ymin>
+            <xmax>488</xmax>
+            <ymax>310</ymax>
+        </bndbox>
+    </object>
+</annotation>

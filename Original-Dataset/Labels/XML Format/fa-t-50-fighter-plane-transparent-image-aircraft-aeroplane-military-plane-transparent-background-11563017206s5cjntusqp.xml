@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>fa-t-50-fighter-plane-transparent-image-aircraft-aeroplane-military-plane-transparent-background-11563017206s5cjntusqp.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/fa-t-50-fighter-plane-transparent-image-aircraft-aeroplane-military-plane-transparent-background-11563017206s5cjntusqp.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>840</width>
+        <height>859</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>197</ymin>
+            <xmax>838</xmax>
+            <ymax>591</ymax>
+        </bndbox>
+    </object>
+</annotation>

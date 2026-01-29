@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>136926792_15169696817431n.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/136926792_15169696817431n.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>900</width>
+        <height>552</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>68</xmin>
+            <ymin>189</ymin>
+            <xmax>332</xmax>
+            <ymax>482</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>372</xmin>
+            <ymin>290</ymin>
+            <xmax>591</xmax>
+            <ymax>466</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>573</xmin>
+            <ymin>156</ymin>
+            <xmax>665</xmax>
+            <ymax>316</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>846</xmin>
+            <ymin>134</ymin>
+            <xmax>882</xmax>
+            <ymax>187</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>681</xmin>
+            <ymin>174</ymin>
+            <xmax>768</xmax>
+            <ymax>250</ymax>
+        </bndbox>
+    </object>
+</annotation>

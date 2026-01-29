@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Hobby-Master-HA5401-T-38A-Talon-NASA-Chase-Plane-Space-Shuttle-Columbia-Diecast-model-Top-View-.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Hobby-Master-HA5401-T-38A-Talon-NASA-Chase-Plane-Space-Shuttle-Columbia-Diecast-model-Top-View-.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1522</width>
+        <height>800</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>290</xmin>
+            <ymin>69</ymin>
+            <xmax>1223</xmax>
+            <ymax>731</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>169007_one.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/169007_one.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>756</width>
+        <height>636</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>37</xmin>
+            <ymin>75</ymin>
+            <xmax>729</xmax>
+            <ymax>341</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>30</xmin>
+            <ymin>362</ymin>
+            <xmax>735</xmax>
+            <ymax>623</ymax>
+        </bndbox>
+    </object>
+</annotation>

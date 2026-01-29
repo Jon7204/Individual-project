@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Pic_Top_new.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Pic_Top_new.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>611</width>
+        <height>512</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>44</xmin>
+            <ymin>25</ymin>
+            <xmax>587</xmax>
+            <ymax>338</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>344</xmin>
+            <ymin>366</ymin>
+            <xmax>604</xmax>
+            <ymax>482</ymax>
+        </bndbox>
+    </object>
+</annotation>

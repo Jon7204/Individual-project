@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>gettyimages-458903992.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/gettyimages-458903992.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2500</width>
+        <height>1666</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>45</xmin>
+            <ymin>173</ymin>
+            <xmax>783</xmax>
+            <ymax>499</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>740</xmin>
+            <ymin>524</ymin>
+            <xmax>1482</xmax>
+            <ymax>798</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1500</xmin>
+            <ymin>588</ymin>
+            <xmax>2238</xmax>
+            <ymax>941</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>644</xmin>
+            <ymin>1063</ymin>
+            <xmax>1526</xmax>
+            <ymax>1411</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1013</xmin>
+            <ymin>820</ymin>
+            <xmax>1329</xmax>
+            <ymax>1099</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>GT.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/GT.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1684</width>
+        <height>1047</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>90</xmin>
+            <ymin>414</ymin>
+            <xmax>1632</xmax>
+            <ymax>930</ymax>
+        </bndbox>
+    </object>
+</annotation>

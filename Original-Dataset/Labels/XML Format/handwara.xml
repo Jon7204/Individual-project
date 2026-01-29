@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>handwara.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/handwara.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>647</width>
+        <height>363</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>246</xmin>
+            <ymin>49</ymin>
+            <xmax>576</xmax>
+            <ymax>356</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>93</xmin>
+            <ymin>167</ymin>
+            <xmax>202</xmax>
+            <ymax>232</ymax>
+        </bndbox>
+    </object>
+</annotation>

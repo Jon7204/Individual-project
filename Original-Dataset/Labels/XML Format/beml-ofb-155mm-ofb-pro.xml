@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>beml-ofb-155mm-ofb-pro.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/beml-ofb-155mm-ofb-pro.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>760</width>
+        <height>443</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>25</xmin>
+            <ymin>38</ymin>
+            <xmax>754</xmax>
+            <ymax>409</ymax>
+        </bndbox>
+    </object>
+</annotation>

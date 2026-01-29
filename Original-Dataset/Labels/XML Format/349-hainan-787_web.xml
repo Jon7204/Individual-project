@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>349-hainan-787_web.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/349-hainan-787_web.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2200</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>117</xmin>
+            <ymin>375</ymin>
+            <xmax>1974</xmax>
+            <ymax>922</ymax>
+        </bndbox>
+    </object>
+</annotation>

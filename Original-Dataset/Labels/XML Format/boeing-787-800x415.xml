@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>boeing-787-800x415.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/boeing-787-800x415.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>415</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>201</xmin>
+            <ymin>6</ymin>
+            <xmax>789</xmax>
+            <ymax>401</ymax>
+        </bndbox>
+    </object>
+</annotation>

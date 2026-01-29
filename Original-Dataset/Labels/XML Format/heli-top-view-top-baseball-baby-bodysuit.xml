@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>heli-top-view-top-baseball-baby-bodysuit.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/heli-top-view-top-baseball-baby-bodysuit.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>190</width>
+        <height>190</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>64</xmin>
+            <ymin>59</ymin>
+            <xmax>124</xmax>
+            <ymax>96</ymax>
+        </bndbox>
+    </object>
+</annotation>

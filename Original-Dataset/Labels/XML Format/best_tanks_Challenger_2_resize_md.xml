@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>best_tanks_Challenger_2_resize_md.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/best_tanks_Challenger_2_resize_md.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>744</width>
+        <height>404</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>113</xmin>
+            <ymin>127</ymin>
+            <xmax>628</xmax>
+            <ymax>359</ymax>
+        </bndbox>
+    </object>
+</annotation>

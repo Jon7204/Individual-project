@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>M103_Heavy_tank_at_Ft_Lewis_Military_Museum.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/M103_Heavy_tank_at_Ft_Lewis_Military_Museum.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1260</width>
+        <height>945</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>68</xmin>
+            <ymin>205</ymin>
+            <xmax>1212</xmax>
+            <ymax>802</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>248306-f-18-fighter-jet-military-plane-airplane-usa-68-748x561.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/248306-f-18-fighter-jet-military-plane-airplane-usa-68-748x561.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>748</width>
+        <height>561</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>49</xmin>
+            <ymin>119</ymin>
+            <xmax>661</xmax>
+            <ymax>373</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>5922427.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/5922427.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1263</width>
+        <height>841</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>135</xmin>
+            <ymin>201</ymin>
+            <xmax>723</xmax>
+            <ymax>581</ymax>
+        </bndbox>
+    </object>
+</annotation>

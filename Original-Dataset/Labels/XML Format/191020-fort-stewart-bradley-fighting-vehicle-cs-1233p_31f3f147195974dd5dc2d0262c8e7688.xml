@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>191020-fort-stewart-bradley-fighting-vehicle-cs-1233p_31f3f147195974dd5dc2d0262c8e7688.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/191020-fort-stewart-bradley-fighting-vehicle-cs-1233p_31f3f147195974dd5dc2d0262c8e7688.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2500</width>
+        <height>1414</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1135</xmin>
+            <ymin>581</ymin>
+            <xmax>2172</xmax>
+            <ymax>1272</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>519</xmin>
+            <ymin>822</ymin>
+            <xmax>813</xmax>
+            <ymax>1016</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>332</xmin>
+            <ymin>896</ymin>
+            <xmax>447</xmax>
+            <ymax>993</ymax>
+        </bndbox>
+    </object>
+</annotation>

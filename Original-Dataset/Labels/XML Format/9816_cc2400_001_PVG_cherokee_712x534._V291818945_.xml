@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>9816_cc2400_001_PVG_cherokee_712x534._V291818945_.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/9816_cc2400_001_PVG_cherokee_712x534._V291818945_.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>712</width>
+        <height>534</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>23</xmin>
+            <ymin>135</ymin>
+            <xmax>628</xmax>
+            <ymax>398</ymax>
+        </bndbox>
+    </object>
+</annotation>

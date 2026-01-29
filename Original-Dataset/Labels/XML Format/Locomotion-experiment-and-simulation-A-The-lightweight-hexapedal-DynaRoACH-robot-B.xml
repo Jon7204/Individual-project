@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Locomotion-experiment-and-simulation-A-The-lightweight-hexapedal-DynaRoACH-robot-B.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Locomotion-experiment-and-simulation-A-The-lightweight-hexapedal-DynaRoACH-robot-B.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>692</width>
+        <height>1071</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

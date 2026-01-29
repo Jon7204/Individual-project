@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>high-detailed-white-airplane-on-a-white-clipart__k54370624.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/high-detailed-white-airplane-on-a-white-clipart__k54370624.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>427</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>18</xmin>
+            <ymin>7</ymin>
+            <xmax>240</xmax>
+            <ymax>108</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>258</xmin>
+            <ymin>14</ymin>
+            <xmax>395</xmax>
+            <ymax>185</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>15</xmin>
+            <ymin>183</ymin>
+            <xmax>392</xmax>
+            <ymax>292</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>37</xmin>
+            <ymin>332</ymin>
+            <xmax>402</xmax>
+            <ymax>410</ymax>
+        </bndbox>
+    </object>
+</annotation>

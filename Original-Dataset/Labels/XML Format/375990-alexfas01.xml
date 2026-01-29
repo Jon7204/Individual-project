@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>375990-alexfas01.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/375990-alexfas01.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>800</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>75</xmin>
+            <ymin>60</ymin>
+            <xmax>1137</xmax>
+            <ymax>716</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>13</xmin>
+            <ymin>138</ymin>
+            <xmax>289</xmax>
+            <ymax>397</ymax>
+        </bndbox>
+    </object>
+</annotation>

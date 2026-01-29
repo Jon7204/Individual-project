@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1st_Fighter_Wing_hosts_coalition_aerial_exercise_28329.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1st_Fighter_Wing_hosts_coalition_aerial_exercise_28329.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4928</width>
+        <height>3280</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>3427</xmin>
+            <ymin>478</ymin>
+            <xmax>4720</xmax>
+            <ymax>872</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2742</xmin>
+            <ymin>887</ymin>
+            <xmax>4081</xmax>
+            <ymax>1374</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1605</xmin>
+            <ymin>1458</ymin>
+            <xmax>3345</xmax>
+            <ymax>2140</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>212</xmin>
+            <ymin>2163</ymin>
+            <xmax>2483</xmax>
+            <ymax>2832</ymax>
+        </bndbox>
+    </object>
+</annotation>

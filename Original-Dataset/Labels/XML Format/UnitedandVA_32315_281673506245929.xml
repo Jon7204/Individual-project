@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>UnitedandVA_32315_281673506245929.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/UnitedandVA_32315_281673506245929.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3000</width>
+        <height>1978</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>225</xmin>
+            <ymin>1021</ymin>
+            <xmax>2824</xmax>
+            <ymax>1593</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>520</xmin>
+            <ymin>729</ymin>
+            <xmax>2451</xmax>
+            <ymax>1023</ymax>
+        </bndbox>
+    </object>
+</annotation>

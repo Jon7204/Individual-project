@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>GettyImages-94954482.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/GettyImages-94954482.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3000</width>
+        <height>1984</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>61</xmin>
+            <ymin>262</ymin>
+            <xmax>2669</xmax>
+            <ymax>1948</ymax>
+        </bndbox>
+    </object>
+</annotation>

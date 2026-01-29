@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Autocad-drawing-of-tank-cad-block-military-tank-autocad-sample.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Autocad-drawing-of-tank-cad-block-military-tank-autocad-sample.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>646</width>
+        <height>488</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>184</xmin>
+            <ymin>53</ymin>
+            <xmax>410</xmax>
+            <ymax>158</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>122</xmin>
+            <ymin>178</ymin>
+            <xmax>435</xmax>
+            <ymax>267</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>167</xmin>
+            <ymin>284</ymin>
+            <xmax>452</xmax>
+            <ymax>401</ymax>
+        </bndbox>
+    </object>
+</annotation>

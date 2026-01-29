@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>ABV.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/ABV.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2800</width>
+        <height>1316</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>266</xmin>
+            <ymin>323</ymin>
+            <xmax>716</xmax>
+            <ymax>601</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>680</xmin>
+            <ymin>289</ymin>
+            <xmax>1070</xmax>
+            <ymax>574</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>701</xmin>
+            <ymin>61</ymin>
+            <xmax>2675</xmax>
+            <ymax>1031</ymax>
+        </bndbox>
+    </object>
+</annotation>

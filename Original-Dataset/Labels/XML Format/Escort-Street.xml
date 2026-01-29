@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Escort-Street.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Escort-Street.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1000</width>
+        <height>598</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>273</xmin>
+            <ymin>32</ymin>
+            <xmax>349</xmax>
+            <ymax>71</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>286</xmin>
+            <ymin>128</ymin>
+            <xmax>356</xmax>
+            <ymax>190</ymax>
+        </bndbox>
+    </object>
+</annotation>

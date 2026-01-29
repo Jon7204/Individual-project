@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Antonov-An-12-3-view-1213a.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Antonov-An-12-3-view-1213a.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>270</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>98</xmin>
+            <ymin>81</ymin>
+            <xmax>291</xmax>
+            <ymax>263</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>210</xmin>
+            <ymin>5</ymin>
+            <xmax>395</xmax>
+            <ymax>67</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>6</xmin>
+            <ymin>15</ymin>
+            <xmax>192</xmax>
+            <ymax>74</ymax>
+        </bndbox>
+    </object>
+</annotation>

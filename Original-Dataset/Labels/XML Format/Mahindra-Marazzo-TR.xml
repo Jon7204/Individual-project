@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Mahindra-Marazzo-TR.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Mahindra-Marazzo-TR.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>536</width>
+        <height>358</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>26</ymin>
+            <xmax>509</xmax>
+            <ymax>290</ymax>
+        </bndbox>
+    </object>
+</annotation>

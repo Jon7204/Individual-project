@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>408-4088116_helicopter-clipart-top-view-2d-helicopter.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/408-4088116_helicopter-clipart-top-view-2d-helicopter.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>920</width>
+        <height>560</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>178</xmin>
+            <ymin>132</ymin>
+            <xmax>775</xmax>
+            <ymax>514</ymax>
+        </bndbox>
+    </object>
+</annotation>

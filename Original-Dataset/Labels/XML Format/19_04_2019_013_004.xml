@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>19_04_2019_013_004.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/19_04_2019_013_004.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2516</width>
+        <height>2042</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>872</xmin>
+            <ymin>91</ymin>
+            <xmax>1542</xmax>
+            <ymax>822</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1395</xmin>
+            <ymin>72</ymin>
+            <xmax>2067</xmax>
+            <ymax>745</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1980</xmin>
+            <ymin>94</ymin>
+            <xmax>2445</xmax>
+            <ymax>684</ymax>
+        </bndbox>
+    </object>
+</annotation>

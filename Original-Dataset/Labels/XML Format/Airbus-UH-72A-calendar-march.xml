@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Airbus-UH-72A-calendar-march.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Airbus-UH-72A-calendar-march.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>300</width>
+        <height>225</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>31</xmin>
+            <ymin>8</ymin>
+            <xmax>201</xmax>
+            <ymax>90</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>50</xmin>
+            <ymin>96</ymin>
+            <xmax>254</xmax>
+            <ymax>192</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Sluban-Military-Tank-Lego-Toy-Image-1_0.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Sluban-Military-Tank-Lego-Toy-Image-1_0.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>700</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>91</xmin>
+            <ymin>283</ymin>
+            <xmax>389</xmax>
+            <ymax>474</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>106</xmin>
+            <ymin>1</ymin>
+            <xmax>383</xmax>
+            <ymax>184</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>380</xmin>
+            <ymin>162</ymin>
+            <xmax>666</xmax>
+            <ymax>269</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,224 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>images11(11).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/images11(11).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>218</width>
+        <height>231</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>27</xmin>
+            <ymin>11</ymin>
+            <xmax>83</xmax>
+            <ymax>79</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>81</xmin>
+            <ymin>69</ymin>
+            <xmax>133</xmax>
+            <ymax>125</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>137</xmin>
+            <ymin>125</ymin>
+            <xmax>179</xmax>
+            <ymax>193</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>190</xmin>
+            <ymin>63</ymin>
+            <xmax>217</xmax>
+            <ymax>128</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>133</xmin>
+            <ymin>14</ymin>
+            <xmax>183</xmax>
+            <ymax>95</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>91</xmin>
+            <ymin>3</ymin>
+            <xmax>115</xmax>
+            <ymax>40</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>21</xmin>
+            <ymin>125</ymin>
+            <xmax>75</xmax>
+            <ymax>189</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>82</xmin>
+            <ymin>176</ymin>
+            <xmax>129</xmax>
+            <ymax>219</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>199</xmin>
+            <ymin>184</ymin>
+            <xmax>214</xmax>
+            <ymax>217</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>152</xmin>
+            <ymin>5</ymin>
+            <xmax>177</xmax>
+            <ymax>14</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>142</xmin>
+            <ymin>97</ymin>
+            <xmax>175</xmax>
+            <ymax>122</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>89</xmin>
+            <ymin>42</ymin>
+            <xmax>128</xmax>
+            <ymax>66</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>33</ymin>
+            <xmax>21</xmax>
+            <ymax>74</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>0</xmin>
+            <ymin>138</ymin>
+            <xmax>18</xmax>
+            <ymax>181</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>34</xmin>
+            <ymin>204</ymin>
+            <xmax>72</xmax>
+            <ymax>217</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>139</xmin>
+            <ymin>204</ymin>
+            <xmax>181</xmax>
+            <ymax>216</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>195</xmin>
+            <ymin>149</ymin>
+            <xmax>217</xmax>
+            <ymax>179</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>198</xmin>
+            <ymin>40</ymin>
+            <xmax>216</xmax>
+            <ymax>70</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>44</xmin>
+            <ymin>3</ymin>
+            <xmax>63</xmax>
+            <ymax>14</ymax>
+        </bndbox>
+    </object>
+</annotation>

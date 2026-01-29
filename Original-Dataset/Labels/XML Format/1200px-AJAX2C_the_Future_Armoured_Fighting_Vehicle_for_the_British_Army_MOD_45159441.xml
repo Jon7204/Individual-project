@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1200px-AJAX2C_the_Future_Armoured_Fighting_Vehicle_for_the_British_Army_MOD_45159441.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1200px-AJAX2C_the_Future_Armoured_Fighting_Vehicle_for_the_British_Army_MOD_45159441.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>798</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>123</xmin>
+            <ymin>51</ymin>
+            <xmax>1037</xmax>
+            <ymax>738</ymax>
+        </bndbox>
+    </object>
+</annotation>

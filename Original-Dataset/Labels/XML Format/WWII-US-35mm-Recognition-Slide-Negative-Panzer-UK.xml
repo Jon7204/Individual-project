@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>WWII-US-35mm-Recognition-Slide-Negative-Panzer-UK.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/WWII-US-35mm-Recognition-Slide-Negative-Panzer-UK.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>372</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>75</xmin>
+            <ymin>119</ymin>
+            <xmax>302</xmax>
+            <ymax>292</ymax>
+        </bndbox>
+    </object>
+</annotation>

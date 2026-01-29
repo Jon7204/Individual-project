@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>afp_1bd6tq-e1575946874823.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/afp_1bd6tq-e1575946874823.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>815</width>
+        <height>612</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>89</xmin>
+            <ymin>240</ymin>
+            <xmax>723</xmax>
+            <ymax>417</ymax>
+        </bndbox>
+    </object>
+</annotation>

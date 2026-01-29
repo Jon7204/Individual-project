@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Untitled-design-2019-08-02T175015.694-866x487.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Untitled-design-2019-08-02T175015.694-866x487.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>866</width>
+        <height>487</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>474</xmin>
+            <ymin>165</ymin>
+            <xmax>825</xmax>
+            <ymax>455</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>204</xmin>
+            <ymin>243</ymin>
+            <xmax>314</xmax>
+            <ymax>346</ymax>
+        </bndbox>
+    </object>
+</annotation>

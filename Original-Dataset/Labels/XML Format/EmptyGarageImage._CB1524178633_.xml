@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>EmptyGarageImage._CB1524178633_.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/EmptyGarageImage._CB1524178633_.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1500</width>
+        <height>650</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>540</xmin>
+            <ymin>149</ymin>
+            <xmax>1426</xmax>
+            <ymax>533</ymax>
+        </bndbox>
+    </object>
+</annotation>

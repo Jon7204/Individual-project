@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>900_887898noA4_top-front-angle-view-of-military-tank-covered-in-camo-fondant-with-grad-sitting-on-top-looking-at-a-computer-since-he-likes-both-tanks-and-c.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/900_887898noA4_top-front-angle-view-of-military-tank-covered-in-camo-fondant-with-grad-sitting-on-top-looking-at-a-computer-since-he-likes-both-tanks-and-c.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>900</width>
+        <height>507</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>133</xmin>
+            <ymin>74</ymin>
+            <xmax>646</xmax>
+            <ymax>422</ymax>
+        </bndbox>
+    </object>
+</annotation>

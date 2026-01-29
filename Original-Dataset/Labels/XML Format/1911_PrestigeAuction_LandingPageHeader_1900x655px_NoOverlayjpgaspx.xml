@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1911_PrestigeAuction_LandingPageHeader_1900x655px_NoOverlayjpgaspx.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1911_PrestigeAuction_LandingPageHeader_1900x655px_NoOverlayjpgaspx.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>414</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>357</xmin>
+            <ymin>39</ymin>
+            <xmax>878</xmax>
+            <ymax>351</ymax>
+        </bndbox>
+    </object>
+</annotation>

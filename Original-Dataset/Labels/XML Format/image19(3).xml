@@ -1,0 +1,81 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>image19(3).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/image19(3).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>242</width>
+        <height>208</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>84</xmin>
+            <ymin>19</ymin>
+            <xmax>156</xmax>
+            <ymax>98</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>150</xmin>
+            <ymin>34</ymin>
+            <xmax>233</xmax>
+            <ymax>96</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>157</xmin>
+            <ymin>107</ymin>
+            <xmax>225</xmax>
+            <ymax>156</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>87</xmin>
+            <ymin>108</ymin>
+            <xmax>153</xmax>
+            <ymax>157</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>6</xmin>
+            <ymin>106</ymin>
+            <xmax>80</xmax>
+            <ymax>163</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>16</xmin>
+            <ymin>24</ymin>
+            <xmax>69</xmax>
+            <ymax>89</ymax>
+        </bndbox>
+    </object>
+</annotation>

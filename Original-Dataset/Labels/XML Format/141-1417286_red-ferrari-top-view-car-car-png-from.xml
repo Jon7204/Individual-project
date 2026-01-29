@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>141-1417286_red-ferrari-top-view-car-car-png-from.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/141-1417286_red-ferrari-top-view-car-car-png-from.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>920</width>
+        <height>588</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>80</xmin>
+            <ymin>32</ymin>
+            <xmax>846</xmax>
+            <ymax>480</ymax>
+        </bndbox>
+    </object>
+</annotation>

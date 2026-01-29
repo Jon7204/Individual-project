@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>659-military-tank-pressed-into-service-to-clear-the-tracks-near-the-image-acc894fc384d2d6bf2e9d1a419594f86-IANS.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/659-military-tank-pressed-into-service-to-clear-the-tracks-near-the-image-acc894fc384d2d6bf2e9d1a419594f86-IANS.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>879</width>
+        <height>659</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>399</xmin>
+            <ymin>262</ymin>
+            <xmax>785</xmax>
+            <ymax>403</ymax>
+        </bndbox>
+    </object>
+</annotation>

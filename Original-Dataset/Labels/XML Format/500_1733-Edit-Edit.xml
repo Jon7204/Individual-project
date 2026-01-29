@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>500_1733-Edit-Edit.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/500_1733-Edit-Edit.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1800</width>
+        <height>1204</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>86</xmin>
+            <ymin>504</ymin>
+            <xmax>1573</xmax>
+            <ymax>884</ymax>
+        </bndbox>
+    </object>
+</annotation>

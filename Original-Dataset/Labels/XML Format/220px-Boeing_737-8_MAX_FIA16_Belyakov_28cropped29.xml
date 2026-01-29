@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>220px-Boeing_737-8_MAX_FIA16_Belyakov_28cropped29.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/220px-Boeing_737-8_MAX_FIA16_Belyakov_28cropped29.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>220</width>
+        <height>147</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>47</xmin>
+            <ymin>19</ymin>
+            <xmax>158</xmax>
+            <ymax>122</ymax>
+        </bndbox>
+    </object>
+</annotation>

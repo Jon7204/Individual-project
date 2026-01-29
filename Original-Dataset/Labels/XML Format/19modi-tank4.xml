@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>19modi-tank4.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/19modi-tank4.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>670</width>
+        <height>447</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>21</xmin>
+            <ymin>131</ymin>
+            <xmax>647</xmax>
+            <ymax>415</ymax>
+        </bndbox>
+    </object>
+</annotation>

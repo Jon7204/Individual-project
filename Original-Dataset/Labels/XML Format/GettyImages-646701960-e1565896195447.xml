@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>GettyImages-646701960-e1565896195447.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/GettyImages-646701960-e1565896195447.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>6016</width>
+        <height>3384</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>4056</xmin>
+            <ymin>2094</ymin>
+            <xmax>5423</xmax>
+            <ymax>2994</ymax>
+        </bndbox>
+    </object>
+</annotation>

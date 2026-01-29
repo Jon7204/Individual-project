@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>M1A1-Abrams-US-Army.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/M1A1-Abrams-US-Army.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1840</width>
+        <height>1224</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>23</xmin>
+            <ymin>103</ymin>
+            <xmax>429</xmax>
+            <ymax>839</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>233</xmin>
+            <ymin>180</ymin>
+            <xmax>845</xmax>
+            <ymax>1048</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>585</xmin>
+            <ymin>80</ymin>
+            <xmax>1645</xmax>
+            <ymax>1188</ymax>
+        </bndbox>
+    </object>
+</annotation>

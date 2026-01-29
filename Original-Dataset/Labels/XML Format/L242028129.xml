@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>L242028129.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/L242028129.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1260</width>
+        <height>886</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>14</xmin>
+            <ymin>37</ymin>
+            <xmax>991</xmax>
+            <ymax>451</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>610</xmin>
+            <ymin>394</ymin>
+            <xmax>1082</xmax>
+            <ymax>597</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>819</xmin>
+            <ymin>577</ymin>
+            <xmax>1041</xmax>
+            <ymax>727</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1043</xmin>
+            <ymin>536</ymin>
+            <xmax>1137</xmax>
+            <ymax>763</ymax>
+        </bndbox>
+    </object>
+</annotation>

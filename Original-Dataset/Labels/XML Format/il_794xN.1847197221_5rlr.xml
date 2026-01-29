@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>il_794xN.1847197221_5rlr.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/il_794xN.1847197221_5rlr.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>794</width>
+        <height>544</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>245</xmin>
+            <ymin>137</ymin>
+            <xmax>531</xmax>
+            <ymax>386</ymax>
+        </bndbox>
+    </object>
+</annotation>

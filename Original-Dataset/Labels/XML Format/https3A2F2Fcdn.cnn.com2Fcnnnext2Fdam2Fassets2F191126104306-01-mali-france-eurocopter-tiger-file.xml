@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>https3A2F2Fcdn.cnn.com2Fcnnnext2Fdam2Fassets2F191126104306-01-mali-france-eurocopter-tiger-file.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/https3A2F2Fcdn.cnn.com2Fcnnnext2Fdam2Fassets2F191126104306-01-mali-france-eurocopter-tiger-file.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>675</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>36</xmin>
+            <ymin>235</ymin>
+            <xmax>680</xmax>
+            <ymax>452</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>809</xmin>
+            <ymin>276</ymin>
+            <xmax>1144</xmax>
+            <ymax>356</ymax>
+        </bndbox>
+    </object>
+</annotation>

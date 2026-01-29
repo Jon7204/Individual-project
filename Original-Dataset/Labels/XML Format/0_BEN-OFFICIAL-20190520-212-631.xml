@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>0_BEN-OFFICIAL-20190520-212-631.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/0_BEN-OFFICIAL-20190520-212-631.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>615</width>
+        <height>409</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>112</xmin>
+            <ymin>91</ymin>
+            <xmax>546</xmax>
+            <ymax>384</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>3d-image-of-military-aircraft-top-front-and-side-vector-20835024.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/3d-image-of-military-aircraft-top-front-and-side-vector-20835024.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>238</width>
+        <height>250</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>13</xmin>
+            <ymin>60</ymin>
+            <xmax>113</xmax>
+            <ymax>195</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>112</xmin>
+            <ymin>66</ymin>
+            <xmax>212</xmax>
+            <ymax>98</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>107</xmin>
+            <ymin>159</ymin>
+            <xmax>209</xmax>
+            <ymax>195</ymax>
+        </bndbox>
+    </object>
+</annotation>

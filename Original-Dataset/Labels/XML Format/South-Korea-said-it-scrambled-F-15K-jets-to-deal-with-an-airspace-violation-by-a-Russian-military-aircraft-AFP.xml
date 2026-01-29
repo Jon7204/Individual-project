@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>South-Korea-said-it-scrambled-F-15K-jets-to-deal-with-an-airspace-violation-by-a-Russian-military-aircraft-AFP.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/South-Korea-said-it-scrambled-F-15K-jets-to-deal-with-an-airspace-violation-by-a-Russian-military-aircraft-AFP.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>768</width>
+        <height>490</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>90</xmin>
+            <ymin>160</ymin>
+            <xmax>520</xmax>
+            <ymax>397</ymax>
+        </bndbox>
+    </object>
+</annotation>

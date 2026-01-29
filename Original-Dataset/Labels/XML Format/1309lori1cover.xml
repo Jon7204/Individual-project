@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1309lori1cover.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1309lori1cover.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>595</width>
+        <height>300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>52</xmin>
+            <ymin>1</ymin>
+            <xmax>557</xmax>
+            <ymax>288</ymax>
+        </bndbox>
+    </object>
+</annotation>

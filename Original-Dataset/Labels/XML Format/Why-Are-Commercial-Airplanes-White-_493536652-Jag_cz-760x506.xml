@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Why-Are-Commercial-Airplanes-White-_493536652-Jag_cz-760x506.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Why-Are-Commercial-Airplanes-White-_493536652-Jag_cz-760x506.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>760</width>
+        <height>506</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>51</xmin>
+            <ymin>163</ymin>
+            <xmax>707</xmax>
+            <ymax>435</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Layout-of-FORMOSAT-7-COSMIC-2-satellite-viewed-from-both-the-a-top-and-b-bottom_Q640.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Layout-of-FORMOSAT-7-COSMIC-2-satellite-viewed-from-both-the-a-top-and-b-bottom_Q640.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>396</width>
+        <height>396</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

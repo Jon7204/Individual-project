@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>The-10-Most-Bizarre-Tanks-Ever-Built-1(1).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/The-10-Most-Bizarre-Tanks-Ever-Built-1(1).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>509</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>452</xmin>
+            <ymin>271</ymin>
+            <xmax>793</xmax>
+            <ymax>498</ymax>
+        </bndbox>
+    </object>
+</annotation>

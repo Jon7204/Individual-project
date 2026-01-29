@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>LeClerc_11.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/LeClerc_11.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>600</width>
+        <height>450</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>62</xmin>
+            <ymin>39</ymin>
+            <xmax>536</xmax>
+            <ymax>387</ymax>
+        </bndbox>
+    </object>
+</annotation>

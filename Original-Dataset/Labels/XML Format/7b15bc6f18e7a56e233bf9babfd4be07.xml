@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>7b15bc6f18e7a56e233bf9babfd4be07.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/7b15bc6f18e7a56e233bf9babfd4be07.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2048</width>
+        <height>1370</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>35</xmin>
+            <ymin>600</ymin>
+            <xmax>1745</xmax>
+            <ymax>983</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>596</xmin>
+            <ymin>556</ymin>
+            <xmax>877</xmax>
+            <ymax>689</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>371</xmin>
+            <ymin>456</ymin>
+            <xmax>791</xmax>
+            <ymax>583</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>982</xmin>
+            <ymin>506</ymin>
+            <xmax>1209</xmax>
+            <ymax>537</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1288</xmin>
+            <ymin>441</ymin>
+            <xmax>1571</xmax>
+            <ymax>498</ymax>
+        </bndbox>
+    </object>
+</annotation>

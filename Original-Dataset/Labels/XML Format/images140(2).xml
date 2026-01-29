@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>images140(2).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/images140(2).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>218</width>
+        <height>231</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>113</xmin>
+            <ymin>169</ymin>
+            <xmax>201</xmax>
+            <ymax>229</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>18</xmin>
+            <ymin>171</ymin>
+            <xmax>107</xmax>
+            <ymax>228</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>60</ymin>
+            <xmax>215</xmax>
+            <ymax>154</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>2</ymin>
+            <xmax>214</xmax>
+            <ymax>56</ymax>
+        </bndbox>
+    </object>
+</annotation>

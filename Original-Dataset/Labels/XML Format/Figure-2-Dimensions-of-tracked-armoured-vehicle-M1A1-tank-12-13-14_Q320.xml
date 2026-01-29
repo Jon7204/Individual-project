@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Figure-2-Dimensions-of-tracked-armoured-vehicle-M1A1-tank-12-13-14_Q320.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Figure-2-Dimensions-of-tracked-armoured-vehicle-M1A1-tank-12-13-14_Q320.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>320</width>
+        <height>320</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>148</xmin>
+            <ymin>202</ymin>
+            <xmax>254</xmax>
+            <ymax>257</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>144</xmin>
+            <ymin>84</ymin>
+            <xmax>259</xmax>
+            <ymax>148</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>6</xmin>
+            <ymin>8</ymin>
+            <xmax>65</xmax>
+            <ymax>63</ymax>
+        </bndbox>
+    </object>
+</annotation>

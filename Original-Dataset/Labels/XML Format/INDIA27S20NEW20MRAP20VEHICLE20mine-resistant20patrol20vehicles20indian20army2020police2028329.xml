@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>INDIA27S20NEW20MRAP20VEHICLE20mine-resistant20patrol20vehicles20indian20army2020police2028329.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/INDIA27S20NEW20MRAP20VEHICLE20mine-resistant20patrol20vehicles20indian20army2020police2028329.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>685</width>
+        <height>764</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>49</xmin>
+            <ymin>5</ymin>
+            <xmax>608</xmax>
+            <ymax>584</ymax>
+        </bndbox>
+    </object>
+</annotation>

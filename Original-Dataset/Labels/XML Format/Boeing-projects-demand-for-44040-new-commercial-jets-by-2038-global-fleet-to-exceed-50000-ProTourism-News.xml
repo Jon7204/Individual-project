@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Boeing-projects-demand-for-44040-new-commercial-jets-by-2038-global-fleet-to-exceed-50000-ProTourism-News.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Boeing-projects-demand-for-44040-new-commercial-jets-by-2038-global-fleet-to-exceed-50000-ProTourism-News.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>646</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>40</xmin>
+            <ymin>271</ymin>
+            <xmax>602</xmax>
+            <ymax>410</ymax>
+        </bndbox>
+    </object>
+</annotation>

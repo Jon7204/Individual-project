@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2020-mercedes-amg-cla35-101-1576122957.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2020-mercedes-amg-cla35-101-1576122957.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>6720</width>
+        <height>4480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2977</xmin>
+            <ymin>2077</ymin>
+            <xmax>5570</xmax>
+            <ymax>3402</ymax>
+        </bndbox>
+    </object>
+</annotation>

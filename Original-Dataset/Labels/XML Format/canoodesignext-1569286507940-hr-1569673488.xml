@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>canoodesignext-1569286507940-hr-1569673488.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/canoodesignext-1569286507940-hr-1569673488.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2700</width>
+        <height>1519</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>818</xmin>
+            <ymin>394</ymin>
+            <xmax>2376</xmax>
+            <ymax>1322</ymax>
+        </bndbox>
+    </object>
+</annotation>

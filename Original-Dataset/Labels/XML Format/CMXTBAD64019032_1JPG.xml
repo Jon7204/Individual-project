@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>CMXTBAD64019032_1JPG.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/CMXTBAD64019032_1JPG.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>500</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

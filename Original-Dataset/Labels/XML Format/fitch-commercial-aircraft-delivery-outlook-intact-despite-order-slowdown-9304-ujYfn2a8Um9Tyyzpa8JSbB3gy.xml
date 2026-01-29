@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>fitch-commercial-aircraft-delivery-outlook-intact-despite-order-slowdown-9304-ujYfn2a8Um9Tyyzpa8JSbB3gy.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/fitch-commercial-aircraft-delivery-outlook-intact-despite-order-slowdown-9304-ujYfn2a8Um9Tyyzpa8JSbB3gy.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2000</width>
+        <height>1471</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>118</xmin>
+            <ymin>309</ymin>
+            <xmax>1716</xmax>
+            <ymax>982</ymax>
+        </bndbox>
+    </object>
+</annotation>

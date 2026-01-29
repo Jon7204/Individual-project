@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Arjun_main_battle_tank_heavy_tracked_armoured_vehicle_India_indian_Army_line_drawing_blueprint_002.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Arjun_main_battle_tank_heavy_tracked_armoured_vehicle_India_indian_Army_line_drawing_blueprint_002.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>546</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>4</xmin>
+            <ymin>237</ymin>
+            <xmax>539</xmax>
+            <ymax>391</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>10</ymin>
+            <xmax>540</xmax>
+            <ymax>213</ymax>
+        </bndbox>
+    </object>
+</annotation>

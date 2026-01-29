@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>F35Jet.AFP_.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/F35Jet.AFP_.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1400</width>
+        <height>932</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>101</xmin>
+            <ymin>28</ymin>
+            <xmax>1273</xmax>
+            <ymax>564</ymax>
+        </bndbox>
+    </object>
+</annotation>

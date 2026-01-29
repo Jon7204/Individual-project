@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>attack-AH-64-Apache-reconnaissance-helicopter-prototype-form-1975.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/attack-AH-64-Apache-reconnaissance-helicopter-prototype-form-1975.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1066</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>216</xmin>
+            <ymin>71</ymin>
+            <xmax>1451</xmax>
+            <ymax>940</ymax>
+        </bndbox>
+    </object>
+</annotation>

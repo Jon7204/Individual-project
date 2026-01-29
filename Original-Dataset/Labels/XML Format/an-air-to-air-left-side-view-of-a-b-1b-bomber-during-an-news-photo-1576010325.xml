@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>an-air-to-air-left-side-view-of-a-b-1b-bomber-during-an-news-photo-1576010325.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/an-air-to-air-left-side-view-of-a-b-1b-bomber-during-an-news-photo-1576010325.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2956</width>
+        <height>1945</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>371</xmin>
+            <ymin>701</ymin>
+            <xmax>2777</xmax>
+            <ymax>1130</ymax>
+        </bndbox>
+    </object>
+</annotation>

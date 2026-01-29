@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>combat-helicopter-mi-28-top-view_bwc43684939.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/combat-helicopter-mi-28-top-view_bwc43684939.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>157</width>
+        <height>179</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>59</xmin>
+            <ymin>61</ymin>
+            <xmax>77</xmax>
+            <ymax>118</ymax>
+        </bndbox>
+    </object>
+</annotation>

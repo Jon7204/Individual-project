@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>boat-top-view-publicdomain.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/boat-top-view-publicdomain.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>300</width>
+        <height>300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

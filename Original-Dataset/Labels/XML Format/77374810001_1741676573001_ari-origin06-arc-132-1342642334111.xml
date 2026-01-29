@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>77374810001_1741676573001_ari-origin06-arc-132-1342642334111.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/77374810001_1741676573001_ari-origin06-arc-132-1342642334111.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>480</width>
+        <height>268</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

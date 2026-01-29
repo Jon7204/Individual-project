@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>images139(9).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/images139(9).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>225</width>
+        <height>225</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>20</xmin>
+            <ymin>50</ymin>
+            <xmax>111</xmax>
+            <ymax>98</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>29</xmin>
+            <ymin>132</ymin>
+            <xmax>61</xmax>
+            <ymax>191</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>110</xmin>
+            <ymin>118</ymin>
+            <xmax>178</xmax>
+            <ymax>143</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>181</xmin>
+            <ymin>116</ymin>
+            <xmax>223</xmax>
+            <ymax>149</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>92</xmin>
+            <ymin>120</ymin>
+            <xmax>109</xmax>
+            <ymax>143</ymax>
+        </bndbox>
+    </object>
+</annotation>

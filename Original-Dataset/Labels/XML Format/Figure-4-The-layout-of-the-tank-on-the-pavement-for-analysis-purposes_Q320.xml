@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Figure-4-The-layout-of-the-tank-on-the-pavement-for-analysis-purposes_Q320.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Figure-4-The-layout-of-the-tank-on-the-pavement-for-analysis-purposes_Q320.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>320</width>
+        <height>320</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>8</ymin>
+            <xmax>83</xmax>
+            <ymax>66</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>136</xmin>
+            <ymin>56</ymin>
+            <xmax>283</xmax>
+            <ymax>142</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>101</xmin>
+            <ymin>184</ymin>
+            <xmax>286</xmax>
+            <ymax>263</ymax>
+        </bndbox>
+    </object>
+</annotation>

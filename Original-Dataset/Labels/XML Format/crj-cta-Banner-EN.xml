@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>crj-cta-Banner-EN.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/crj-cta-Banner-EN.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>960</width>
+        <height>347</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>142</xmin>
+            <ymin>31</ymin>
+            <xmax>810</xmax>
+            <ymax>284</ymax>
+        </bndbox>
+    </object>
+</annotation>

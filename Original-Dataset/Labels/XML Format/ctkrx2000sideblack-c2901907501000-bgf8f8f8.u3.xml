@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>ctkrx2000sideblack-c2901907501000-bgf8f8f8.u3.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/ctkrx2000sideblack-c2901907501000-bgf8f8f8.u3.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>750</width>
+        <height>1000</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>BRL_0694.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/BRL_0694.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>445</width>
+        <height>305</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>108</xmin>
+            <ymin>14</ymin>
+            <xmax>441</xmax>
+            <ymax>284</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>35</ymin>
+            <xmax>102</xmax>
+            <ymax>190</ymax>
+        </bndbox>
+    </object>
+</annotation>

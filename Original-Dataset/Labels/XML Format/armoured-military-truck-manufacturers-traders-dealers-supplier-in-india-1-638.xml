@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>armoured-military-truck-manufacturers-traders-dealers-supplier-in-india-1-638.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/armoured-military-truck-manufacturers-traders-dealers-supplier-in-india-1-638.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>638</width>
+        <height>903</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>333</xmin>
+            <ymin>549</ymin>
+            <xmax>458</xmax>
+            <ymax>633</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>115</xmin>
+            <ymin>532</ymin>
+            <xmax>239</xmax>
+            <ymax>633</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>119</xmin>
+            <ymin>696</ymin>
+            <xmax>239</xmax>
+            <ymax>784</ymax>
+        </bndbox>
+    </object>
+</annotation>

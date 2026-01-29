@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Luaz-969M-1-43-greenlight-Premium-X-triple9-Atlas-ixo-diecast-car-bus-scale-model-commercial-vehicle-scale-arts-india-1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Luaz-969M-1-43-greenlight-Premium-X-triple9-Atlas-ixo-diecast-car-bus-scale-model-commercial-vehicle-scale-arts-india-1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>33</xmin>
+            <ymin>65</ymin>
+            <xmax>709</xmax>
+            <ymax>549</ymax>
+        </bndbox>
+    </object>
+</annotation>

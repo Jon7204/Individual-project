@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Tata_Motors_contract_to_supply_around_1200_6x6_military_trucks_to_Indian_Army_640_001.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Tata_Motors_contract_to_supply_around_1200_6x6_military_trucks_to_Indian_Army_640_001.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>180</xmin>
+            <ymin>10</ymin>
+            <xmax>595</xmax>
+            <ymax>442</ymax>
+        </bndbox>
+    </object>
+</annotation>

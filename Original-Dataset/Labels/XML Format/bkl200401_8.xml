@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>bkl200401_8.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/bkl200401_8.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>527</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>88</xmin>
+            <ymin>20</ymin>
+            <xmax>391</xmax>
+            <ymax>173</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>86</xmin>
+            <ymin>185</ymin>
+            <xmax>392</xmax>
+            <ymax>356</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>233</xmin>
+            <ymin>380</ymin>
+            <xmax>397</xmax>
+            <ymax>518</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>6</xmin>
+            <ymin>364</ymin>
+            <xmax>168</xmax>
+            <ymax>521</ymax>
+        </bndbox>
+    </object>
+</annotation>

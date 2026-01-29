@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>_107715692_gettyimages-1159570665.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/_107715692_gettyimages-1159570665.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>660</width>
+        <height>371</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>210</ymin>
+            <xmax>97</xmax>
+            <ymax>297</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>354</xmin>
+            <ymin>93</ymin>
+            <xmax>574</xmax>
+            <ymax>235</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>254</xmin>
+            <ymin>131</ymin>
+            <xmax>351</xmax>
+            <ymax>238</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>118</xmin>
+            <ymin>136</ymin>
+            <xmax>224</xmax>
+            <ymax>224</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>54</xmin>
+            <ymin>149</ymin>
+            <xmax>133</xmax>
+            <ymax>238</ymax>
+        </bndbox>
+    </object>
+</annotation>

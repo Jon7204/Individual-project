@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>61535-551_grande.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/61535-551_grande.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>550</width>
+        <height>550</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>130</xmin>
+            <ymin>190</ymin>
+            <xmax>429</xmax>
+            <ymax>321</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>133</xmin>
+            <ymin>341</ymin>
+            <xmax>429</xmax>
+            <ymax>491</ymax>
+        </bndbox>
+    </object>
+</annotation>

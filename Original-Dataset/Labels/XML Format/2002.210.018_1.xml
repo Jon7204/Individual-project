@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2002.210.018_1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2002.210.018_1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3600</width>
+        <height>2102</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1625</xmin>
+            <ymin>1318</ymin>
+            <xmax>2165</xmax>
+            <ymax>1772</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1251</xmin>
+            <ymin>1123</ymin>
+            <xmax>1597</xmax>
+            <ymax>1557</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>amarg-aerial-view-kc135-stratotankers.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/amarg-aerial-view-kc135-stratotankers.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>334</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>252</xmin>
+            <ymin>16</ymin>
+            <xmax>472</xmax>
+            <ymax>195</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>6</ymin>
+            <xmax>224</xmax>
+            <ymax>153</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>130</xmin>
+            <ymin>177</ymin>
+            <xmax>337</xmax>
+            <ymax>320</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>494</xmin>
+            <ymin>35</ymin>
+            <xmax>632</xmax>
+            <ymax>215</ymax>
+        </bndbox>
+    </object>
+</annotation>

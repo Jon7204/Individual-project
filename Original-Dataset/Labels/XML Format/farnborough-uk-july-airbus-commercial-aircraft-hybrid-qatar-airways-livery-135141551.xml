@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>farnborough-uk-july-airbus-commercial-aircraft-hybrid-qatar-airways-livery-135141551.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/farnborough-uk-july-airbus-commercial-aircraft-hybrid-qatar-airways-livery-135141551.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>533</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>67</xmin>
+            <ymin>208</ymin>
+            <xmax>768</xmax>
+            <ymax>420</ymax>
+        </bndbox>
+    </object>
+</annotation>

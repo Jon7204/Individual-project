@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Armored-Personnel-Carrier-India-Panthera-F9-APC-.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Armored-Personnel-Carrier-India-Panthera-F9-APC-.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>960</width>
+        <height>540</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>83</ymin>
+            <xmax>866</xmax>
+            <ymax>464</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>220px-IA_T-90_in_action.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/220px-IA_T-90_in_action.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>220</width>
+        <height>293</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>74</xmin>
+            <ymin>137</ymin>
+            <xmax>140</xmax>
+            <ymax>169</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>142</xmin>
+            <ymin>177</ymin>
+            <xmax>197</xmax>
+            <ymax>206</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>58</xmin>
+            <ymin>196</ymin>
+            <xmax>149</xmax>
+            <ymax>257</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>77</xmin>
+            <ymin>101</ymin>
+            <xmax>135</xmax>
+            <ymax>132</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>161</xmin>
+            <ymin>124</ymin>
+            <xmax>194</xmax>
+            <ymax>160</ymax>
+        </bndbox>
+    </object>
+</annotation>

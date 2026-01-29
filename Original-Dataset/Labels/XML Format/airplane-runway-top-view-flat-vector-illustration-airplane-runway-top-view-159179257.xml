@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airplane-runway-top-view-flat-vector-illustration-airplane-runway-top-view-159179257.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airplane-runway-top-view-flat-vector-illustration-airplane-runway-top-view-159179257.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>533</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>207</xmin>
+            <ymin>21</ymin>
+            <xmax>662</xmax>
+            <ymax>511</ymax>
+        </bndbox>
+    </object>
+</annotation>

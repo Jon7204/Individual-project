@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>04a_sep2019_loadslinghummertrailer_live.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/04a_sep2019_loadslinghummertrailer_live.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>7800</width>
+        <height>4016</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1288</xmin>
+            <ymin>382</ymin>
+            <xmax>4623</xmax>
+            <ymax>2298</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1357</xmin>
+            <ymin>2456</ymin>
+            <xmax>2887</xmax>
+            <ymax>3414</ymax>
+        </bndbox>
+    </object>
+</annotation>

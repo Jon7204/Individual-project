@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>FV432-APC-AM-1-400x400.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/FV432-APC-AM-1-400x400.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>14</xmin>
+            <ymin>49</ymin>
+            <xmax>346</xmax>
+            <ymax>381</ymax>
+        </bndbox>
+    </object>
+</annotation>

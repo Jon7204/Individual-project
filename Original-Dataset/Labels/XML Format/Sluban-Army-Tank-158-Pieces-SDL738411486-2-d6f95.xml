@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Sluban-Army-Tank-158-Pieces-SDL738411486-2-d6f95.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Sluban-Army-Tank-158-Pieces-SDL738411486-2-d6f95.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1500</width>
+        <height>1125</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>169</xmin>
+            <ymin>89</ymin>
+            <xmax>1427</xmax>
+            <ymax>917</ymax>
+        </bndbox>
+    </object>
+</annotation>

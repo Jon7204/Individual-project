@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>celebrity-row-davis-monthan-afb-amarg.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/celebrity-row-davis-monthan-afb-amarg.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>389</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>8</xmin>
+            <ymin>225</ymin>
+            <xmax>629</xmax>
+            <ymax>311</ymax>
+        </bndbox>
+    </object>
+</annotation>

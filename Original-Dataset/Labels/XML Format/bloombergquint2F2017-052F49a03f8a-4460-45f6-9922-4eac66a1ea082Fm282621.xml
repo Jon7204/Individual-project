@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>bloombergquint2F2017-052F49a03f8a-4460-45f6-9922-4eac66a1ea082Fm282621.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/bloombergquint2F2017-052F49a03f8a-4460-45f6-9922-4eac66a1ea082Fm282621.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3060</width>
+        <height>1710</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>751</xmin>
+            <ymin>138</ymin>
+            <xmax>2242</xmax>
+            <ymax>1548</ymax>
+        </bndbox>
+    </object>
+</annotation>

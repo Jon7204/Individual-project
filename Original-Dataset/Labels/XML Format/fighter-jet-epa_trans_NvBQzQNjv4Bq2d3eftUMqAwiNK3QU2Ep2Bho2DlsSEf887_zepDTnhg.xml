@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>fighter-jet-epa_trans_NvBQzQNjv4Bq2d3eftUMqAwiNK3QU2Ep2Bho2DlsSEf887_zepDTnhg.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/fighter-jet-epa_trans_NvBQzQNjv4Bq2d3eftUMqAwiNK3QU2Ep2Bho2DlsSEf887_zepDTnhg.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1928</width>
+        <height>1205</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>237</xmin>
+            <ymin>85</ymin>
+            <xmax>1646</xmax>
+            <ymax>1180</ymax>
+        </bndbox>
+    </object>
+</annotation>

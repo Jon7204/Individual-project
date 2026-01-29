@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>M1A1_USMC.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/M1A1_USMC.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1510</width>
+        <height>860</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>19</xmin>
+            <ymin>14</ymin>
+            <xmax>1018</xmax>
+            <ymax>433</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1055</xmin>
+            <ymin>31</ymin>
+            <xmax>1364</xmax>
+            <ymax>481</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>441</ymin>
+            <xmax>1058</xmax>
+            <ymax>838</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1091</xmin>
+            <ymin>512</ymin>
+            <xmax>1357</xmax>
+            <ymax>836</ymax>
+        </bndbox>
+    </object>
+</annotation>

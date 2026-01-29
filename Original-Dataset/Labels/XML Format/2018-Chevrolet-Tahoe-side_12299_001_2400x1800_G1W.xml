@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2018-Chevrolet-Tahoe-side_12299_001_2400x1800_G1W.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2018-Chevrolet-Tahoe-side_12299_001_2400x1800_G1W.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2400</width>
+        <height>1800</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>49</xmin>
+            <ymin>398</ymin>
+            <xmax>2314</xmax>
+            <ymax>1366</ymax>
+        </bndbox>
+    </object>
+</annotation>

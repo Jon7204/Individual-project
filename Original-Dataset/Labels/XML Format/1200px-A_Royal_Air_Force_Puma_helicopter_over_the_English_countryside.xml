@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1200px-A_Royal_Air_Force_Puma_helicopter_over_the_English_countryside.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1200px-A_Royal_Air_Force_Puma_helicopter_over_the_English_countryside.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>742</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>180</xmin>
+            <ymin>146</ymin>
+            <xmax>1125</xmax>
+            <ymax>626</ymax>
+        </bndbox>
+    </object>
+</annotation>

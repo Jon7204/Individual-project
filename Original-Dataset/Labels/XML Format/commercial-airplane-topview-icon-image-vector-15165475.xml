@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>commercial-airplane-topview-icon-image-vector-15165475.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/commercial-airplane-topview-icon-image-vector-15165475.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1000</width>
+        <height>1026</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>0</xmin>
+            <ymin>18</ymin>
+            <xmax>976</xmax>
+            <ymax>938</ymax>
+        </bndbox>
+    </object>
+</annotation>

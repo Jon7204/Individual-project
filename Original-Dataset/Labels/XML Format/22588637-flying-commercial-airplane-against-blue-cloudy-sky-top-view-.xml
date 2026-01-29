@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>22588637-flying-commercial-airplane-against-blue-cloudy-sky-top-view-.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/22588637-flying-commercial-airplane-against-blue-cloudy-sky-top-view-.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>975</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>171</xmin>
+            <ymin>207</ymin>
+            <xmax>1039</xmax>
+            <ymax>778</ymax>
+        </bndbox>
+    </object>
+</annotation>

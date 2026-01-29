@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>helicopter-stealth-595.n.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/helicopter-stealth-595.n.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>410</width>
+        <height>230</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>32</xmin>
+            <ymin>25</ymin>
+            <xmax>360</xmax>
+            <ymax>190</ymax>
+        </bndbox>
+    </object>
+</annotation>

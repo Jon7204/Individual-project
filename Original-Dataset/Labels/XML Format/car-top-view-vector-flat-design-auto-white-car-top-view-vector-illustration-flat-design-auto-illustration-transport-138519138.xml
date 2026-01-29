@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>car-top-view-vector-flat-design-auto-white-car-top-view-vector-illustration-flat-design-auto-illustration-transport-138519138.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/car-top-view-vector-flat-design-auto-white-car-top-view-vector-illustration-flat-design-auto-illustration-transport-138519138.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>419</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>53</xmin>
+            <ymin>72</ymin>
+            <xmax>731</xmax>
+            <ymax>364</ymax>
+        </bndbox>
+    </object>
+</annotation>

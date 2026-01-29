@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>eight_col_000_1H95VB.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/eight_col_000_1H95VB.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>720</width>
+        <height>450</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>21</xmin>
+            <ymin>132</ymin>
+            <xmax>580</xmax>
+            <ymax>435</ymax>
+        </bndbox>
+    </object>
+</annotation>

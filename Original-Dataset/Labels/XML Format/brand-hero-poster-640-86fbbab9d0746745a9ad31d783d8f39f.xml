@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>brand-hero-poster-640-86fbbab9d0746745a9ad31d783d8f39f.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/brand-hero-poster-640-86fbbab9d0746745a9ad31d783d8f39f.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>1136</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>23</xmin>
+            <ymin>218</ymin>
+            <xmax>631</xmax>
+            <ymax>1055</ymax>
+        </bndbox>
+    </object>
+</annotation>

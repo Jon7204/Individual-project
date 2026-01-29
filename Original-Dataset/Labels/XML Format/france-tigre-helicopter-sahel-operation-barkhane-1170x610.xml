@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>france-tigre-helicopter-sahel-operation-barkhane-1170x610.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/france-tigre-helicopter-sahel-operation-barkhane-1170x610.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1170</width>
+        <height>610</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>349</xmin>
+            <ymin>112</ymin>
+            <xmax>838</xmax>
+            <ymax>437</ymax>
+        </bndbox>
+    </object>
+</annotation>

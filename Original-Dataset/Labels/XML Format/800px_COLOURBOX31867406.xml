@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>800px_COLOURBOX31867406.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/800px_COLOURBOX31867406.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>800</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>264</xmin>
+            <ymin>322</ymin>
+            <xmax>554</xmax>
+            <ymax>627</ymax>
+        </bndbox>
+    </object>
+</annotation>

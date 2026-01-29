@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Bus-Car-Vacation-Travel-Transport-Travel-Free-Imag-2035.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Bus-Car-Vacation-Travel-Transport-Travel-Free-Imag-2035.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>595</width>
+        <height>304</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>53</ymin>
+            <xmax>588</xmax>
+            <ymax>261</ymax>
+        </bndbox>
+    </object>
+</annotation>

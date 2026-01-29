@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>hg3318_russian_medium_tank_top_view_hobby_master.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/hg3318_russian_medium_tank_top_view_hobby_master.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1067</width>
+        <height>485</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>62</xmin>
+            <ymin>87</ymin>
+            <xmax>946</xmax>
+            <ymax>432</ymax>
+        </bndbox>
+    </object>
+</annotation>

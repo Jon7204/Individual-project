@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>800px-ea-6bprowlerssupportingnorthernwatch-1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/800px-ea-6bprowlerssupportingnorthernwatch-1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>694</width>
+        <height>520</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>55</xmin>
+            <ymin>61</ymin>
+            <xmax>603</xmax>
+            <ymax>254</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>352</xmin>
+            <ymin>308</ymin>
+            <xmax>622</xmax>
+            <ymax>410</ymax>
+        </bndbox>
+    </object>
+</annotation>

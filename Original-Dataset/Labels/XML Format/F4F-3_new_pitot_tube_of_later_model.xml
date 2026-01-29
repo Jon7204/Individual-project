@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>F4F-3_new_pitot_tube_of_later_model.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/F4F-3_new_pitot_tube_of_later_model.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>5985</width>
+        <height>4361</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1177</xmin>
+            <ymin>1720</ymin>
+            <xmax>4935</xmax>
+            <ymax>3057</ymax>
+        </bndbox>
+    </object>
+</annotation>

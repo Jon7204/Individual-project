@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>graphicanjelo-chopper-concept-1-3fe585b9-0ppg.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/graphicanjelo-chopper-concept-1-3fe585b9-0ppg.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1366</width>
+        <height>419</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>83</xmin>
+            <ymin>106</ymin>
+            <xmax>659</xmax>
+            <ymax>309</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1102</xmin>
+            <ymin>32</ymin>
+            <xmax>1226</xmax>
+            <ymax>319</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>770</xmin>
+            <ymin>41</ymin>
+            <xmax>1074</xmax>
+            <ymax>243</ymax>
+        </bndbox>
+    </object>
+</annotation>

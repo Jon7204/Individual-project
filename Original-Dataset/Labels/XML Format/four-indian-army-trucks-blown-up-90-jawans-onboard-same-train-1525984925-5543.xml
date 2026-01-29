@@ -1,0 +1,81 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>four-indian-army-trucks-blown-up-90-jawans-onboard-same-train-1525984925-5543.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/four-indian-army-trucks-blown-up-90-jawans-onboard-same-train-1525984925-5543.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>293</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>279</xmin>
+            <ymin>9</ymin>
+            <xmax>358</xmax>
+            <ymax>251</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>109</xmin>
+            <ymin>23</ymin>
+            <xmax>272</xmax>
+            <ymax>210</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>57</xmin>
+            <ymin>85</ymin>
+            <xmax>102</xmax>
+            <ymax>187</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>32</xmin>
+            <ymin>109</ymin>
+            <xmax>49</xmax>
+            <ymax>178</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>19</xmin>
+            <ymin>122</ymin>
+            <xmax>29</xmax>
+            <ymax>179</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>126</ymin>
+            <xmax>16</xmax>
+            <ymax>167</ymax>
+        </bndbox>
+    </object>
+</annotation>

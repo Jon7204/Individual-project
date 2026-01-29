@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>0b28dfae627833f2697dddd956d57558--panzer-iv-military-tank.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/0b28dfae627833f2697dddd956d57558--panzer-iv-military-tank.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>235</width>
+        <height>179</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>18</xmin>
+            <ymin>26</ymin>
+            <xmax>221</xmax>
+            <ymax>121</ymax>
+        </bndbox>
+    </object>
+</annotation>

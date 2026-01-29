@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>106079145-top-view-of-f22-american-military-fighter-plane-on-white-background-3d-rendering.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/106079145-top-view-of-f22-american-military-fighter-plane-on-white-background-3d-rendering.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>1300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>206</xmin>
+            <ymin>172</ymin>
+            <xmax>1153</xmax>
+            <ymax>1105</ymax>
+        </bndbox>
+    </object>
+</annotation>

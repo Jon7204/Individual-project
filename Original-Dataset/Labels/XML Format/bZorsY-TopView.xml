@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>bZorsY-TopView.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/bZorsY-TopView.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>720</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>86</xmin>
+            <ymin>2</ymin>
+            <xmax>638</xmax>
+            <ymax>703</ymax>
+        </bndbox>
+    </object>
+</annotation>

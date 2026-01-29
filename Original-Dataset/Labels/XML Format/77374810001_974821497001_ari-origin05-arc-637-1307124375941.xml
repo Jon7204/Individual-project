@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>77374810001_974821497001_ari-origin05-arc-637-1307124375941.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/77374810001_974821497001_ari-origin05-arc-637-1307124375941.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>480</width>
+        <height>268</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>43</xmin>
+            <ymin>3</ymin>
+            <xmax>427</xmax>
+            <ymax>260</ymax>
+        </bndbox>
+    </object>
+</annotation>

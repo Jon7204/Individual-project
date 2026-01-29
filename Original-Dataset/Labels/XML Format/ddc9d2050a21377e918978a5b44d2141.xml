@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>ddc9d2050a21377e918978a5b44d2141.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/ddc9d2050a21377e918978a5b44d2141.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>600</width>
+        <height>454</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>18</ymin>
+            <xmax>588</xmax>
+            <ymax>422</ymax>
+        </bndbox>
+    </object>
+</annotation>

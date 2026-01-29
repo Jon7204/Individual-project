@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>depositphotos_111000426-stock-illustration-car-silhouette-draw-four-all.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/depositphotos_111000426-stock-illustration-car-silhouette-draw-four-all.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1024</width>
+        <height>1024</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>104</xmin>
+            <ymin>78</ymin>
+            <xmax>894</xmax>
+            <ymax>295</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>127</xmin>
+            <ymin>348</ymin>
+            <xmax>471</xmax>
+            <ymax>583</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>566</xmin>
+            <ymin>353</ymin>
+            <xmax>887</xmax>
+            <ymax>574</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>125</xmin>
+            <ymin>639</ymin>
+            <xmax>899</xmax>
+            <ymax>974</ymax>
+        </bndbox>
+    </object>
+</annotation>

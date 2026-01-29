@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Mahindra-Bolero-Power-Plus-TR_White.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Mahindra-Bolero-Power-Plus-TR_White.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>536</width>
+        <height>358</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>42</xmin>
+            <ymin>10</ymin>
+            <xmax>496</xmax>
+            <ymax>343</ymax>
+        </bndbox>
+    </object>
+</annotation>

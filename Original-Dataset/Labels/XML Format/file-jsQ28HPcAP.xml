@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>file-jsQ28HPcAP.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/file-jsQ28HPcAP.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>821</width>
+        <height>572</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>157</xmin>
+            <ymin>497</ymin>
+            <xmax>216</xmax>
+            <ymax>531</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>39</xmin>
+            <ymin>445</ymin>
+            <xmax>192</xmax>
+            <ymax>545</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>BRAHMOS_LauncherJPG.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/BRAHMOS_LauncherJPG.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4288</width>
+        <height>2848</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>318</xmin>
+            <ymin>952</ymin>
+            <xmax>2503</xmax>
+            <ymax>2613</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2531</xmin>
+            <ymin>1350</ymin>
+            <xmax>3633</xmax>
+            <ymax>2104</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>66583592_epa04779113_A_handout_photo_provided_by_the_Police_department_in_Lippe_on_01_June_2015_trans_NvBQzQNjv4Bq-yKXUOr_MwQ_nCnkwkIf1A5-3W5Bnhg7LKMtopwA9Ow.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/66583592_epa04779113_A_handout_photo_provided_by_the_Police_department_in_Lippe_on_01_June_2015_trans_NvBQzQNjv4Bq-yKXUOr_MwQ_nCnkwkIf1A5-3W5Bnhg7LKMtopwA9Ow.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2000</width>
+        <height>1250</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1328</xmin>
+            <ymin>561</ymin>
+            <xmax>1760</xmax>
+            <ymax>902</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>111</xmin>
+            <ymin>309</ymin>
+            <xmax>1317</xmax>
+            <ymax>944</ymax>
+        </bndbox>
+    </object>
+</annotation>

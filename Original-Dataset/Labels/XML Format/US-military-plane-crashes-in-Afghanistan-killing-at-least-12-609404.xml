@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>US-military-plane-crashes-in-Afghanistan-killing-at-least-12-609404.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/US-military-plane-crashes-in-Afghanistan-killing-at-least-12-609404.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>590</width>
+        <height>350</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>6</xmin>
+            <ymin>51</ymin>
+            <xmax>575</xmax>
+            <ymax>313</ymax>
+        </bndbox>
+    </object>
+</annotation>

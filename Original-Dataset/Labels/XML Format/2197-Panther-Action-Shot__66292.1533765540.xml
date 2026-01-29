@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2197-Panther-Action-Shot__66292.1533765540.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2197-Panther-Action-Shot__66292.1533765540.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>905</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>169</xmin>
+            <ymin>190</ymin>
+            <xmax>984</xmax>
+            <ymax>577</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>551</xmin>
+            <ymin>592</ymin>
+            <xmax>1154</xmax>
+            <ymax>892</ymax>
+        </bndbox>
+    </object>
+</annotation>

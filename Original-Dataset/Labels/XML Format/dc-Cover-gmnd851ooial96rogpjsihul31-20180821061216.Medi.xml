@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>dc-Cover-gmnd851ooial96rogpjsihul31-20180821061216.Medi.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/dc-Cover-gmnd851ooial96rogpjsihul31-20180821061216.Medi.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>448</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>4</xmin>
+            <ymin>88</ymin>
+            <xmax>794</xmax>
+            <ymax>433</ymax>
+        </bndbox>
+    </object>
+</annotation>

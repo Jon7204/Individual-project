@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>algeria-1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/algeria-1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>660</width>
+        <height>440</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>80</xmin>
+            <ymin>287</ymin>
+            <xmax>392</xmax>
+            <ymax>339</ymax>
+        </bndbox>
+    </object>
+</annotation>

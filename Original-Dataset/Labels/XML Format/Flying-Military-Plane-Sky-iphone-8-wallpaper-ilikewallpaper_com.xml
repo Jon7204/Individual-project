@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Flying-Military-Plane-Sky-iphone-8-wallpaper-ilikewallpaper_com.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Flying-Military-Plane-Sky-iphone-8-wallpaper-ilikewallpaper_com.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1080</width>
+        <height>1920</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>272</xmin>
+            <ymin>739</ymin>
+            <xmax>434</xmax>
+            <ymax>1333</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>FRG_Leo2A5_2JPG.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/FRG_Leo2A5_2JPG.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>376</width>
+        <height>251</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>212</xmin>
+            <ymin>34</ymin>
+            <xmax>327</xmax>
+            <ymax>167</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>49</xmin>
+            <ymin>86</ymin>
+            <xmax>198</xmax>
+            <ymax>226</ymax>
+        </bndbox>
+    </object>
+</annotation>

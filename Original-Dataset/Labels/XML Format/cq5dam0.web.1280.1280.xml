@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>cq5dam0.web.1280.1280.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/cq5dam0.web.1280.1280.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>610</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>27</xmin>
+            <ymin>323</ymin>
+            <xmax>562</xmax>
+            <ymax>516</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>364</xmin>
+            <ymin>304</ymin>
+            <xmax>873</xmax>
+            <ymax>497</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>699</xmin>
+            <ymin>277</ymin>
+            <xmax>1251</xmax>
+            <ymax>498</ymax>
+        </bndbox>
+    </object>
+</annotation>

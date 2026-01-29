@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>apache_set_660x450_090319044524.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/apache_set_660x450_090319044524.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>660</width>
+        <height>450</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>181</xmin>
+            <ymin>7</ymin>
+            <xmax>524</xmax>
+            <ymax>257</ymax>
+        </bndbox>
+    </object>
+</annotation>

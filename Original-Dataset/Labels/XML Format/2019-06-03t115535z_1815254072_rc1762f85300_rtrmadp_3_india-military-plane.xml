@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2019-06-03t115535z_1815254072_rc1762f85300_rtrmadp_3_india-military-plane.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2019-06-03t115535z_1815254072_rc1762f85300_rtrmadp_3_india-military-plane.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>780</width>
+        <height>520</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>99</xmin>
+            <ymin>112</ymin>
+            <xmax>724</xmax>
+            <ymax>362</ymax>
+        </bndbox>
+    </object>
+</annotation>

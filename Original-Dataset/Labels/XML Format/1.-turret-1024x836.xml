@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1.-turret-1024x836.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1.-turret-1024x836.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1024</width>
+        <height>836</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>128</xmin>
+            <ymin>408</ymin>
+            <xmax>961</xmax>
+            <ymax>783</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>292</xmin>
+            <ymin>117</ymin>
+            <xmax>867</xmax>
+            <ymax>379</ymax>
+        </bndbox>
+    </object>
+</annotation>

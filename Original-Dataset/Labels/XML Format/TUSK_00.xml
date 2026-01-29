@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>TUSK_00.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/TUSK_00.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2160</width>
+        <height>1400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>233</xmin>
+            <ymin>383</ymin>
+            <xmax>1797</xmax>
+            <ymax>978</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1579</xmin>
+            <ymin>1027</ymin>
+            <xmax>2129</xmax>
+            <ymax>1369</ymax>
+        </bndbox>
+    </object>
+</annotation>

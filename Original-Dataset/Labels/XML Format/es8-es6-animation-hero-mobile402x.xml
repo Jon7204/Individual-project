@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>es8-es6-animation-hero-mobile402x.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/es8-es6-animation-hero-mobile402x.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3713</width>
+        <height>3300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1905</xmin>
+            <ymin>1396</ymin>
+            <xmax>3155</xmax>
+            <ymax>2149</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>656</xmin>
+            <ymin>1448</ymin>
+            <xmax>1681</xmax>
+            <ymax>2029</ymax>
+        </bndbox>
+    </object>
+</annotation>

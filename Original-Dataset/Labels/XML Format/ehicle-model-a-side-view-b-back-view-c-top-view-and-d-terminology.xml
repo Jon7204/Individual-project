@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>ehicle-model-a-side-view-b-back-view-c-top-view-and-d-terminology.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/ehicle-model-a-side-view-b-back-view-c-top-view-and-d-terminology.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>850</width>
+        <height>292</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

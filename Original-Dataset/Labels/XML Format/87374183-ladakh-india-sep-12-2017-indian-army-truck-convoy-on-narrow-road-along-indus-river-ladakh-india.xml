@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>87374183-ladakh-india-sep-12-2017-indian-army-truck-convoy-on-narrow-road-along-indus-river-ladakh-india.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/87374183-ladakh-india-sep-12-2017-indian-army-truck-convoy-on-narrow-road-along-indus-river-ladakh-india.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>866</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>25</ymin>
+            <xmax>312</xmax>
+            <ymax>797</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>366</xmin>
+            <ymin>315</ymin>
+            <xmax>694</xmax>
+            <ymax>578</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>714</xmin>
+            <ymin>357</ymin>
+            <xmax>899</xmax>
+            <ymax>534</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1014</xmin>
+            <ymin>368</ymin>
+            <xmax>1146</xmax>
+            <ymax>482</ymax>
+        </bndbox>
+    </object>
+</annotation>

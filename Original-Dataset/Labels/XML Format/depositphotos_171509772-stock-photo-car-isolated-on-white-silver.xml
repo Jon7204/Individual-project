@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>depositphotos_171509772-stock-photo-car-isolated-on-white-silver.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/depositphotos_171509772-stock-photo-car-isolated-on-white-silver.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>900</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>68</xmin>
+            <ymin>99</ymin>
+            <xmax>1543</xmax>
+            <ymax>684</ymax>
+        </bndbox>
+    </object>
+</annotation>

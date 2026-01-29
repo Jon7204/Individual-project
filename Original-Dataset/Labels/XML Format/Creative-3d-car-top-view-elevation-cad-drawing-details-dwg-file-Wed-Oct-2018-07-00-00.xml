@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Creative-3d-car-top-view-elevation-cad-drawing-details-dwg-file-Wed-Oct-2018-07-00-00.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Creative-3d-car-top-view-elevation-cad-drawing-details-dwg-file-Wed-Oct-2018-07-00-00.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>921</width>
+        <height>511</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>113</xmin>
+            <ymin>38</ymin>
+            <xmax>759</xmax>
+            <ymax>414</ymax>
+        </bndbox>
+    </object>
+</annotation>

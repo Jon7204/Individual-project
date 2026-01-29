@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Burger20Box20food20truck.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Burger20Box20food20truck.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>768</width>
+        <height>431</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2017-audi-s3-car-audi-a3-vehicle-car-top-thumb.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2017-audi-s3-car-audi-a3-vehicle-car-top-thumb.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>310</width>
+        <height>635</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>22</xmin>
+            <ymin>14</ymin>
+            <xmax>275</xmax>
+            <ymax>604</ymax>
+        </bndbox>
+    </object>
+</annotation>

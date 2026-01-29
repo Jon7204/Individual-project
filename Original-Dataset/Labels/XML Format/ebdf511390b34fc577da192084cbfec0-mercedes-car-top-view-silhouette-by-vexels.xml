@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>ebdf511390b34fc577da192084cbfec0-mercedes-car-top-view-silhouette-by-vexels.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/ebdf511390b34fc577da192084cbfec0-mercedes-car-top-view-silhouette-by-vexels.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>512</width>
+        <height>512</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>140</ymin>
+            <xmax>492</xmax>
+            <ymax>363</ymax>
+        </bndbox>
+    </object>
+</annotation>

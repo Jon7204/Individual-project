@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>5b7b33d8e9992.image.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/5b7b33d8e9992.image.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1662</width>
+        <height>1246</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>202</xmin>
+            <ymin>136</ymin>
+            <xmax>1615</xmax>
+            <ymax>828</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>57</xmin>
+            <ymin>432</ymin>
+            <xmax>492</xmax>
+            <ymax>662</ymax>
+        </bndbox>
+    </object>
+</annotation>

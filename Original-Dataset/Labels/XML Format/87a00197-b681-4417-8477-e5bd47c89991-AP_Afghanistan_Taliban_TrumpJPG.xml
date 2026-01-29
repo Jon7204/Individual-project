@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>87a00197-b681-4417-8477-e5bd47c89991-AP_Afghanistan_Taliban_TrumpJPG.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/87a00197-b681-4417-8477-e5bd47c89991-AP_Afghanistan_Taliban_TrumpJPG.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4718</width>
+        <height>3037</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1839</xmin>
+            <ymin>599</ymin>
+            <xmax>2834</xmax>
+            <ymax>1157</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2433</xmin>
+            <ymin>2327</ymin>
+            <xmax>3332</xmax>
+            <ymax>2807</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>221</xmin>
+            <ymin>2298</ymin>
+            <xmax>1171</xmax>
+            <ymax>2942</ymax>
+        </bndbox>
+    </object>
+</annotation>

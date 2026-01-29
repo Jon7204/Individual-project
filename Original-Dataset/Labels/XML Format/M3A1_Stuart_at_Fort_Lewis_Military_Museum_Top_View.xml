@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>M3A1_Stuart_at_Fort_Lewis_Military_Museum_Top_View.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/M3A1_Stuart_at_Fort_Lewis_Military_Museum_Top_View.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>5312</width>
+        <height>2988</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>784</xmin>
+            <ymin>634</ymin>
+            <xmax>3962</xmax>
+            <ymax>2697</ymax>
+        </bndbox>
+    </object>
+</annotation>

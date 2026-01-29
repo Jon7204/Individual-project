@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>QVNIMTExNDg2MTc1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/QVNIMTExNDg2MTc1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1182</width>
+        <height>887</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>281</xmin>
+            <ymin>131</ymin>
+            <xmax>925</xmax>
+            <ymax>632</ymax>
+        </bndbox>
+    </object>
+</annotation>

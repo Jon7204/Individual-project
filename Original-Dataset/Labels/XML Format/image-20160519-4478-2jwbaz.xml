@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>image-20160519-4478-2jwbaz.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/image-20160519-4478-2jwbaz.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4098</width>
+        <height>2475</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>155</xmin>
+            <ymin>207</ymin>
+            <xmax>4034</xmax>
+            <ymax>1139</ymax>
+        </bndbox>
+    </object>
+</annotation>

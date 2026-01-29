@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>chinook-kdKB--621x414LiveMint.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/chinook-kdKB--621x414LiveMint.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>621</width>
+        <height>414</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>152</xmin>
+            <ymin>92</ymin>
+            <xmax>376</xmax>
+            <ymax>275</ymax>
+        </bndbox>
+    </object>
+</annotation>

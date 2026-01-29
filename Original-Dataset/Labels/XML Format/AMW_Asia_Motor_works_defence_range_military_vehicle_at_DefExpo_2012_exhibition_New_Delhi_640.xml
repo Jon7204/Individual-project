@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>AMW_Asia_Motor_works_defence_range_military_vehicle_at_DefExpo_2012_exhibition_New_Delhi_640.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/AMW_Asia_Motor_works_defence_range_military_vehicle_at_DefExpo_2012_exhibition_New_Delhi_640.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>641</width>
+        <height>309</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>247</xmin>
+            <ymin>28</ymin>
+            <xmax>638</xmax>
+            <ymax>257</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>depositphotos_165438746-stock-illustration-engineering-blueprint-of-military-helicopter.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/depositphotos_165438746-stock-illustration-engineering-blueprint-of-military-helicopter.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1167</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>126</xmin>
+            <ymin>304</ymin>
+            <xmax>1463</xmax>
+            <ymax>724</ymax>
+        </bndbox>
+    </object>
+</annotation>

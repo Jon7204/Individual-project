@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Indian-Air-Force.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Indian-Air-Force.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>677</width>
+        <height>450</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>28</xmin>
+            <ymin>16</ymin>
+            <xmax>601</xmax>
+            <ymax>430</ymax>
+        </bndbox>
+    </object>
+</annotation>

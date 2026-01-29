@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>every-future-electric-vehicle-ev-concepts-and-coming-soon-cover-1574871397.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/every-future-electric-vehicle-ev-concepts-and-coming-soon-cover-1574871397.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4402</width>
+        <height>2375</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2361</xmin>
+            <ymin>214</ymin>
+            <xmax>4035</xmax>
+            <ymax>905</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2586</xmin>
+            <ymin>1389</ymin>
+            <xmax>4141</xmax>
+            <ymax>2074</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>261</xmin>
+            <ymin>164</ymin>
+            <xmax>1922</xmax>
+            <ymax>936</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>332</xmin>
+            <ymin>1342</ymin>
+            <xmax>1777</xmax>
+            <ymax>2036</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>a-vertical-reenlistment-poster-depicting-a-nondescript-background-and-in-the-57a427-1600.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/a-vertical-reenlistment-poster-depicting-a-nondescript-background-and-in-the-57a427-1600.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>1600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>218</xmin>
+            <ymin>173</ymin>
+            <xmax>1070</xmax>
+            <ymax>1305</ymax>
+        </bndbox>
+    </object>
+</annotation>

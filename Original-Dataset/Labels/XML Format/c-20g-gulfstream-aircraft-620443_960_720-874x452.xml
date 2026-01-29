@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>c-20g-gulfstream-aircraft-620443_960_720-874x452.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/c-20g-gulfstream-aircraft-620443_960_720-874x452.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>874</width>
+        <height>452</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>33</xmin>
+            <ymin>103</ymin>
+            <xmax>621</xmax>
+            <ymax>264</ymax>
+        </bndbox>
+    </object>
+</annotation>

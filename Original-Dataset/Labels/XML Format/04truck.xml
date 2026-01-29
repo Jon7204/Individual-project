@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>04truck.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/04truck.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>370</width>
+        <height>232</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>61</xmin>
+            <ymin>57</ymin>
+            <xmax>294</xmax>
+            <ymax>203</ymax>
+        </bndbox>
+    </object>
+</annotation>

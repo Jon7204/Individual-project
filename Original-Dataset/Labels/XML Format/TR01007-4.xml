@@ -1,0 +1,70 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>TR01007-4.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/TR01007-4.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>653</width>
+        <height>900</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>115</xmin>
+            <ymin>113</ymin>
+            <xmax>525</xmax>
+            <ymax>329</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>84</xmin>
+            <ymin>488</ymin>
+            <xmax>514</xmax>
+            <ymax>663</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>106</xmin>
+            <ymin>303</ymin>
+            <xmax>524</xmax>
+            <ymax>474</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>343</xmin>
+            <ymin>651</ymin>
+            <xmax>513</xmax>
+            <ymax>860</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>138</xmin>
+            <ymin>649</ymin>
+            <xmax>319</xmax>
+            <ymax>849</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Royal-Air-Force-C17-Emergency-Plane-Landing-Bermuda-May-11-2014-10.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Royal-Air-Force-C17-Emergency-Plane-Landing-Bermuda-May-11-2014-10.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>534</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>74</xmin>
+            <ymin>135</ymin>
+            <xmax>777</xmax>
+            <ymax>357</ymax>
+        </bndbox>
+    </object>
+</annotation>

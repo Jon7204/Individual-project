@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>black_hawk_helicopter_seal_team_decool__lego_1553443161_a01eb49b_progressive.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/black_hawk_helicopter_seal_team_decool__lego_1553443161_a01eb49b_progressive.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1080</width>
+        <height>810</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>46</xmin>
+            <ymin>244</ymin>
+            <xmax>638</xmax>
+            <ymax>530</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>740</xmin>
+            <ymin>153</ymin>
+            <xmax>917</xmax>
+            <ymax>316</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>674</xmin>
+            <ymin>393</ymin>
+            <xmax>953</xmax>
+            <ymax>502</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>621</xmin>
+            <ymin>570</ymin>
+            <xmax>892</xmax>
+            <ymax>668</ymax>
+        </bndbox>
+    </object>
+</annotation>

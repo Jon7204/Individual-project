@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>defence_diplomacy1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/defence_diplomacy1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>710</width>
+        <height>530</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>132</xmin>
+            <ymin>12</ymin>
+            <xmax>683</xmax>
+            <ymax>509</ymax>
+        </bndbox>
+    </object>
+</annotation>

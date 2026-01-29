@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>How-To-Join-Indian-Army1.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/How-To-Join-Indian-Army1.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>665</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>376</xmin>
+            <ymin>197</ymin>
+            <xmax>586</xmax>
+            <ymax>363</ymax>
+        </bndbox>
+    </object>
+</annotation>

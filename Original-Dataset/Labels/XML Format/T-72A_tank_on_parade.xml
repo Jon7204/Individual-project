@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>T-72A_tank_on_parade.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/T-72A_tank_on_parade.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3000</width>
+        <height>3277</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>31</xmin>
+            <ymin>403</ymin>
+            <xmax>2904</xmax>
+            <ymax>3197</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>black-silhouette-of-military-drone-vector-clipart_gg102499682.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/black-silhouette-of-military-drone-vector-clipart_gg102499682.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>270</width>
+        <height>194</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>12</xmin>
+            <ymin>75</ymin>
+            <xmax>161</xmax>
+            <ymax>170</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>169</xmin>
+            <ymin>55</ymin>
+            <xmax>254</xmax>
+            <ymax>100</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>15</ymin>
+            <xmax>197</xmax>
+            <ymax>52</ymax>
+        </bndbox>
+    </object>
+</annotation>

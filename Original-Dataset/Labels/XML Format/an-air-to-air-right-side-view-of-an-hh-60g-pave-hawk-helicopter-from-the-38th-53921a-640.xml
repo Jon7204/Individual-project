@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>an-air-to-air-right-side-view-of-an-hh-60g-pave-hawk-helicopter-from-the-38th-53921a-640.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/an-air-to-air-right-side-view-of-an-hh-60g-pave-hawk-helicopter-from-the-38th-53921a-640.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>417</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>210</xmin>
+            <ymin>261</ymin>
+            <xmax>556</xmax>
+            <ymax>359</ymax>
+        </bndbox>
+    </object>
+</annotation>

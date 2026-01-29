@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1930s-40s-6-x-4-Repro-German-RP-Panzer.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1930s-40s-6-x-4-Repro-German-RP-Panzer.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>271</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>92</xmin>
+            <ymin>115</ymin>
+            <xmax>129</xmax>
+            <ymax>150</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>153</xmin>
+            <ymin>106</ymin>
+            <xmax>373</xmax>
+            <ymax>248</ymax>
+        </bndbox>
+    </object>
+</annotation>

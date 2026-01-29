@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>854C54FA-ECAD-4B1F-9E46-55828BC38881_w408_r1_s.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/854C54FA-ECAD-4B1F-9E46-55828BC38881_w408_r1_s.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>408</width>
+        <height>230</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>83</xmin>
+            <ymin>25</ymin>
+            <xmax>348</xmax>
+            <ymax>128</ymax>
+        </bndbox>
+    </object>
+</annotation>

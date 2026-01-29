@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>bb64cb3076aaf63e2b3ed9452b8da9c4--passenger-aircraft-southwest-airlines.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/bb64cb3076aaf63e2b3ed9452b8da9c4--passenger-aircraft-southwest-airlines.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>474</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>39</xmin>
+            <ymin>20</ymin>
+            <xmax>433</xmax>
+            <ymax>324</ymax>
+        </bndbox>
+    </object>
+</annotation>

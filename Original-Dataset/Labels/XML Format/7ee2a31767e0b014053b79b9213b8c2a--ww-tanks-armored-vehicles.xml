@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>7ee2a31767e0b014053b79b9213b8c2a--ww-tanks-armored-vehicles.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/7ee2a31767e0b014053b79b9213b8c2a--ww-tanks-armored-vehicles.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>236</width>
+        <height>300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>13</xmin>
+            <ymin>5</ymin>
+            <xmax>190</xmax>
+            <ymax>90</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>109</ymin>
+            <xmax>102</xmax>
+            <ymax>197</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>111</xmin>
+            <ymin>97</ymin>
+            <xmax>200</xmax>
+            <ymax>196</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>205</ymin>
+            <xmax>189</xmax>
+            <ymax>293</ymax>
+        </bndbox>
+    </object>
+</annotation>

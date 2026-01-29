@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Ashok-Leyland-Super-Stallion-Dharmakshethra-1024x576.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Ashok-Leyland-Super-Stallion-Dharmakshethra-1024x576.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1024</width>
+        <height>576</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>242</xmin>
+            <ymin>18</ymin>
+            <xmax>897</xmax>
+            <ymax>555</ymax>
+        </bndbox>
+    </object>
+</annotation>

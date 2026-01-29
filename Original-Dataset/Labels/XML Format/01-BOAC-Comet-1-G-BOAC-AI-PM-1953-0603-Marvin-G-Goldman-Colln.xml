@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>01-BOAC-Comet-1-G-BOAC-AI-PM-1953-0603-Marvin-G-Goldman-Colln.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/01-BOAC-Comet-1-G-BOAC-AI-PM-1953-0603-Marvin-G-Goldman-Colln.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1626</width>
+        <height>1038</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>115</xmin>
+            <ymin>375</ymin>
+            <xmax>1593</xmax>
+            <ymax>784</ymax>
+        </bndbox>
+    </object>
+</annotation>

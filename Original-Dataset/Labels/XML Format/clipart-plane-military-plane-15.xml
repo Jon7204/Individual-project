@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>clipart-plane-military-plane-15.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/clipart-plane-military-plane-15.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>82</xmin>
+            <ymin>103</ymin>
+            <xmax>1841</xmax>
+            <ymax>807</ymax>
+        </bndbox>
+    </object>
+</annotation>

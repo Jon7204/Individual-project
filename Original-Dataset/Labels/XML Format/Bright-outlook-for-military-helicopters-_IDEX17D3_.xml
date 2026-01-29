@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Bright-outlook-for-military-helicopters-_IDEX17D3_.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Bright-outlook-for-military-helicopters-_IDEX17D3_.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>752</width>
+        <height>423</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>136</xmin>
+            <ymin>8</ymin>
+            <xmax>633</xmax>
+            <ymax>405</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>515</xmin>
+            <ymin>330</ymin>
+            <xmax>596</xmax>
+            <ymax>369</ymax>
+        </bndbox>
+    </object>
+</annotation>

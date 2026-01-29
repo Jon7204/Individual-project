@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2019-09-04-mbda-showcases-tank-destroyer-vehicle-with-pgz-at-mspo-2019-c-mbda-2-1567707403.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2019-09-04-mbda-showcases-tank-destroyer-vehicle-with-pgz-at-mspo-2019-c-mbda-2-1567707403.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1706</width>
+        <height>1066</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>216</xmin>
+            <ymin>144</ymin>
+            <xmax>1475</xmax>
+            <ymax>897</ymax>
+        </bndbox>
+    </object>
+</annotation>

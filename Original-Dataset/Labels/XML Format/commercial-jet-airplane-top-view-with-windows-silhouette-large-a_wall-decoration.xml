@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>commercial-jet-airplane-top-view-with-windows-silhouette-large-a_wall-decoration.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/commercial-jet-airplane-top-view-with-windows-silhouette-large-a_wall-decoration.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1153</width>
+        <height>754</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>407</xmin>
+            <ymin>3</ymin>
+            <xmax>801</xmax>
+            <ymax>391</ymax>
+        </bndbox>
+    </object>
+</annotation>

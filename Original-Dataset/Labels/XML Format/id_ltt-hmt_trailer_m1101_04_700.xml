@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>id_ltt-hmt_trailer_m1101_04_700.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/id_ltt-hmt_trailer_m1101_04_700.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>504</width>
+        <height>316</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>438</xmin>
+            <ymin>105</ymin>
+            <xmax>489</xmax>
+            <ymax>198</ymax>
+        </bndbox>
+    </object>
+</annotation>

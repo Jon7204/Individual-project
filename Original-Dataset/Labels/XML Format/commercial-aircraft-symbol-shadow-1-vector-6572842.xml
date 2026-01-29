@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>commercial-aircraft-symbol-shadow-1-vector-6572842.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/commercial-aircraft-symbol-shadow-1-vector-6572842.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>802</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>3</xmin>
+            <ymin>2</ymin>
+            <xmax>786</xmax>
+            <ymax>231</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>311</ymin>
+            <xmax>781</xmax>
+            <ymax>655</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>725</ymin>
+            <xmax>797</xmax>
+            <ymax>981</ymax>
+        </bndbox>
+    </object>
+</annotation>

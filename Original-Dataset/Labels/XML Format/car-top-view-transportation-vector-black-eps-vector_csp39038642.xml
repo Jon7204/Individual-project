@@ -1,0 +1,180 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>car-top-view-transportation-vector-black-eps-vector_csp39038642.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/car-top-view-transportation-vector-black-eps-vector_csp39038642.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>470</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>27</xmin>
+            <ymin>17</ymin>
+            <xmax>87</xmax>
+            <ymax>124</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>112</xmin>
+            <ymin>21</ymin>
+            <xmax>179</xmax>
+            <ymax>142</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>198</xmin>
+            <ymin>18</ymin>
+            <xmax>256</xmax>
+            <ymax>137</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>271</xmin>
+            <ymin>41</ymin>
+            <xmax>348</xmax>
+            <ymax>141</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>365</xmin>
+            <ymin>25</ymin>
+            <xmax>413</xmax>
+            <ymax>133</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>364</xmin>
+            <ymin>157</ymin>
+            <xmax>419</xmax>
+            <ymax>247</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>359</xmin>
+            <ymin>273</ymin>
+            <xmax>425</xmax>
+            <ymax>427</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>279</xmin>
+            <ymin>164</ymin>
+            <xmax>336</xmax>
+            <ymax>275</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>281</xmin>
+            <ymin>303</ymin>
+            <xmax>336</xmax>
+            <ymax>425</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>196</xmin>
+            <ymin>312</ymin>
+            <xmax>252</xmax>
+            <ymax>418</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>202</xmin>
+            <ymin>149</ymin>
+            <xmax>257</xmax>
+            <ymax>299</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>119</xmin>
+            <ymin>169</ymin>
+            <xmax>168</xmax>
+            <ymax>283</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>34</xmin>
+            <ymin>158</ymin>
+            <xmax>82</xmax>
+            <ymax>285</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>35</xmin>
+            <ymin>300</ymin>
+            <xmax>80</xmax>
+            <ymax>411</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>117</xmin>
+            <ymin>312</ymin>
+            <xmax>162</xmax>
+            <ymax>418</ymax>
+        </bndbox>
+    </object>
+</annotation>

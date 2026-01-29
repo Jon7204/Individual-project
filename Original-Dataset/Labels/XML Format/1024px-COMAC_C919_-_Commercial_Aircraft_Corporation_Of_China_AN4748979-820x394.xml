@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1024px-COMAC_C919_-_Commercial_Aircraft_Corporation_Of_China_AN4748979-820x394.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1024px-COMAC_C919_-_Commercial_Aircraft_Corporation_Of_China_AN4748979-820x394.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>820</width>
+        <height>394</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>37</xmin>
+            <ymin>97</ymin>
+            <xmax>787</xmax>
+            <ymax>267</ymax>
+        </bndbox>
+    </object>
+</annotation>

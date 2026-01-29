@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>greeting-card-dated-february-23-military-helicopter-plane-tank-ship-defender-of-the-fatherland-day-february-23-top-view-copy-space-RHBKWP(1).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/greeting-card-dated-february-23-military-helicopter-plane-tank-ship-defender-of-the-fatherland-day-february-23-top-view-copy-space-RHBKWP(1).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>956</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>751</xmin>
+            <ymin>176</ymin>
+            <xmax>1036</xmax>
+            <ymax>347</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>294</xmin>
+            <ymin>203</ymin>
+            <xmax>649</xmax>
+            <ymax>392</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>285</xmin>
+            <ymin>536</ymin>
+            <xmax>581</xmax>
+            <ymax>691</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>images163(3).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/images163(3).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>266</width>
+        <height>189</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>110</xmin>
+            <ymin>110</ymin>
+            <xmax>257</xmax>
+            <ymax>161</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>17</xmin>
+            <ymin>40</ymin>
+            <xmax>148</xmax>
+            <ymax>129</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>163</xmin>
+            <ymin>16</ymin>
+            <xmax>252</xmax>
+            <ymax>74</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>helicopter-drawing-outline-drawing-of-helicopter-the-helicopter-in-three-views-top-view-side-front-realistic-image-drawing-helicopter-step-step.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/helicopter-drawing-outline-drawing-of-helicopter-the-helicopter-in-three-views-top-view-side-front-realistic-image-drawing-helicopter-step-step.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>320</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>257</xmin>
+            <ymin>200</ymin>
+            <xmax>381</xmax>
+            <ymax>283</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>193</xmin>
+            <ymin>32</ymin>
+            <xmax>435</xmax>
+            <ymax>115</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>63</ymin>
+            <xmax>191</xmax>
+            <ymax>235</ymax>
+        </bndbox>
+    </object>
+</annotation>

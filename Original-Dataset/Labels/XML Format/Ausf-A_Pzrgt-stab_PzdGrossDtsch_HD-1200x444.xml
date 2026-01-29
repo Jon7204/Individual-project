@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Ausf-A_Pzrgt-stab_PzdGrossDtsch_HD-1200x444.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Ausf-A_Pzrgt-stab_PzdGrossDtsch_HD-1200x444.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>444</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>257</xmin>
+            <ymin>35</ymin>
+            <xmax>1171</xmax>
+            <ymax>426</ymax>
+        </bndbox>
+    </object>
+</annotation>

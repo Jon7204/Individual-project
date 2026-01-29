@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>il_570xN.1607236113_kbbc.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/il_570xN.1607236113_kbbc.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>570</width>
+        <height>602</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>306</xmin>
+            <ymin>147</ymin>
+            <xmax>378</xmax>
+            <ymax>214</ymax>
+        </bndbox>
+    </object>
+</annotation>

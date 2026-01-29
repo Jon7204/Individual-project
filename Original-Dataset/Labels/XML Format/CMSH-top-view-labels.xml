@@ -1,0 +1,15 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>CMSH-top-view-labels.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/CMSH-top-view-labels.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>792</width>
+        <height>612</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+
+</annotation>

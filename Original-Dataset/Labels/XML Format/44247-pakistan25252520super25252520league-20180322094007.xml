@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>44247-pakistan25252520super25252520league-20180322094007.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/44247-pakistan25252520super25252520league-20180322094007.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>918</width>
+        <height>506</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>559</xmin>
+            <ymin>206</ymin>
+            <xmax>815</xmax>
+            <ymax>358</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>8</xmin>
+            <ymin>219</ymin>
+            <xmax>413</xmax>
+            <ymax>431</ymax>
+        </bndbox>
+    </object>
+</annotation>

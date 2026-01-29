@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>M1A1-Abrams-battle-tanks-desert-US-1st-February-1991.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/M1A1-Abrams-battle-tanks-desert-US-1st-February-1991.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>1074</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>80</xmin>
+            <ymin>336</ymin>
+            <xmax>273</xmax>
+            <ymax>747</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>523</xmin>
+            <ymin>434</ymin>
+            <xmax>693</xmax>
+            <ymax>635</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>347</xmin>
+            <ymin>464</ymin>
+            <xmax>424</xmax>
+            <ymax>631</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>939</xmin>
+            <ymin>311</ymin>
+            <xmax>1321</xmax>
+            <ymax>697</ymax>
+        </bndbox>
+    </object>
+</annotation>

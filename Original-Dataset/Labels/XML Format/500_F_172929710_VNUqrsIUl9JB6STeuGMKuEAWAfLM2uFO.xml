@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>500_F_172929710_VNUqrsIUl9JB6STeuGMKuEAWAfLM2uFO.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/500_F_172929710_VNUqrsIUl9JB6STeuGMKuEAWAfLM2uFO.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>500</width>
+        <height>231</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>4</ymin>
+            <xmax>261</xmax>
+            <ymax>94</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>30</xmin>
+            <ymin>144</ymin>
+            <xmax>255</xmax>
+            <ymax>203</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>295</xmin>
+            <ymin>19</ymin>
+            <xmax>449</xmax>
+            <ymax>207</ymax>
+        </bndbox>
+    </object>
+</annotation>

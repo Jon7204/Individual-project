@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>commercial-airplane-flag-d-top-down-view-qatar-tourism-related-conceptual-rendering-138747217.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/commercial-airplane-flag-d-top-down-view-qatar-tourism-related-conceptual-rendering-138747217.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1600</width>
+        <height>989</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1077</xmin>
+            <ymin>535</ymin>
+            <xmax>1365</xmax>
+            <ymax>908</ymax>
+        </bndbox>
+    </object>
+</annotation>

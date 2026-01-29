@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>1447586956m_SPLASH.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/1447586956m_SPLASH.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>499</width>
+        <height>249</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>72</xmin>
+            <ymin>7</ymin>
+            <xmax>410</xmax>
+            <ymax>190</ymax>
+        </bndbox>
+    </object>
+</annotation>

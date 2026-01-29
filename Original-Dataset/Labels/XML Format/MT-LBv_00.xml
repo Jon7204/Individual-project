@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>MT-LBv_00.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/MT-LBv_00.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>533</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>112</xmin>
+            <ymin>126</ymin>
+            <xmax>680</xmax>
+            <ymax>434</ymax>
+        </bndbox>
+    </object>
+</annotation>

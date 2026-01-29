@@ -1,0 +1,59 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>cromwell_mk_iv-13017.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/cromwell_mk_iv-13017.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>500</width>
+        <height>287</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>342</xmin>
+            <ymin>8</ymin>
+            <xmax>497</xmax>
+            <ymax>136</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>342</xmin>
+            <ymin>150</ymin>
+            <xmax>497</xmax>
+            <ymax>275</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>6</ymin>
+            <xmax>333</xmax>
+            <ymax>124</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>6</xmin>
+            <ymin>130</ymin>
+            <xmax>334</xmax>
+            <ymax>280</ymax>
+        </bndbox>
+    </object>
+</annotation>

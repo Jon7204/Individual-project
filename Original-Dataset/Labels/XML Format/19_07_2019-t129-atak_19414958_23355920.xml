@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>19_07_2019-t129-atak_19414958_23355920.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/19_07_2019-t129-atak_19414958_23355920.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>650</width>
+        <height>540</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>60</xmin>
+            <ymin>72</ymin>
+            <xmax>572</xmax>
+            <ymax>479</ymax>
+        </bndbox>
+    </object>
+</annotation>

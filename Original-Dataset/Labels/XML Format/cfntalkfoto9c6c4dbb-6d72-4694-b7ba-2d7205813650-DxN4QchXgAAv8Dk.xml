@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>cfntalkfoto9c6c4dbb-6d72-4694-b7ba-2d7205813650-DxN4QchXgAAv8Dk.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/cfntalkfoto9c6c4dbb-6d72-4694-b7ba-2d7205813650-DxN4QchXgAAv8Dk.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2988</width>
+        <height>1680</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>802</xmin>
+            <ymin>197</ymin>
+            <xmax>2170</xmax>
+            <ymax>1289</ymax>
+        </bndbox>
+    </object>
+</annotation>

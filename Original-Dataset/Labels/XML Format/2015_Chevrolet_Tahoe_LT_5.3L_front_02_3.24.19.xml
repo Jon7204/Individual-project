@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>2015_Chevrolet_Tahoe_LT_5.3L_front_02_3.24.19.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/2015_Chevrolet_Tahoe_LT_5.3L_front_02_3.24.19.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>4789</width>
+        <height>2675</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>224</xmin>
+            <ymin>159</ymin>
+            <xmax>4564</xmax>
+            <ymax>2259</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>62781406-vector-car-vehicle-icon-top-view-from-above-car-top-view-some-vehicle-transport-isolated-on-white-tr.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/62781406-vector-car-vehicle-icon-top-view-from-above-car-top-view-some-vehicle-transport-isolated-on-white-tr.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>1300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>359</xmin>
+            <ymin>40</ymin>
+            <xmax>930</xmax>
+            <ymax>1238</ymax>
+        </bndbox>
+    </object>
+</annotation>

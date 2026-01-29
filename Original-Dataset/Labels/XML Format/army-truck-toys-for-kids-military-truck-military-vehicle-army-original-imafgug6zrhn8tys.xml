@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>army-truck-toys-for-kids-military-truck-military-vehicle-army-original-imafgug6zrhn8tys.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/army-truck-toys-for-kids-military-truck-military-vehicle-army-original-imafgug6zrhn8tys.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>612</width>
+        <height>470</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>3</xmin>
+            <ymin>21</ymin>
+            <xmax>551</xmax>
+            <ymax>424</ymax>
+        </bndbox>
+    </object>
+</annotation>

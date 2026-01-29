@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>7478i-in-PEK.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/7478i-in-PEK.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>830</width>
+        <height>558</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>14</xmin>
+            <ymin>136</ymin>
+            <xmax>799</xmax>
+            <ymax>438</ymax>
+        </bndbox>
+    </object>
+</annotation>

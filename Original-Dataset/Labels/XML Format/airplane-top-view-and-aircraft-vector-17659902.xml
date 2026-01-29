@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airplane-top-view-and-aircraft-vector-17659902.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airplane-top-view-and-aircraft-vector-17659902.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1000</width>
+        <height>1080</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>112</xmin>
+            <ymin>44</ymin>
+            <xmax>603</xmax>
+            <ymax>466</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>66</xmin>
+            <ymin>490</ymin>
+            <xmax>246</xmax>
+            <ymax>724</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>94</xmin>
+            <ymin>754</ymin>
+            <xmax>214</xmax>
+            <ymax>962</ymax>
+        </bndbox>
+    </object>
+</annotation>

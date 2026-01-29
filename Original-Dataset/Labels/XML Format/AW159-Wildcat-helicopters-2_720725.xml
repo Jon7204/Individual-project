@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>AW159-Wildcat-helicopters-2_720725.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/AW159-Wildcat-helicopters-2_720725.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>720</width>
+        <height>725</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>132</xmin>
+            <ymin>47</ymin>
+            <xmax>506</xmax>
+            <ymax>288</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>194</xmin>
+            <ymin>311</ymin>
+            <xmax>674</xmax>
+            <ymax>662</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airplane-isolated-top-front-view-plner-53261261.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airplane-isolated-top-front-view-plner-53261261.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1300</width>
+        <height>1130</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>150</xmin>
+            <ymin>30</ymin>
+            <xmax>1143</xmax>
+            <ymax>277</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>152</xmin>
+            <ymin>318</ymin>
+            <xmax>1144</xmax>
+            <ymax>1008</ymax>
+        </bndbox>
+    </object>
+</annotation>

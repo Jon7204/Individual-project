@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>eurocopter_tiger.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/eurocopter_tiger.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>600</width>
+        <height>374</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>47</xmin>
+            <ymin>74</ymin>
+            <xmax>591</xmax>
+            <ymax>297</ymax>
+        </bndbox>
+    </object>
+</annotation>

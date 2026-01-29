@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Vstank-Large-Scale-1-24-Electric-T72-Tank-BB-Airsoft-Remote-Control-Tanks-Climb-50-Degree.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Vstank-Large-Scale-1-24-Electric-T72-Tank-BB-Airsoft-Remote-Control-Tanks-Climb-50-Degree.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>750</width>
+        <height>750</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>16</xmin>
+            <ymin>23</ymin>
+            <xmax>666</xmax>
+            <ymax>702</ymax>
+        </bndbox>
+    </object>
+</annotation>

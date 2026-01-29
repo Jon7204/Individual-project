@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>airbus-helicopters-nhindustries-nh90-medium-lift-transport-helicopter.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/airbus-helicopters-nhindustries-nh90-medium-lift-transport-helicopter.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1000</width>
+        <height>688</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>81</ymin>
+            <xmax>977</xmax>
+            <ymax>648</ymax>
+        </bndbox>
+    </object>
+</annotation>

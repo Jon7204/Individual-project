@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Venus-Planet-of-Toys-Remote-SDL170304142-3-f6ab8.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Venus-Planet-of-Toys-Remote-SDL170304142-3-f6ab8.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>850</width>
+        <height>995</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>49</xmin>
+            <ymin>293</ymin>
+            <xmax>755</xmax>
+            <ymax>646</ymax>
+        </bndbox>
+    </object>
+</annotation>

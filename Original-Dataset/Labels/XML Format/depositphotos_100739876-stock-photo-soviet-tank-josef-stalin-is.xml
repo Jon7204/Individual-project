@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>depositphotos_100739876-stock-photo-soviet-tank-josef-stalin-is.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/depositphotos_100739876-stock-photo-soviet-tank-josef-stalin-is.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1023</width>
+        <height>681</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>22</xmin>
+            <ymin>180</ymin>
+            <xmax>996</xmax>
+            <ymax>636</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>90</xmin>
+            <ymin>113</ymin>
+            <xmax>225</xmax>
+            <ymax>157</ymax>
+        </bndbox>
+    </object>
+</annotation>

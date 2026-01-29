@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>chinook-helicopter-silhouette-11.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/chinook-helicopter-silhouette-11.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>900</width>
+        <height>460</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>383</xmin>
+            <ymin>205</ymin>
+            <xmax>648</xmax>
+            <ymax>446</ymax>
+        </bndbox>
+    </object>
+</annotation>

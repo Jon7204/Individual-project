@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>PNGPIX-COM-Military-Aircraft-Jet-Fighter-Plane-Transparent-PNG-Image.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/PNGPIX-COM-Military-Aircraft-Jet-Fighter-Plane-Transparent-PNG-Image.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>2036</width>
+        <height>1290</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>51</xmin>
+            <ymin>78</ymin>
+            <xmax>2007</xmax>
+            <ymax>1200</ymax>
+        </bndbox>
+    </object>
+</annotation>

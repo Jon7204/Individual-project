@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>army-truck-ambushed-by-suspected-ulfa-militants_c20ba4fa-af55-11e6-b961-04ee4fa7b706.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/army-truck-ambushed-by-suspected-ulfa-militants_c20ba4fa-af55-11e6-b961-04ee4fa7b706.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>640</width>
+        <height>480</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>255</xmin>
+            <ymin>61</ymin>
+            <xmax>631</xmax>
+            <ymax>407</ymax>
+        </bndbox>
+    </object>
+</annotation>

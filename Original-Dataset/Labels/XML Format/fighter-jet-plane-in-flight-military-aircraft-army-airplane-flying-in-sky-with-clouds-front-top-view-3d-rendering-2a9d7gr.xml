@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>fighter-jet-plane-in-flight-military-aircraft-army-airplane-flying-in-sky-with-clouds-front-top-view-3d-rendering-2a9d7gr.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/fighter-jet-plane-in-flight-military-aircraft-army-airplane-flying-in-sky-with-clouds-front-top-view-3d-rendering-2a9d7gr.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>450</width>
+        <height>273</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>69</xmin>
+            <ymin>78</ymin>
+            <xmax>392</xmax>
+            <ymax>225</ymax>
+        </bndbox>
+    </object>
+</annotation>

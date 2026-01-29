@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Highway-road-red-car-top-view_3840x2160.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Highway-road-red-car-top-view_3840x2160.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3840</width>
+        <height>2160</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian car</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>1575</xmin>
+            <ymin>980</ymin>
+            <xmax>2057</xmax>
+            <ymax>1266</ymax>
+        </bndbox>
+    </object>
+</annotation>

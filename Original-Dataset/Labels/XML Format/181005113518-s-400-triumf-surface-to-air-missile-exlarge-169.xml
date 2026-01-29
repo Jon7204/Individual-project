@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>181005113518-s-400-triumf-surface-to-air-missile-exlarge-169.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/181005113518-s-400-triumf-surface-to-air-missile-exlarge-169.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>780</width>
+        <height>438</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>10</xmin>
+            <ymin>86</ymin>
+            <xmax>756</xmax>
+            <ymax>430</ymax>
+        </bndbox>
+    </object>
+</annotation>

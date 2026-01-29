@@ -1,0 +1,48 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Fire-X_vertical_helicopter_unmanned_aircraft_aerial_vehicle_Northrop_Grumman_Bell_line_drawing_blueprint_001.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Fire-X_vertical_helicopter_unmanned_aircraft_aerial_vehicle_Northrop_Grumman_Bell_line_drawing_blueprint_001.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>600</width>
+        <height>450</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>217</xmin>
+            <ymin>43</ymin>
+            <xmax>532</xmax>
+            <ymax>170</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>11</xmin>
+            <ymin>1</ymin>
+            <xmax>237</xmax>
+            <ymax>129</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military helicopter</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>157</xmin>
+            <ymin>249</ymin>
+            <xmax>517</xmax>
+            <ymax>382</ymax>
+        </bndbox>
+    </object>
+</annotation>

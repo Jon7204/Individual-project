@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>200px-Know_Your_Army_Jalandhar_2009-83.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/200px-Know_Your_Army_Jalandhar_2009-83.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>200</width>
+        <height>150</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>44</xmin>
+            <ymin>16</ymin>
+            <xmax>167</xmax>
+            <ymax>122</ymax>
+        </bndbox>
+    </object>
+</annotation>

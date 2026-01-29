@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>MA_00439474_ul39cl.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/MA_00439474_ul39cl.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1920</width>
+        <height>1236</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>36</xmin>
+            <ymin>85</ymin>
+            <xmax>1802</xmax>
+            <ymax>1037</ymax>
+        </bndbox>
+    </object>
+</annotation>

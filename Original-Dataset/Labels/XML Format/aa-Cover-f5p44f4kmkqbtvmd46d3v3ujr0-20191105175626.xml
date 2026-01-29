@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>aa-Cover-f5p44f4kmkqbtvmd46d3v3ujr0-20191105175626.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/aa-Cover-f5p44f4kmkqbtvmd46d3v3ujr0-20191105175626.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>224</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>22</xmin>
+            <ymin>28</ymin>
+            <xmax>381</xmax>
+            <ymax>147</ymax>
+        </bndbox>
+    </object>
+</annotation>

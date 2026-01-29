@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>M18_Hellcat_Tank_Destroyer.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/M18_Hellcat_Tank_Destroyer.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>800</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>27</xmin>
+            <ymin>173</ymin>
+            <xmax>1172</xmax>
+            <ymax>643</ymax>
+        </bndbox>
+    </object>
+</annotation>

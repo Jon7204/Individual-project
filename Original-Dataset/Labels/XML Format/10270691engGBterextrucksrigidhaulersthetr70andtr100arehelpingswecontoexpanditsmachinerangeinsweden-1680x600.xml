@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>10270691engGBterextrucksrigidhaulersthetr70andtr100arehelpingswecontoexpanditsmachinerangeinsweden-1680x600.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/10270691engGBterextrucksrigidhaulersthetr70andtr100arehelpingswecontoexpanditsmachinerangeinsweden-1680x600.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1680</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>180</xmin>
+            <ymin>26</ymin>
+            <xmax>1421</xmax>
+            <ymax>580</ymax>
+        </bndbox>
+    </object>
+</annotation>

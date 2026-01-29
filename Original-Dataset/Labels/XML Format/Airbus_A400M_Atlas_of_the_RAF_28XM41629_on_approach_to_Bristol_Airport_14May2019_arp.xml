@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>Airbus_A400M_Atlas_of_the_RAF_28XM41629_on_approach_to_Bristol_Airport_14May2019_arp.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/Airbus_A400M_Atlas_of_the_RAF_28XM41629_on_approach_to_Bristol_Airport_14May2019_arp.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3914</width>
+        <height>2584</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>93</xmin>
+            <ymin>962</ymin>
+            <xmax>3613</xmax>
+            <ymax>1781</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>defence_banner_mob.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/defence_banner_mob.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>480</width>
+        <height>279</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>7</xmin>
+            <ymin>109</ymin>
+            <xmax>470</xmax>
+            <ymax>256</ymax>
+        </bndbox>
+    </object>
+</annotation>

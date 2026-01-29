@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>avap_slide_Philippine_Airlines_Boeing_777-300ER.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/avap_slide_Philippine_Airlines_Boeing_777-300ER.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>960</width>
+        <height>300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>civilian aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>57</xmin>
+            <ymin>67</ymin>
+            <xmax>947</xmax>
+            <ymax>216</ymax>
+        </bndbox>
+    </object>
+</annotation>

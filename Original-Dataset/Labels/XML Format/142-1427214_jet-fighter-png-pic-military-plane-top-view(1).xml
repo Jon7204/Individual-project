@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>142-1427214_jet-fighter-png-pic-military-plane-top-view(1).jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/142-1427214_jet-fighter-png-pic-military-plane-top-view(1).jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>920</width>
+        <height>801</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>239</xmin>
+            <ymin>44</ymin>
+            <xmax>691</xmax>
+            <ymax>793</ymax>
+        </bndbox>
+    </object>
+</annotation>

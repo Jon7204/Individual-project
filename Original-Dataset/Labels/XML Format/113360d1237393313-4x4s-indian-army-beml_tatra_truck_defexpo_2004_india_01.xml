@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>113360d1237393313-4x4s-indian-army-beml_tatra_truck_defexpo_2004_india_01.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/113360d1237393313-4x4s-indian-army-beml_tatra_truck_defexpo_2004_india_01.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>146</xmin>
+            <ymin>123</ymin>
+            <xmax>658</xmax>
+            <ymax>512</ymax>
+        </bndbox>
+    </object>
+</annotation>

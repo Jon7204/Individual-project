@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>220px-DAF_Military_Truck_YA-328.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/220px-DAF_Military_Truck_YA-328.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>220</width>
+        <height>153</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>16</xmin>
+            <ymin>11</ymin>
+            <xmax>193</xmax>
+            <ymax>142</ymax>
+        </bndbox>
+    </object>
+</annotation>

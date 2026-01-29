@@ -1,0 +1,26 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>best-tank-games-pc-valkyria-chronicles-4-900x506.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/best-tank-games-pc-valkyria-chronicles-4-900x506.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>900</width>
+        <height>506</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military tank</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>260</xmin>
+            <ymin>206</ymin>
+            <xmax>601</xmax>
+            <ymax>369</ymax>
+        </bndbox>
+    </object>
+</annotation>

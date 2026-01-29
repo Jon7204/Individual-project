@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>51LeXIYYTPL.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/51LeXIYYTPL.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>500</width>
+        <height>500</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>9</xmin>
+            <ymin>36</ymin>
+            <xmax>441</xmax>
+            <ymax>286</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military truck</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>24</xmin>
+            <ymin>332</ymin>
+            <xmax>311</xmax>
+            <ymax>486</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,37 @@
+<annotation>
+    <folder>dataset</folder>
+    <filename>fighter-plane-silhouette-6.jpg</filename>
+    <path>/content/gdrive/My Drive/Colab Notebooks/ssd_keras/dataset/fighter-plane-silhouette-6.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>300</width>
+        <height>300</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>24</xmin>
+            <ymin>24</ymin>
+            <xmax>269</xmax>
+            <ymax>114</ymax>
+        </bndbox>
+    </object>    <object>
+        <name>military aircraft</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>1</difficult>
+        <bndbox>
+            <xmin>27</xmin>
+            <ymin>127</ymin>
+            <xmax>265</xmax>
+            <ymax>296</ymax>
+        </bndbox>
+    </object>
+</annotation>
