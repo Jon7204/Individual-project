@@ -49,7 +49,7 @@ def load_checkpoint(model, optimizer=None, checkpoint_path=None):
 
 def plot_training_history(train_losses, val_losses, train_accs, val_accs):
     
-    (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 5))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 5))
     
     # Plot losses
     epochs = range(1, len(train_losses) + 1)

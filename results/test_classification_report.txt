@@ -1,0 +1,14 @@
+Test Set Classification Report
+============================================================
+                     precision    recall  f1-score   support
+
+     military truck     0.7524    0.6220    0.6810       127
+      military tank     0.7348    0.8012    0.7666       166
+  military aircraft     0.6625    0.5048    0.5730       105
+military helicopter     0.8991    0.7050    0.7903       139
+       civilian car     0.7143    0.8738    0.7860       103
+  civilian aircraft     0.5812    0.8718    0.6974        78
+
+           accuracy                         0.7256       718
+          macro avg     0.7240    0.7298    0.7157       718
+       weighted avg     0.7395    0.7256    0.7230       718
