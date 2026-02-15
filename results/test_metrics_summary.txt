@@ -1,0 +1,14 @@
+============================================================
+TEST SET METRICS SUMMARY
+============================================================
+
+Overall Test Accuracy: 82.17%
+
+Per-Class Accuracy:
+------------------------------------------------------------
+  military truck             75.59%
+  military tank              87.35%
+  military aircraft          66.67%
+  military helicopter        84.17%
+  civilian car               89.32%
+  civilian aircraft          89.74%
