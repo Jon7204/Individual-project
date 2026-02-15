@@ -1,5 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
+import torchvision.models as models
 import config
 
 # Simple baseline CNN model
@@ -60,18 +61,62 @@ class SimpleCNN(nn.Module):
         
         return x
 
-
-def get_model():
+# ResNet50 with transfer learning
+class ResNet50Transfer(nn.Module):
+ 
+    def __init__(self, num_classes=config.NUM_CLASSES, freeze_backbone=True):
+        super(ResNet50Transfer, self).__init__()
+        
+        # Load pre-trained ResNet-50
+        self.resnet = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
+        
+        # Freeze early layers if specified
+        if freeze_backbone:
+            for param in self.resnet.parameters():
+                param.requires_grad = False
+        
+        # Get number of features from the last layer
+        num_features = self.resnet.fc.in_features
+        
+        # Replace final fully connected layer for our 6 classes
+        self.resnet.fc = nn.Sequential(
+            nn.Dropout(0.5),
+            nn.Linear(num_features, num_classes)
+        )
+        
+    def forward(self, x):
+        return self.resnet(x)
     
-    model = SimpleCNN(num_classes=config.NUM_CLASSES)
+    # Unfreeze the last num_layers fpr fine tuning
+    def unfreeze_layers(self, num_layers=10):
+
+        # Get all children modules
+        children = list(self.resnet.children())
+        
+        # Unfreeze last num_layers
+        for child in children[-num_layers:]:
+            for param in child.parameters():
+                param.requires_grad = True
+
+
+def get_model(model_type):
+    
+    if model_type.lower() == 'simple':
+        model = SimpleCNN(num_classes=config.NUM_CLASSES)
+        model_name = "SimpleCNN"
+    elif model_type.lower() == 'resnet50':
+        model = ResNet50Transfer(num_classes=config.NUM_CLASSES, freeze_backbone=True)
+        model_name = "ResNet-50 (Transfer Learning)"
+    
     model = model.to(config.DEVICE)
     
     # Print model summary
     total_params = sum(p.numel() for p in model.parameters())
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     
-    print(f"Model: SimpleCNN")
+    print(f"Model: {model_name}")
     print(f"Total parameters: {total_params:,}")
     print(f"Trainable parameters: {trainable_params:,}")
+    print(f"Frozen parameters: {total_params - trainable_params:,}")
     
     return model

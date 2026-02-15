@@ -3,16 +3,17 @@ import torch.nn as nn
 import torch.optim as optim
 from tqdm import tqdm
 import numpy as np
+import argparse
+import os
 import config
 from dataset import create_data_loaders
 from model import get_model
 from utils import (create_directories, save_checkpoint, 
-                   plot_training_history, plot_confusion_matrix,
-                   print_classification_report, calculate_per_class_accuracy)
+                   plot_training_history, calculate_per_class_accuracy)
 
 
 def train_epoch(model, train_loader, criterion, optimizer, device):
-  
+
     model.train()
     running_loss = 0.0
     correct = 0
@@ -84,8 +85,9 @@ def validate(model, val_loader, criterion, device):
     
     return avg_loss, accuracy, all_preds, all_labels
 
-
-def train_model():
+# Main training function
+def train_model(model_type='simple'):
+   
     # Set random seed
     torch.manual_seed(config.RANDOM_SEED)
     np.random.seed(config.RANDOM_SEED)
@@ -93,32 +95,52 @@ def train_model():
     # Create directories
     create_directories()
     
+    # Determine model-specific settings
+    if model_type == 'simple':
+        model_name = "SimpleCNN (Baseline)"
+        learning_rate = config.LR_SIMPLE_CNN
+        output_prefix = "baseline"
+    elif model_type == 'resnet50':
+        model_name = "ResNet-50 (Transfer Learning)"
+        learning_rate = config.LR_RESNET_TRANSFER
+        output_prefix = "resnet50"
+    else:
+        raise ValueError(f"Unknown model type: {model_type}")
+    
     print("="*60)
-    print("Vehicle Classification Training")
+    print(f"{model_name} Training")
     print("="*60)
     print(f"Device: {config.DEVICE}")
     print(f"Number of classes: {config.NUM_CLASSES}")
     print(f"Image size: {config.IMAGE_SIZE}x{config.IMAGE_SIZE}")
     print(f"Batch size: {config.BATCH_SIZE}")
-    print(f"Learning rate: {config.LEARNING_RATE}")
+    print(f"Learning rate: {learning_rate}")
     print(f"Number of epochs: {config.NUM_EPOCHS}")
     print("="*60)
     
     # Create data loaders
-    print("\nLoading datasets...")
-    train_loader, val_loader, test_loader = create_data_loaders()
+    print("\nLoading datasets")
+    train_loader, val_loader, test_loader, train_dataset, val_dataset, test_dataset = create_data_loaders()
     print(f"Training samples: {len(train_loader.dataset)}")
     print(f"Validation samples: {len(val_loader.dataset)}")
     print(f"Test samples: {len(test_loader.dataset)}")
     
     # Create model
-    print("\nInitializing model...")
-    model = get_model()
+    print(f"\nInitializing {model_name}")
+    if model_type == 'resnet50':
+        print("Downloading pre-trained ImageNet weights")
+    model = get_model(model_type=model_type)
     
     # Loss function and optimizer
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=config.LEARNING_RATE)
-    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=5)
+    
+    # Only optimize unfrozen parameters 
+    optimizer = optim.Adam(
+        filter(lambda p: p.requires_grad, model.parameters()), 
+        lr=learning_rate
+    )
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', 
+                                                      factor=0.5, patience=5)
     
     # Training loop
     print("\nStarting training")
@@ -133,10 +155,12 @@ def train_model():
         print(f"\nEpoch [{epoch+1}/{config.NUM_EPOCHS}]")
         
         # Train
-        train_loss, train_acc = train_epoch(model, train_loader, criterion, optimizer, config.DEVICE)
+        train_loss, train_acc = train_epoch(model, train_loader, criterion, 
+                                           optimizer, config.DEVICE)
         
         # Validate
-        val_loss, val_acc, val_preds, val_labels = validate(model, val_loader, criterion, config.DEVICE)
+        val_loss, val_acc, val_preds, val_labels = validate(model, val_loader, 
+                                                            criterion, config.DEVICE)
         
         # Update learning rate
         scheduler.step(val_acc)
@@ -148,7 +172,7 @@ def train_model():
         val_accs.append(val_acc)
         
         # Print epoch summary
-        print(f"\nEpoch Summary: ")
+        print(f"\nEpoch Summary:")
         print(f"  Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.2f}%")
         print(f"  Val Loss: {val_loss:.4f} | Val Acc: {val_acc:.2f}%")
         
@@ -171,6 +195,67 @@ def train_model():
     print("\nGenerating training plots")
     plot_training_history(train_losses, val_losses, train_accs, val_accs)
     
+    # Save training metrics to file
+    print("\nSaving training metrics")
+    history_path = os.path.join(config.RESULTS_DIR, f'{output_prefix}_training_metrics.txt')
+    with open(history_path, 'w') as f:
+        f.write("="*70 + "\n")
+        f.write(f"{model_name.upper()} TRAINING METRICS SUMMARY\n")
+        f.write("="*70 + "\n\n")
+        
+        if model_type == 'resnet50':
+            f.write("Pre-training: ImageNet\n")
+            f.write("Backbone: Frozen (only final layers trained)\n\n")
+        
+        f.write("Final Results:\n")
+        f.write("-" * 70 + "\n")
+        f.write(f"Best Validation Accuracy: {best_val_acc:.2f}%\n")
+        f.write(f"Final Training Accuracy: {train_accs[-1]:.2f}%\n")
+        f.write(f"Final Validation Accuracy: {val_accs[-1]:.2f}%\n")
+        f.write(f"Final Training Loss: {train_losses[-1]:.4f}\n")
+        f.write(f"Final Validation Loss: {val_losses[-1]:.4f}\n")
+        f.write(f"Total Epochs Trained: {len(train_accs)}\n\n")
+        
+        f.write("="*70 + "\n")
+        f.write("EPOCH-BY-EPOCH METRICS\n")
+        f.write("="*70 + "\n")
+        f.write(f"{'Epoch':<8} {'Train Loss':<14} {'Train Acc (%)':<14} {'Val Loss':<14} {'Val Acc (%)':<14}\n")
+        f.write("-"*70 + "\n")
+        
+        for i in range(len(train_losses)):
+            f.write(f"{i+1:<8} {train_losses[i]:<14.4f} {train_accs[i]:<14.2f} "
+                    f"{val_losses[i]:<14.4f} {val_accs[i]:<14.2f}\n")
+    
+    print(f"Training metrics saved to {history_path}")
+    
+    # Print dataset loading statistics
+    print("\n" + "="*60)
+    print("Dataset Loading Statistics")
+    print("="*60)
+    
+    train_stats = train_dataset.get_statistics()
+    val_stats = val_dataset.get_statistics()
+    test_stats = test_dataset.get_statistics()
+    
+    print(f"\nTraining Set:")
+    print(f"  Total images attempted: {train_stats['total']}")
+    print(f"  Successfully loaded: {train_stats['success']}")
+    print(f"  Failed to load: {train_stats['failure']}")
+    if train_stats['failed_files']:
+        print(f"  Failed files: {', '.join(train_stats['failed_files'][:5])}")
+        if len(train_stats['failed_files']) > 5:
+            print(f"  ... and {len(train_stats['failed_files']) - 5} more")
+    
+    print(f"\nValidation Set:")
+    print(f"  Total images attempted: {val_stats['total']}")
+    print(f"  Successfully loaded: {val_stats['success']}")
+    print(f"  Failed to load: {val_stats['failure']}")
+    
+    print(f"\nTest Set:")
+    print(f"  Total images attempted: {test_stats['total']}")
+    print(f"  Successfully loaded: {test_stats['success']}")
+    print(f"  Failed to load: {test_stats['failure']}")
+    
     # Final validation metrics
     print("\nFinal validation metrics:")
     per_class_acc = calculate_per_class_accuracy(val_labels, val_preds)
@@ -178,10 +263,19 @@ def train_model():
         print(f"  {class_name}: {acc:.2f}%")
     
     print("\n" + "="*60)
-    print(f"Training completed.")
+    print(f"Training completed!")
     print(f"Best validation accuracy: {best_val_acc:.2f}%")
     print("="*60)
 
 
 if __name__ == "__main__":
-    train_model()
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(description='Train vehicle classification model')
+    parser.add_argument('--model', type=str, default='simple', 
+                       choices=['simple', 'resnet50'],
+                       help='Model architecture to train (default: simple)')
+    
+    args = parser.parse_args()
+    
+    # Train the specified model
+    train_model(model_type=args.model)

@@ -1,6 +1,7 @@
 import torch
 import numpy as np
 from tqdm import tqdm
+import sys
 import config
 from dataset import create_data_loaders
 from model import get_model
@@ -9,6 +10,7 @@ from utils import (load_checkpoint, plot_confusion_matrix,
 
 
 def evaluate_model(model, test_loader, device):
+
     model.eval()
     correct = 0
     total = 0
@@ -41,19 +43,27 @@ def evaluate_model(model, test_loader, device):
 
 
 def main():
+    # Check if model type is specified
+    if len(sys.argv) > 1:
+        model_type = sys.argv[1].lower()
+    else:
+        model_type = 'resnet50'  # Default to ResNet-50 if not specified
+
+    
     print("="*60)
     print("Vehicle Classification Evaluation")
     print("="*60)
     print(f"Device: {config.DEVICE}")
+    print(f"Model: {model_type.upper()}")
     
     # Load test data
     print("\nLoading test dataset")
-    _, _, test_loader = create_data_loaders()
+    _, _, test_loader, _, _, _ = create_data_loaders()
     print(f"Test samples: {len(test_loader.dataset)}")
     
     # Create model
     print("\nInitializing model")
-    model = get_model()
+    model = get_model(model_type=model_type)
     
     # Load best checkpoint
     print("\nLoading best model checkpoint")
@@ -80,6 +90,23 @@ def main():
     
     # Print classification report
     print_classification_report(test_labels, test_preds, dataset_name='Test')
+    
+    # Save test metrics summary
+    print("\nSaving test metrics summary")
+    test_summary_path = os.path.join(config.RESULTS_DIR, 'test_metrics_summary.txt')
+    with open(test_summary_path, 'w') as f:
+        f.write("="*60 + "\n")
+        f.write("TEST SET METRICS SUMMARY\n")
+        f.write("="*60 + "\n\n")
+        
+        f.write(f"Overall Test Accuracy: {test_acc:.2f}%\n\n")
+        
+        f.write("Per-Class Accuracy:\n")
+        f.write("-"*60 + "\n")
+        for class_name, acc in per_class_acc.items():
+            f.write(f"  {class_name:<25} {acc:>6.2f}%\n")
+    
+    print(f"Test metrics summary saved to {test_summary_path}")
     
     print("\n" + "="*60)
     print("Evaluation completed!")

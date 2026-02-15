@@ -11,11 +11,18 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
 class VehicleDataset(Dataset):
+    
     def __init__(self, csv_file, images_dir, transform=None):
+
         self.data = pd.read_csv(csv_file)
         self.images_dir = images_dir
         self.transform = transform
         self.class_to_idx = {cls: idx for idx, cls in enumerate(config.CLASSES)}
+        
+        # Track loading statistics
+        self.failed_images = []
+        self.success_count = 0
+        self.failure_count = 0
         
     def __len__(self):
         return len(self.data)
@@ -40,18 +47,32 @@ class VehicleDataset(Dataset):
             # Get label
             label = self.class_to_idx[row['class']]
             
+            self.success_count += 1
             return cropped_image, label
             
         except Exception as e:
-            print(f"Warning: Error loading image {row['filename']}: {e}")
+            self.failure_count += 1
+            if row['filename'] not in self.failed_images:
+                self.failed_images.append(row['filename'])
+                print(f"Warning: Error loading image {row['filename']}: {e}")
+            
             # Return a black image and label 0 as fallback
             black_image = Image.new('RGB', (config.IMAGE_SIZE, config.IMAGE_SIZE), (0, 0, 0))
             if self.transform:
                 black_image = self.transform(black_image)
             return black_image, 0
+    
+    def get_statistics(self):
+        return {
+            'total': len(self.data),
+            'success': self.success_count,
+            'failure': self.failure_count,
+            'failed_files': self.failed_images
+        }
 
 
 def get_transforms(train=True):
+
     if train:
         return transforms.Compose([
             transforms.Resize((config.IMAGE_SIZE, config.IMAGE_SIZE)),
@@ -133,5 +154,5 @@ def create_data_loaders():
         num_workers=0,
         pin_memory=use_pin_memory
     )
-    
-    return train_loader, val_loader, test_loader
+
+    return train_loader, val_loader, test_loader, train_dataset, val_dataset, test_dataset
