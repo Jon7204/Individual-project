@@ -13,30 +13,48 @@ def create_directories():
     os.makedirs(config.PLOTS_DIR, exist_ok=True)
 
 
-def save_checkpoint(model, optimizer, epoch, val_acc, is_best=False):
-   
+def save_checkpoint(model, optimizer, epoch, val_acc, is_best=False, model_type='simple'):
+
     checkpoint = {
         'epoch': epoch,
         'model_state_dict': model.state_dict(),
         'optimizer_state_dict': optimizer.state_dict(),
-        'val_acc': val_acc
+        'val_acc': val_acc,
+        'model_type': model_type
     }
     
+    if model_type == 'simple':
+        prefix = 'baseline'
+    elif model_type == 'resnet50':
+        prefix = 'resnet50'
+    elif model_type == 'efficientnet':
+        prefix = 'efficientnet'
+    else:
+        prefix = model_type
+    
     # Save latest checkpoint
-    latest_path = os.path.join(config.CHECKPOINT_DIR, 'latest_checkpoint.pth')
+    latest_path = os.path.join(config.CHECKPOINT_DIR, f'{prefix}_latest_checkpoint.pth')
     torch.save(checkpoint, latest_path)
     
     # Save best checkpoint
     if is_best:
-        best_path = os.path.join(config.CHECKPOINT_DIR, 'best_model.pth')
+        best_path = os.path.join(config.CHECKPOINT_DIR, f'{prefix}_best_model.pth')
         torch.save(checkpoint, best_path)
         print(f"✓ Best model saved with validation accuracy: {val_acc:.4f}")
 
 
-def load_checkpoint(model, optimizer=None, checkpoint_path=None):
-   
+def load_checkpoint(model, optimizer=None, checkpoint_path=None, model_type='simple'):
+
     if checkpoint_path is None:
-        checkpoint_path = os.path.join(config.CHECKPOINT_DIR, 'best_model.pth')
+        if model_type == 'simple':
+            prefix = 'baseline'
+        elif model_type == 'resnet50':
+            prefix = 'resnet50'
+        elif model_type == 'efficientnet':
+            prefix = 'efficientnet'
+        else:
+            prefix = model_type
+        checkpoint_path = os.path.join(config.CHECKPOINT_DIR, f'{prefix}_best_model.pth')
     
     checkpoint = torch.load(checkpoint_path, map_location=config.DEVICE)
     model.load_state_dict(checkpoint['model_state_dict'])
