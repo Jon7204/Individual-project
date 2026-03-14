@@ -6,6 +6,7 @@ import numpy as np
 import argparse
 import os
 import config
+from sklearn.utils.class_weight import compute_class_weight
 from dataset import create_data_loaders
 from model import get_model
 from utils import (create_directories, save_checkpoint, 
@@ -13,7 +14,6 @@ from utils import (create_directories, save_checkpoint,
 
 
 def train_epoch(model, train_loader, criterion, optimizer, device):
-
     model.train()
     running_loss = 0.0
     correct = 0
@@ -49,7 +49,6 @@ def train_epoch(model, train_loader, criterion, optimizer, device):
 
 
 def validate(model, val_loader, criterion, device):
-
     model.eval()
     running_loss = 0.0
     correct = 0
@@ -85,9 +84,8 @@ def validate(model, val_loader, criterion, device):
     
     return avg_loss, accuracy, all_preds, all_labels
 
-# Main training function
+
 def train_model(model_type='simple'):
-   
     # Set random seed
     torch.manual_seed(config.RANDOM_SEED)
     np.random.seed(config.RANDOM_SEED)
@@ -131,10 +129,30 @@ def train_model(model_type='simple'):
         print("Downloading pre-trained ImageNet weights")
     model = get_model(model_type=model_type)
     
-    # Loss function and optimizer
-    criterion = nn.CrossEntropyLoss()
+    # Calculate class weights to address imbalance
+    print("\nCalculating class weights")
     
-    # Only optimize unfrozen parameters 
+    # Extract all training labels
+    all_train_labels = []
+    for _, label in train_loader.dataset:
+        all_train_labels.append(label)
+    
+    # Compute balanced class weights
+    class_weights = compute_class_weight(
+        'balanced',
+        classes=np.arange(config.NUM_CLASSES),
+        y=all_train_labels
+    )
+    class_weights_tensor = torch.tensor(class_weights, dtype=torch.float).to(config.DEVICE)
+    
+    print("Class weights:")
+    for idx, class_name in enumerate(config.CLASSES):
+        print(f"  {class_name}: {class_weights[idx]:.4f}")
+    
+    # Loss function with class weights and optimizer
+    criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
+    
+    # Only optimize unfrozen parameters (important for ResNet-50)
     optimizer = optim.Adam(
         filter(lambda p: p.requires_grad, model.parameters()), 
         lr=learning_rate
@@ -184,7 +202,7 @@ def train_model(model_type='simple'):
         else:
             patience_counter += 1
         
-        save_checkpoint(model, optimizer, epoch, val_acc, is_best)
+        save_checkpoint(model, optimizer, epoch, val_acc, is_best, model_type=model_type)
         
         # Early stopping
         if patience_counter >= config.PATIENCE:
