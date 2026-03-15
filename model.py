@@ -70,7 +70,6 @@ class ResNet50Transfer(nn.Module):
         # Load pre-trained ResNet-50
         self.resnet = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
         
-        # Freeze early layers if specified
         if freeze_backbone:
             for param in self.resnet.parameters():
                 param.requires_grad = False
@@ -98,6 +97,37 @@ class ResNet50Transfer(nn.Module):
             for param in child.parameters():
                 param.requires_grad = True
 
+class EfficientNetTransfer(nn.Module):
+    
+    def __init__(self, num_classes=config.NUM_CLASSES, freeze_backbone=True):
+        super(EfficientNetTransfer, self).__init__()
+        
+        # Load pre-trained EfficientNet-B3
+        self.efficientnet = models.efficientnet_b3(pretrained=True)
+        
+        if freeze_backbone:
+            for param in self.efficientnet.parameters():
+                param.requires_grad = False
+        
+        # Get number of features from the last layer
+        num_features = self.efficientnet.classifier[1].in_features
+        
+        self.efficientnet.classifier = nn.Sequential(
+            nn.Dropout(0.3),
+            nn.Linear(num_features, num_classes)
+        )
+        
+    def forward(self, x):
+        return self.efficientnet(x)
+    
+    def unfreeze_layers(self, num_blocks=2):
+        blocks = list(self.efficientnet.features.children())
+        
+        # Unfreeze last num_blocks
+        for block in blocks[-num_blocks:]:
+            for param in block.parameters():
+                param.requires_grad = True
+
 
 def get_model(model_type):
     
@@ -107,6 +137,9 @@ def get_model(model_type):
     elif model_type.lower() == 'resnet50':
         model = ResNet50Transfer(num_classes=config.NUM_CLASSES, freeze_backbone=True)
         model_name = "ResNet-50 (Transfer Learning)"
+    elif model_type.lower() == 'efficientnet':
+        model = EfficientNetTransfer(num_classes=config.NUM_CLASSES, freeze_backbone=True)
+        model_name = "EfficientNet-B3 (Transfer Learning)"
     
     model = model.to(config.DEVICE)
     

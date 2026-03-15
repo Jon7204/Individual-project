@@ -3,7 +3,6 @@ import numpy as np
 from tqdm import tqdm
 import sys
 import config
-import os
 from dataset import create_data_loaders
 from model import get_model
 from utils import (load_checkpoint, plot_confusion_matrix, 
@@ -44,12 +43,16 @@ def evaluate_model(model, test_loader, device):
 
 
 def main():
-    # Check if model type is specified
-    if len(sys.argv) > 1:
-        model_type = sys.argv[1].lower()
-    else:
-        model_type = 'resnet50'  # Default to ResNet-50 if not specified
+    if len(sys.argv) != 2:
+        print("Usage: python evaluate.py [model_type]")
+        print("model_type options: simple, resnet50, efficientnet")
+        sys.exit(1)
 
+    if sys.argv[1].lower() not in ['simple', 'resnet50', 'efficientnet']:
+        print(f"Error: Unknown model type '{sys.argv[1]}'")
+        print("Valid options: simple, resnet50, efficientnet")
+        sys.exit(1)
+    model_type = sys.argv[1].lower()
     
     print("="*60)
     print("Vehicle Classification Evaluation")
@@ -68,7 +71,7 @@ def main():
     
     # Load best checkpoint
     print("\nLoading best model checkpoint")
-    load_checkpoint(model)
+    load_checkpoint(model, model_type=model_type)
     
     # Evaluate on test set
     print("\nEvaluating on test set")

@@ -43,7 +43,7 @@ def save_checkpoint(model, optimizer, epoch, val_acc, is_best=False, model_type=
         print(f"✓ Best model saved with validation accuracy: {val_acc:.4f}")
 
 
-def load_checkpoint(model, optimizer=None, checkpoint_path=None, model_type='simple'):
+def load_checkpoint(model, optimizer=None, checkpoint_path=None, model_type=None):
 
     if checkpoint_path is None:
         if model_type == 'simple':

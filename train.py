@@ -102,6 +102,10 @@ def train_model(model_type='simple'):
         model_name = "ResNet-50 (Transfer Learning)"
         learning_rate = config.LR_RESNET_TRANSFER
         output_prefix = "resnet50"
+    elif model_type == 'efficientnet':
+        model_name = "EfficientNet-B3 (Transfer Learning)"
+        learning_rate = config.LR_EFFICIENTNET_TRANSFER
+        output_prefix = "efficientnet"
     else:
         raise ValueError(f"Unknown model type: {model_type}")
     
@@ -125,7 +129,7 @@ def train_model(model_type='simple'):
     
     # Create model
     print(f"\nInitializing {model_name}")
-    if model_type == 'resnet50':
+    if model_type == 'resnet50' or model_type == 'efficientnet':
         print("Downloading pre-trained ImageNet weights")
     model = get_model(model_type=model_type)
     
