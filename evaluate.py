@@ -68,7 +68,7 @@ def main():
     
     # Load best checkpoint
     print("\nLoading best model checkpoint")
-    load_checkpoint(model)
+    load_checkpoint(model, model_type=model_type)
     
     # Evaluate on test set
     print("\nEvaluating on test set")
