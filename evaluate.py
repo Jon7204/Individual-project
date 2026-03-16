@@ -4,6 +4,7 @@ from tqdm import tqdm
 import sys
 import config
 from dataset import create_data_loaders
+import os
 from model import get_model
 from utils import (load_checkpoint, plot_confusion_matrix, 
                    print_classification_report, calculate_per_class_accuracy)

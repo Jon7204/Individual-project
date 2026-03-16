@@ -294,7 +294,7 @@ if __name__ == "__main__":
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description='Train vehicle classification model')
     parser.add_argument('--model', type=str, default='simple', 
-                       choices=['simple', 'resnet50'],
+                       choices=['simple', 'resnet50', 'efficientnet'],
                        help='Model architecture to train (default: simple)')
     
     args = parser.parse_args()
