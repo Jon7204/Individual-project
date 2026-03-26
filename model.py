@@ -99,7 +99,7 @@ class ResNet50Transfer(nn.Module):
 
 class EfficientNetTransfer(nn.Module):
     
-    def __init__(self, num_classes=config.NUM_CLASSES, freeze_backbone=True):
+    def __init__(self, num_classes=config.NUM_CLASSES, freeze_backbone=False):
         super(EfficientNetTransfer, self).__init__()
         
         # Load pre-trained EfficientNet-B3
@@ -138,7 +138,7 @@ def get_model(model_type):
         model = ResNet50Transfer(num_classes=config.NUM_CLASSES, freeze_backbone=True)
         model_name = "ResNet-50 (Transfer Learning)"
     elif model_type.lower() == 'efficientnet':
-        model = EfficientNetTransfer(num_classes=config.NUM_CLASSES, freeze_backbone=True)
+        model = EfficientNetTransfer(num_classes=config.NUM_CLASSES, freeze_backbone=False)
         model_name = "EfficientNet-B3 (Transfer Learning)"
     
     model = model.to(config.DEVICE)
