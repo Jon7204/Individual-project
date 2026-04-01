@@ -26,8 +26,8 @@ PATIENCE = 10  # Early stopping patience
 
 # Learning rates for different models
 LR_SIMPLE_CNN = 0.001      # For training SimpleCNN from scratch
-LR_RESNET_TRANSFER = 0.0001  # For fine-tuning ResNet-50 (lower for transfer learning)
-LR_EFFICIENTNET_TRANSFER = 0.0001  # For fine-tuning EfficientNet-B3 (lower for transfer learning)
+LR_RESNET_TRANSFER = 0.0001  # For fine-tuning ResNet-50 
+LR_EFFICIENTNET_TRANSFER = 0.00001  # For fine-tuning EfficientNet-B3 
 
 # Data split
 TRAIN_VAL_SPLIT = 0.8  # 80% train, 20% validation from training set

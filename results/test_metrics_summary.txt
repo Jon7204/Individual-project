@@ -6,9 +6,9 @@ Overall Test Accuracy: 87.60%
 
 Per-Class Accuracy:
 ------------------------------------------------------------
-  military truck             93.70%
-  military tank              87.95%
-  military aircraft          73.33%
-  military helicopter        87.77%
-  civilian car               90.29%
+  military truck             92.91%
+  military tank              89.76%
+  military aircraft          77.14%
+  military helicopter        87.05%
+  civilian car               85.44%
   civilian aircraft          92.31%
