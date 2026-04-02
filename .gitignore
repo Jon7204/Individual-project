@@ -7,6 +7,6 @@ env/
 .DS_Store
 
 videos/
-checkppoints/
+checkpoints/
 results/
 plots/
