@@ -85,7 +85,7 @@ def validate(model, val_loader, criterion, device):
     return avg_loss, accuracy, all_preds, all_labels
 
 
-def train_model(model_type='simple'):
+def train_model(model_type):
     # Set random seed
     torch.manual_seed(config.RANDOM_SEED)
     np.random.seed(config.RANDOM_SEED)
@@ -293,9 +293,9 @@ def train_model(model_type='simple'):
 if __name__ == "__main__":
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description='Train vehicle classification model')
-    parser.add_argument('--model', type=str, default='simple', 
+    parser.add_argument('--model', type=str, 
                        choices=['simple', 'resnet50', 'efficientnet'],
-                       help='Model architecture to train (default: simple)')
+                       help='Model architecture to train')
     
     args = parser.parse_args()
     

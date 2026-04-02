@@ -11,7 +11,6 @@ from ultralytics import YOLO
 import config
 from model import get_model
 
-
 # load_checkpoint copied from utils.py due to NumPy compatibility issues with matplotlib,
 # which is imported in utils.py.
 def load_checkpoint(model, model_type='efficientnet'):
@@ -33,7 +32,7 @@ CLASS_COLOURS = {
     "civilian aircraft":   (220, 170,   0),
 }
 
-# Transform for EfficientNet-B3 input
+# Transform for model input
 INFER_TRANSFORM = transforms.Compose([
     transforms.Resize((config.IMAGE_SIZE, config.IMAGE_SIZE)),
     transforms.ToTensor(),
@@ -41,12 +40,12 @@ INFER_TRANSFORM = transforms.Compose([
                          std=[0.229, 0.224, 0.225])
 ])
 
-def load_efficientnet():
-    print("Loading EfficientNet-B3 classifier")
-    model = get_model(model_type='efficientnet')
-    load_checkpoint(model, model_type='efficientnet')
+def load_classifier(model_type):
+    print(f"Loading {model_type} classifier")
+    model = get_model(model_type=model_type)
+    load_checkpoint(model, model_type=model_type)
     model.eval()
-    print("EfficientNet-B3 loaded.\n")
+    print(f"{model_type} classifier loaded.\n")
     return model
 
 
@@ -55,6 +54,7 @@ def load_yolo():
     yolo = YOLO('yolov8n.pt')
     print("YOLOv8n loaded.\n")
     return yolo
+
 
 
 # Built-in class IDs for vehicles in YOLOv8
@@ -74,7 +74,7 @@ def get_yolo_boxes(yolo, frame, yolo_conf_threshold=0.35):
     return boxes
 
 
-def classify_crop(efficientnet, frame_bgr, x1, y1, x2, y2, device):
+def classify_crop(classifier, frame_bgr, x1, y1, x2, y2, device):
     if (x2 - x1) < 20 or (y2 - y1) < 20:
         return None, 0.0
 
@@ -89,7 +89,7 @@ def classify_crop(efficientnet, frame_bgr, x1, y1, x2, y2, device):
     tensor = INFER_TRANSFORM(pil_img).unsqueeze(0).to(device)
 
     with torch.no_grad():
-        logits = efficientnet(tensor)
+        logits = classifier(tensor)
         probs  = torch.softmax(logits, dim=1)[0]
         conf, idx = torch.max(probs, dim=0)
 
@@ -126,14 +126,13 @@ def draw_hud(frame, fps, frame_idx, total_frames, n_detections):
     for i, line in enumerate(lines):
         cv2.putText(frame, line, (w - panel_w, 4 + pad + (i + 1) * line_h - 4),
                     font, scale, (210, 210, 210), thick, cv2.LINE_AA)
-
-
+        
 
 # Detection pipeline
-def run_detection(video_path, yolo_conf=0.35, eff_conf=0.40):
-    yolo         = load_yolo()
-    efficientnet = load_efficientnet()
-    device       = config.DEVICE
+def run_detection(video_path, model_type='efficientnet', yolo_conf=0.35, cls_conf=0.40):
+    yolo       = load_yolo()
+    classifier = load_classifier(model_type)
+    device     = config.DEVICE
     print(f"Running on: {device}\n")
 
     cap = cv2.VideoCapture(video_path)
@@ -145,11 +144,12 @@ def run_detection(video_path, yolo_conf=0.35, eff_conf=0.40):
     width        = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height       = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-    print(f"Video : {video_path}")
-    print(f"Size  : {width}x{height}  |  FPS: {video_fps:.1f}  |  Frames: {total_frames}")
-    print(f"YOLO confidence: {yolo_conf}  |  EfficientNet confidence: {eff_conf}\n")
+    print(f"Video  : {video_path}")
+    print(f"Size   : {width}x{height}  |  FPS: {video_fps:.1f}  |  Frames: {total_frames}")
+    print(f"Model  : {model_type}  |  YOLO conf: {yolo_conf}  |  Classifier conf: {cls_conf}\n")
+    print("Controls:  Q = quit   SPACE = pause/resume\n")
 
-    window = "Convoy Detection — YOLO + EfficientNet-B3"
+    window = f"Convoy Detection — YOLO + {model_type}"
     cv2.namedWindow(window, cv2.WINDOW_NORMAL)
     cv2.resizeWindow(window, min(width, 1280), min(height, 720))
 
@@ -159,7 +159,6 @@ def run_detection(video_path, yolo_conf=0.35, eff_conf=0.40):
     frame     = np.zeros((height, width, 3), dtype=np.uint8)
 
     while cap.isOpened():
-        cv2.waitKey(1)
 
         ret, frame = cap.read()
         if not ret:
@@ -167,17 +166,17 @@ def run_detection(video_path, yolo_conf=0.35, eff_conf=0.40):
             break
         frame_idx += 1
 
-        # Stage 1: YOLO — find all vehicles
+        # Stage 1: YOLO — find all vehicles in the frame
         boxes = get_yolo_boxes(yolo, frame, yolo_conf_threshold=yolo_conf)
 
-        # Stage 2: EfficientNet — classify each crop
+        # Stage 2: classifier — identify each crop
         n_detections = 0
         for (x1, y1, x2, y2) in boxes:
-            class_name, confidence = classify_crop(efficientnet, frame, x1, y1, x2, y2, device)
+            class_name, confidence = classify_crop(classifier, frame, x1, y1, x2, y2, device)
             if class_name is None:
                 continue
             n_detections += 1
-            if confidence >= eff_conf:
+            if confidence >= cls_conf:
                 draw_detection(frame, class_name, confidence, x1, y1, x2, y2)
             else:
                 cv2.rectangle(frame, (x1, y1), (x2, y2), (120, 120, 120), 1)
@@ -199,15 +198,24 @@ def run_detection(video_path, yolo_conf=0.35, eff_conf=0.40):
     print(f"\nDone. Processed {frame_idx} frames.")
 
 
-
-def parse_args():
-    p = argparse.ArgumentParser(description="Convoy vehicle detection: YOLO + EfficientNet-B3")
-    p.add_argument("--video",     type=str,   required=True)
-    p.add_argument("--yolo_conf", type=float, default=0.35)
-    p.add_argument("--eff_conf",  type=float, default=0.40)
-    return p.parse_args()
-
-
 if __name__ == "__main__":
-    args = parse_args()
-    run_detection(video_path=f"videos/{args.video}", yolo_conf=args.yolo_conf, eff_conf=args.eff_conf)
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(description='Real-time vehicle detection using YOLO + classifier')
+    parser.add_argument('--video',     type=str,   required=True,
+                        help='Path to input MP4 video')
+    parser.add_argument('--model',     type=str,   default='efficientnet',
+                        choices=['simple', 'resnet50', 'efficientnet'],
+                        help='Classifier model to use (default: efficientnet)')
+    parser.add_argument('--yolo_conf', type=float, default=0.35,
+                        help='YOLO detection confidence threshold (default: 0.35)')
+    parser.add_argument('--cls_conf',  type=float, default=0.40,
+                        help='Classifier confidence threshold (default: 0.40)')
+    args = parser.parse_args()
+
+    # Run detection with the specified model
+    run_detection(
+        video_path=args.video,
+        model_type=args.model,
+        yolo_conf=args.yolo_conf,
+        cls_conf=args.cls_conf,
+    )
