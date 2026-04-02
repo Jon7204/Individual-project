@@ -4,9 +4,7 @@ __pycache__/
 venv/
 env/
 
-*.pth
-*.pt
-
 .DS_Store
 
-checkpoints/
+results/
+plots/
