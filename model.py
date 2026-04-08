@@ -85,8 +85,9 @@ class ResNet50Transfer(nn.Module):
         
     def forward(self, x):
         return self.resnet(x)
-    
-    # Unfreeze the last num_layers fpr fine tuning
+
+    # Unfreeze the last num_layers for fine tuning
+    # Not used in final training, could be used in future expansion of the project
     def unfreeze_layers(self, num_layers=10):
 
         # Get all children modules
@@ -99,7 +100,7 @@ class ResNet50Transfer(nn.Module):
 
 class EfficientNetTransfer(nn.Module):
     
-    def __init__(self, num_classes=config.NUM_CLASSES, freeze_backbone=False):
+    def __init__(self, num_classes=config.NUM_CLASSES, freeze_backbone=True):
         super(EfficientNetTransfer, self).__init__()
         
         # Load pre-trained EfficientNet-B3
@@ -119,7 +120,9 @@ class EfficientNetTransfer(nn.Module):
         
     def forward(self, x):
         return self.efficientnet(x)
-    
+
+
+    # Not used in final training, could be used in future expansion of the project 
     def unfreeze_layers(self, num_blocks=2):
         blocks = list(self.efficientnet.features.children())
         

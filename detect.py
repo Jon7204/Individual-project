@@ -32,7 +32,7 @@ CLASS_COLOURS = {
     "civilian aircraft":   (220, 170,   0),
 }
 
-# Transform for model input
+# Transform for model input — matches validation transform in dataset.py
 INFER_TRANSFORM = transforms.Compose([
     transforms.Resize((config.IMAGE_SIZE, config.IMAGE_SIZE)),
     transforms.ToTensor(),
@@ -54,7 +54,6 @@ def load_yolo():
     yolo = YOLO('yolov8n.pt')
     print("YOLOv8n loaded.\n")
     return yolo
-
 
 
 # Built-in class IDs for vehicles in YOLOv8
@@ -126,7 +125,7 @@ def draw_hud(frame, fps, frame_idx, total_frames, n_detections):
     for i, line in enumerate(lines):
         cv2.putText(frame, line, (w - panel_w, 4 + pad + (i + 1) * line_h - 4),
                     font, scale, (210, 210, 210), thick, cv2.LINE_AA)
-        
+
 
 # Detection pipeline
 def run_detection(video_path, model_type='efficientnet', yolo_conf=0.35, cls_conf=0.40):
@@ -147,7 +146,6 @@ def run_detection(video_path, model_type='efficientnet', yolo_conf=0.35, cls_con
     print(f"Video  : {video_path}")
     print(f"Size   : {width}x{height}  |  FPS: {video_fps:.1f}  |  Frames: {total_frames}")
     print(f"Model  : {model_type}  |  YOLO conf: {yolo_conf}  |  Classifier conf: {cls_conf}\n")
-    print("Controls:  Q = quit   SPACE = pause/resume\n")
 
     window = f"Convoy Detection — YOLO + {model_type}"
     cv2.namedWindow(window, cv2.WINDOW_NORMAL)
@@ -159,7 +157,6 @@ def run_detection(video_path, model_type='efficientnet', yolo_conf=0.35, cls_con
     frame     = np.zeros((height, width, 3), dtype=np.uint8)
 
     while cap.isOpened():
-
         ret, frame = cap.read()
         if not ret:
             print("End of video.")
@@ -192,6 +189,7 @@ def run_detection(video_path, model_type='efficientnet', yolo_conf=0.35, cls_con
         draw_hud(frame, fps, frame_idx, total_frames, n_detections)
 
         cv2.imshow(window, frame)
+        cv2.waitKey(1) 
 
     cap.release()
     cv2.destroyAllWindows()
@@ -214,7 +212,7 @@ if __name__ == "__main__":
 
     # Run detection with the specified model
     run_detection(
-        video_path=args.video,
+        video_path=f"videos/{args.video}",
         model_type=args.model,
         yolo_conf=args.yolo_conf,
         cls_conf=args.cls_conf,
