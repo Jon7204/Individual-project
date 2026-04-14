@@ -147,7 +147,7 @@ def run_detection(video_path, model_type='efficientnet', yolo_conf=0.35, cls_con
     print(f"Size   : {width}x{height}  |  FPS: {video_fps:.1f}  |  Frames: {total_frames}")
     print(f"Model  : {model_type}  |  YOLO conf: {yolo_conf}  |  Classifier conf: {cls_conf}\n")
 
-    window = f"Convoy Detection — YOLO + {model_type}"
+    window = f"Real-time Detection — YOLO + {model_type}"
     cv2.namedWindow(window, cv2.WINDOW_NORMAL)
     cv2.resizeWindow(window, min(width, 1280), min(height, 720))
 
