@@ -8,6 +8,8 @@ This project uses the Military and Civilian Vehicles Classification Dataset, whi
 
 Dataset link: https://data.mendeley.com/datasets/njdjkbxdpn/1? License: https://creativecommons.org/licenses/by/4.0/
 
+For the detection pipeline, videos sourced from [pexels](https://www.pexels.com) were used.
+
 I acknowledge the original authors of the dataset. This dataset was used for the purpose of training and evaluating machine learning models.
 
 ## Project Structure
