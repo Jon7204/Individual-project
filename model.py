@@ -104,7 +104,7 @@ class EfficientNetTransfer(nn.Module):
         super(EfficientNetTransfer, self).__init__()
         
         # Load pre-trained EfficientNet-B3
-        self.efficientnet = models.efficientnet_b3(pretrained=True)
+        self.efficientnet = models.efficientnet_b3(weights=models.EfficientNet_B3_Weights.DEFAULT)
         
         if freeze_backbone:
             for param in self.efficientnet.parameters():
@@ -138,7 +138,7 @@ def get_model(model_type):
         model = SimpleCNN(num_classes=config.NUM_CLASSES)
         model_name = "SimpleCNN"
     elif model_type.lower() == 'resnet50':
-        model = ResNet50Transfer(num_classes=config.NUM_CLASSES, freeze_backbone=True)
+        model = ResNet50Transfer(num_classes=config.NUM_CLASSES, freeze_backbone=False)
         model_name = "ResNet-50 (Transfer Learning)"
     elif model_type.lower() == 'efficientnet':
         model = EfficientNetTransfer(num_classes=config.NUM_CLASSES, freeze_backbone=False)
