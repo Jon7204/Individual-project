@@ -156,7 +156,7 @@ def train_model(model_type):
     # Loss function with class weights and optimizer
     criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
     
-    # Only optimize unfrozen parameters (important for ResNet-50)
+    # Only optimize unfrozen parameters 
     optimizer = optim.Adam(
         filter(lambda p: p.requires_grad, model.parameters()), 
         lr=learning_rate
