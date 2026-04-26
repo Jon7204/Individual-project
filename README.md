@@ -23,7 +23,7 @@ I acknowledge the original authors of the dataset. This dataset was used for the
 
 ## Usage
 Follows this pipeline: train model -> evaluate model/use model for detection
-1. train a model: python train.py --model [simple/resnet50/efficientnet]
+1. train a model: python train.py --model [simple/resnet50/efficientnet] --no_class_weights (to turn off class weights - on by default)
 2. evaulate a model: python evaluate.py --model [simple/resnet50/efficientnet] (only works if the chosen model has already been trained)
 3. run detection: python detect.py --video path/to_video.mp4 --model [simple/resnet50/efficientnet] --yolo_conf x --cls_conf y (for some floats 0 < x,y < 1)
    
