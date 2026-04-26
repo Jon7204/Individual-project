@@ -85,7 +85,7 @@ def validate(model, val_loader, criterion, device):
     return avg_loss, accuracy, all_preds, all_labels
 
 
-def train_model(model_type):
+def train_model(model_type, use_class_weights=True):
     # Set random seed
     torch.manual_seed(config.RANDOM_SEED)
     np.random.seed(config.RANDOM_SEED)
@@ -134,27 +134,32 @@ def train_model(model_type):
     model = get_model(model_type=model_type)
     
     # Calculate class weights to address imbalance
-    print("\nCalculating class weights")
-    
-    # Extract all training labels
-    all_train_labels = []
-    for _, label in train_loader.dataset:
-        all_train_labels.append(label)
-    
-    # Compute balanced class weights
-    class_weights = compute_class_weight(
-        'balanced',
-        classes=np.arange(config.NUM_CLASSES),
-        y=all_train_labels
-    )
-    class_weights_tensor = torch.tensor(class_weights, dtype=torch.float).to(config.DEVICE)
-    
-    print("Class weights:")
-    for idx, class_name in enumerate(config.CLASSES):
-        print(f"  {class_name}: {class_weights[idx]:.4f}")
-    
-    # Loss function with class weights and optimizer
-    criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
+    if use_class_weights:
+        print("\nCalculating class weights")
+        
+        # Extract all training labels
+        all_train_labels = []
+        for _, label in train_loader.dataset:
+            all_train_labels.append(label)
+        
+
+        # Compute balanced class weights
+        class_weights = compute_class_weight(
+            'balanced',
+            classes=np.arange(config.NUM_CLASSES),
+            y=all_train_labels
+        )
+        class_weights_tensor = torch.tensor(class_weights, dtype=torch.float).to(config.DEVICE)
+        
+        print("Class weights:")
+        for idx, class_name in enumerate(config.CLASSES):
+            print(f"  {class_name}: {class_weights[idx]:.4f}")
+
+        # Loss function with class weights and optimizer
+        criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
+    else:
+        print("\nNo class weights applied")
+        criterion = nn.CrossEntropyLoss()
     
     # Only optimize unfrozen parameters 
     optimizer = optim.Adam(
@@ -296,8 +301,10 @@ if __name__ == "__main__":
     parser.add_argument('--model', type=str, 
                        choices=['simple', 'resnet50', 'efficientnet'],
                        help='Model architecture to train')
+    parser.add_argument('--no_class_weights', action='store_true',
+                    help='Disable class weights (default: enabled)')
     
     args = parser.parse_args()
     
     # Train the specified model
-    train_model(model_type=args.model)
+    train_model(model_type=args.model, use_class_weights=not args.no_class_weights)
