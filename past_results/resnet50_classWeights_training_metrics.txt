@@ -3,7 +3,7 @@ RESNET-50 (TRANSFER LEARNING) TRAINING METRICS SUMMARY
 ======================================================================
 
 Pre-training: ImageNet
-Backbone: Frozen (only final layers trained)
+Backbone: Frozen 
 
 Final Results:
 ----------------------------------------------------------------------
