@@ -37,3 +37,4 @@ The tank video used in this project is also to large to be included in the repos
 * YOLOv8n is not fine-tuned on military and civilian vehicles
 * Vehicles outside the 6 classes in the dataset will be misclassified
 * Detection pipeline is qualatative only and is not optimised for performance resulting in a low fps
+* To end a detection video early the user must crtl+c in the command line
