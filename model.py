@@ -138,10 +138,10 @@ def get_model(model_type):
         model = SimpleCNN(num_classes=config.NUM_CLASSES)
         model_name = "SimpleCNN"
     elif model_type.lower() == 'resnet50':
-        model = ResNet50Transfer(num_classes=config.NUM_CLASSES, freeze_backbone=False)
+        model = ResNet50Transfer(num_classes=config.NUM_CLASSES, freeze_backbone=True)
         model_name = "ResNet-50 (Transfer Learning)"
     elif model_type.lower() == 'efficientnet':
-        model = EfficientNetTransfer(num_classes=config.NUM_CLASSES, freeze_backbone=True)
+        model = EfficientNetTransfer(num_classes=config.NUM_CLASSES, freeze_backbone=False)
         model_name = "EfficientNet-B3 (Transfer Learning)"
     
     model = model.to(config.DEVICE)
