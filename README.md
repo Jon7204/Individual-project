@@ -26,7 +26,12 @@ Follows this pipeline: train model -> evaluate model/use model for detection
 1. train a model: python train.py --model [simple/resnet50/efficientnet] --no_class_weights (to turn off class weights - on by default)
 2. evaulate a model: python evaluate.py --model [simple/resnet50/efficientnet] (only works if the chosen model has already been trained)
 3. run detection: python detect.py --video path/to_video.mp4 --model [simple/resnet50/efficientnet] --yolo_conf x --cls_conf y (for some floats 0 < x,y < 1)
-   
+
+To freeze or unfreeze a models backbone, open model.py and find the get_model() function. Within this function change freeze_backbone to true/false for the model you want to freeze/unfreeze.
+
+Due to the size of checkpoint files, they cannot be included in the repository and therefore the entire pipeline must be followed if the user wishes to run a detection. 
+
+The videos used in this project are also to large to be included in the repository, but they can be downloaded by following these links. Please copy them into the videos folder of the repository.
 ## Known Limitations
 * YOLOv8n is not fine-tuned on military and civilian vehicles
 * Vehicles outside the 6 classes in the dataset will be misclassified
