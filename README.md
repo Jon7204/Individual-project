@@ -31,7 +31,8 @@ To freeze or unfreeze a models backbone, open model.py and find the get_model() 
 
 Due to the size of checkpoint files, they cannot be included in the repository and therefore the entire pipeline must be followed if the user wishes to run a detection. 
 
-The videos used in this project are also to large to be included in the repository, but they can be downloaded by following these links. Please copy them into the videos folder of the repository.
+The tank video used in this project is also to large to be included in the repository, but it can be downloaded by following this links. Please copy the file into the videos folder of the repository.
+* Tank Video: https://www.pexels.com/video/a-tank-with-a-large-amount-of-rusted-metal-on-it-18359147/
 ## Known Limitations
 * YOLOv8n is not fine-tuned on military and civilian vehicles
 * Vehicles outside the 6 classes in the dataset will be misclassified
